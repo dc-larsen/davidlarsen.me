@@ -148,10 +148,13 @@ export default class TerminalEmu extends Vue {
     }
 
      private printJoke() {
-        const requestUrl = "https://www.reddit.com/r/cleanjokes/random.json"
+        const randomNumber = Math.floor(Math.random() * 100) + 1;
+        console.log(randomNumber)
+        const requestUrl = "https://www.reddit.com/r/cleanjokes/hot.json?limit=100"
         let that = this;
             axios.get(requestUrl).then(function (response) {   
-                const post = response.data[0].data.children[0].data
+                console.log(response)
+                const post = response.data.data.children[randomNumber].data
                 const frame = post.title
                 const punchline = post.selftext.trim()
                 that.setOutput(`${frame}\n\n${punchline}\n\n\nDownload at https://github.com/tylernhoward/lol-node-cli`);

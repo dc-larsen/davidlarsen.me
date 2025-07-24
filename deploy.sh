@@ -14,8 +14,6 @@ npm run build
 # navigate into the build output directory
 cd dist
 
-echo 'https://www.tylernhoward.com' > CNAME
-
 echo Deploying..
 git checkout ghpages
 git add -A
