@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <title>Tyler Howard</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" referrerpolicy="no-referrer">
     <FloatingActionButton id="fab"/>
     <Greeting id="greeting" :msg= "greetingMsg"/>
     <Window id="window"/>
     <!-- <span>Source: <a href="https://github.com/tylernhoward/terminal-resume" class = "fab fa-github"/></span> -->
     <div class = "footer">
-      <span class="left-align">Made with <i class="far fa-heart"/> using <a class="link fab fa-vuejs" href="https://vuejs.org" role="button"/></span>
+      <span class="left-align">Made with <i class="far fa-heart"/> using <a class="link fab fa-vuejs" href="https://vuejs.org" target="_blank" rel="noopener noreferrer" role="button"/></span>
       <span class= "right-align">Updated: {{updatedDate}}</span>
     </div>
   </div>

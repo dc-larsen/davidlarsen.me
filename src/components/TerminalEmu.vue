@@ -154,10 +154,21 @@ export default class TerminalEmu extends Vue {
         let that = this;
             axios.get(requestUrl).then(function (response) {   
                 console.log(response)
-                const post = response.data.data.children[randomNumber].data
-                const frame = post.title
-                const punchline = post.selftext.trim()
-                that.setOutput(`${frame}\n\n${punchline}\n\n\nDownload at https://github.com/tylernhoward/lol-node-cli`);
+                // Validate response structure to prevent potential XSS
+                if (response.data && 
+                    response.data.data && 
+                    Array.isArray(response.data.data.children) &&
+                    response.data.data.children[randomNumber] &&
+                    response.data.data.children[randomNumber].data) {
+                    
+                    const post = response.data.data.children[randomNumber].data
+                    // Sanitize content to prevent XSS attacks
+                    const frame = post.title ? post.title.replace(/<[^>]*>/g, '').substring(0, 200) : 'No title available'
+                    const punchline = post.selftext ? post.selftext.trim().replace(/<[^>]*>/g, '').substring(0, 500) : 'No content available'
+                    that.setOutput(`${frame}\n\n${punchline}\n\n\nDownload at https://github.com/tylernhoward/lol-node-cli`);
+                } else {
+                    that.setOutput("Invalid response format from API :(")
+                }
             })
             .catch(function (error) {
                 console.log(error)

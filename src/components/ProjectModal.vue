@@ -13,8 +13,8 @@
                 <div class ="description"> 
                     <p>{{ project.description }}</p>
                     <div class="btn-group">
-                        <a class = "modal-btn" v-if ="project.githubUrl" v-bind:href="project.githubUrl" target="_blank">Github <i class="fab fa-github"></i></a>
-                        <a class = "modal-btn" v-if ="project.exploreUrl" v-bind:href="project.exploreUrl" target="_blank">Explore <i class="far fa-compass"></i></a>
+                        <a class = "modal-btn" v-if ="project.githubUrl" v-bind:href="project.githubUrl" target="_blank" rel="noopener noreferrer">Github <i class="fab fa-github"></i></a>
+                        <a class = "modal-btn" v-if ="project.exploreUrl" v-bind:href="project.exploreUrl" target="_blank" rel="noopener noreferrer">Explore <i class="far fa-compass"></i></a>
                     </div>
                 </div>
             </div>
