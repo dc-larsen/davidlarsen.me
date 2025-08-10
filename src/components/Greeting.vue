@@ -44,7 +44,7 @@ export default class Greeting extends Vue {
 }
 
 .wow-icon {
-    background-image: url('/wow-logo-new.png');
+    background-image: url('/wow-icon-2.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
