@@ -105,42 +105,49 @@ export default class TerminalEmu extends Vue {
     }
 
     private printAbout(): String{
-        return `A little bit about Tyler Howard:
+        return `A little bit about David Larsen:
 
-    Education  =    Towson University (2018)
-        Major  =    Computer Science, Software Engineering
-        Minor  =    Mathematics
+    Location   =    Baltimore, MD 🦀
 
-    Employment =    Contrast Security
-                    Software Engineer
-                    Baltimore, MD
+    Role       =    Customer Support & Success Leader
+                    Building stronger teams, solving tricky problems
+                    Leading global support orgs at high-growth startups
 
-    Free Time  = {  messing around with webdev,
-                    film photography,
-                    video games,
-                    backpacking
-                    playing guitar,
-                    tinkering with old cars  }
+    Background = {  Technical troubleshooting (APIs, logs, infrastructure),
+                    Scalable ops systems design,
+                    Team mentoring & leadership,
+                    High-stakes technical issue resolution  }
+
+    Free Time  = {  Chasing my sheepadoodle Goku 🐶 around Patterson Park,
+                    Exploring Baltimore coffee shops,
+                    Reading about systems design,
+                    Hunting for Baltimore's best breakfast sandwich  }
 `
     }
     private printSkills(): String{
         return `Experience and Skills:
-    Primary Languages = {
-        Java,
-        TypeScript
+    Core Expertise = {
+        Customer Support & Success Leadership,
+        Technical Troubleshooting,
+        Team Building & Mentoring,
+        Operations Systems Design
     }
-    Experienced in Front-End Frameworks = {
-        Angular,
-        Vue,
-        React
+    Tools & Platforms = {
+        Salesforce,
+        Zendesk,
+        Splunk,
+        Postman,
+        SQL,
+        Kubernetes,
+        Zapier,
+        Jira
     }
-    Knowledge and Interests = {
-        Object Oriented Design,
-        Application Security,
-        Containerization w/ Docker,
-        Serverless w/ AWS,
-        Full Stack Web Development,
-        Java Instrumentation
+    Specializations = {
+        Support org scaling & efficiency ⚙️,
+        High-stakes technical issue resolution 🚨,
+        Workflow automation & tooling ✍️,
+        APIs, logs & infrastructure troubleshooting,
+        Cross-functional team leadership
     }
     
      Resume available on sidebar!
@@ -165,7 +172,7 @@ export default class TerminalEmu extends Vue {
                     // Sanitize content to prevent XSS attacks
                     const frame = post.title ? post.title.replace(/<[^>]*>/g, '').substring(0, 200) : 'No title available'
                     const punchline = post.selftext ? post.selftext.trim().replace(/<[^>]*>/g, '').substring(0, 500) : 'No content available'
-                    that.setOutput(`${frame}\n\n${punchline}\n\n\nDownload at https://github.com/tylernhoward/lol-node-cli`);
+                    that.setOutput(`${frame}\n\n${punchline}\n\n\nDownload at https://github.com/davidlarsen/lol-node-cli`);
                 } else {
                     that.setOutput("Invalid response format from API :(")
                 }
