@@ -7,7 +7,7 @@
         <a href="https://github.com/dc-larsen" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-github fa-2x"></a>
         <a href="https://www.flickr.com/photos/203372618@N08/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-flickr fa-2x"></a>
         <a href="https://open.spotify.com/user/dc2larsen" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-spotify fa-2x"></a>
-        <a href="https://worldofwarcraft.blizzard.com/en-us/character/us/proudmoore/fizzl%C3%AA/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link"><img src="wow-logo.png" alt="WoW Character" class="wow-logo-img"></a>
+        <a href="https://worldofwarcraft.blizzard.com/en-us/character/us/proudmoore/fizzl%C3%AA/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link"><img src="wow-logo-new.png" alt="WoW Character" class="wow-logo-img"></a>
       </div>
     </div>
 </template>
