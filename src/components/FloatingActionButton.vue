@@ -27,7 +27,7 @@ export default class FloatingActionButton extends Vue {
 <style>
 .menu-button{
     position:fixed;
-    right: 40px;
+    right: min(40px, 5vw);
     top:20px;
     display:flex;
     align-items: center;
@@ -57,7 +57,7 @@ export default class FloatingActionButton extends Vue {
 }
 .arrow-up {
     position:fixed;
-    right:47px;
+    right: min(47px, calc(5vw + 7px));
     top:60px;
     width: 0; 
     height: 0; 
@@ -71,9 +71,10 @@ export default class FloatingActionButton extends Vue {
     position:fixed;
     border-radius: 10px 0px 0px 10px;
     opacity: 0.9;
-    right: -5px;
-    height: 300px;
-    width: 150px;
+    right: 0;
+    height: min(300px, 40vh);
+    width: min(180px, 50vw);
+    max-width: 200px;
     top:70px;
     display:flex;
     flex-direction: column;
@@ -81,6 +82,37 @@ export default class FloatingActionButton extends Vue {
     justify-content: space-evenly;
     background-color: #28262C;
     color:#F7F9F9;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Mobile responsive adjustments */
+@media only screen and (max-width: 480px) {
+    .menu-button {
+        right: 15px;
+        top: 15px;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .arrow-up {
+        right: 22px;
+        top: 50px;
+    }
+    
+    .menu {
+        right: 0;
+        top: 60px;
+        width: min(160px, 90vw);
+        height: min(250px, 60vh);
+        border-radius: 10px 0px 0px 10px;
+    }
+    
+    .menu-item {
+        font-size: 14px;
+        padding: 5px;
+        text-align: center;
+    }
 }
 </style>
 
