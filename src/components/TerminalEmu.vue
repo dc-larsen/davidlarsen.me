@@ -67,9 +67,6 @@ export default class TerminalEmu extends Vue {
             case Command.Resume:
                 this.setOutput(this.printSkills());
                 break;
-            case Command.Lol:
-                this.printJoke();
-                break;
             case Command.Projects:
                 this.$root.$emit('toggle-finder');
                 break;
@@ -91,8 +88,7 @@ export default class TerminalEmu extends Vue {
     ${Command.History}  - list previous commands entered by user
     ${Command.About}   - about the user
     ${Command.Resume}   - prints resume content of the user
-    ${Command.Projects} - open personal projects of user
-    ${Command.Lol}      - tell me a funny joke`;
+    ${Command.Projects} - open personal projects of user`;
     }
 
     /* return output of past 10 commands entered for gimmicky purposes */
@@ -154,40 +150,11 @@ export default class TerminalEmu extends Vue {
     `
     }
 
-     private printJoke() {
-        const randomNumber = Math.floor(Math.random() * 100) + 1;
-        console.log(randomNumber)
-        const requestUrl = "https://www.reddit.com/r/cleanjokes/hot.json?limit=100"
-        let that = this;
-            axios.get(requestUrl).then(function (response) {   
-                console.log(response)
-                // Validate response structure to prevent potential XSS
-                if (response.data && 
-                    response.data.data && 
-                    Array.isArray(response.data.data.children) &&
-                    response.data.data.children[randomNumber] &&
-                    response.data.data.children[randomNumber].data) {
-                    
-                    const post = response.data.data.children[randomNumber].data
-                    // Sanitize content to prevent XSS attacks
-                    const frame = post.title ? post.title.replace(/<[^>]*>/g, '').substring(0, 200) : 'No title available'
-                    const punchline = post.selftext ? post.selftext.trim().replace(/<[^>]*>/g, '').substring(0, 500) : 'No content available'
-                    that.setOutput(`${frame}\n\n${punchline}\n\n\nDownload at https://github.com/davidlarsen/lol-node-cli`);
-                } else {
-                    that.setOutput("Invalid response format from API :(")
-                }
-            })
-            .catch(function (error) {
-                console.log(error)
-                that.setOutput("We couldn't find any jokes :(")
-            })
-     }
 }
 enum Command {
         Help = "help",
         Clear = "clear",
         History = "history",
-        Lol = "lol",
         About = "whoami",
         Resume = "skills",
         Projects = "projects",
