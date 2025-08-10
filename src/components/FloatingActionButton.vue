@@ -6,10 +6,11 @@
 <div class= "menu-container" v-if="showMenu">
     <div class ="arrow-up"></div>
     <div class="menu" @mouseleave= "showMenu = !showMenu">
-            <a class= "menu-item" href = "/Tyler_Howard_Resume.pdf">Resume</a>
-            <a class= "menu-item" href = "/ISI_2018_paper_108.pdf">Articles / Publications</a>
-            <a class= "menu-item" href = "https://tylernhoward.github.io/old-site">Old Site</a>
-            <a class= "menu-item" href = "https://tylernhoward.github.io/markdowner">Markdown Editor</a>
+            <a class= "menu-item" href = "/David_Larsen_Unified_Resume.pdf">Resume</a>
+            <a class= "menu-item" href = "#">Blog (Coming Soon)</a>
+            <a class= "menu-item" href = "https://github.com/dc-larsen/support-playbooks">Support Playbooks</a>
+            <a class= "menu-item" href = "https://open.spotify.com/user/dc2larsen">Spotify</a>
+            <a class= "menu-item" href = "https://worldofwarcraft.blizzard.com/en-us/character/us/proudmoore/fizzl%C3%AA/">WoW Character</a>
         </div>
     </div>
 </div>

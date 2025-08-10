@@ -3,9 +3,9 @@
     <img class="pro-pic" alt="Profile Pic" src="../assets/pro.png">
     <h2>{{msg}}</h2>
      <div>
-        <a href="https://www.linkedin.com/in/tyler-howard-b874b8118/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-linkedin fa-2x"></a>
-        <a href="https://github.com/tylernhoward" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-github fa-2x"></a>
-        <a href="https://flickr.com/photos/faintcolors" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-flickr fa-2x"></a>
+        <a href="https://www.linkedin.com/in/david-larsen-404622143/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-linkedin fa-2x"></a>
+        <a href="https://github.com/dc-larsen" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-github fa-2x"></a>
+        <a href="https://www.flickr.com/photos/203372618@N08/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-flickr fa-2x"></a>
       </div>
     </div>
 </template>
