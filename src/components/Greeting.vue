@@ -7,7 +7,7 @@
         <a href="https://github.com/dc-larsen" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-github fa-2x"></a>
         <a href="https://www.flickr.com/photos/203372618@N08/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-flickr fa-2x"></a>
         <a href="https://open.spotify.com/user/dc2larsen" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-spotify fa-2x"></a>
-        <a href="https://worldofwarcraft.blizzard.com/en-us/character/us/proudmoore/fizzl%C3%AA/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fas fa-gamepad fa-2x"></a>
+        <a href="https://worldofwarcraft.blizzard.com/en-us/character/us/proudmoore/fizzl%C3%AA/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link wow-icon fa-2x">W</a>
       </div>
     </div>
 </template>
@@ -41,6 +41,30 @@ export default class Greeting extends Vue {
     color:#138A36;
     text-decoration: none;
     cursor: pointer;
+}
+
+.wow-icon {
+    color: #f4e971;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    background: linear-gradient(45deg, #1f2328, #2a3c5a);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.wow-icon:hover {
+    color: #ffd700;
+    background: linear-gradient(45deg, #2a3c5a, #1f2328);
+    transform: scale(1.1);
+    text-decoration: none;
 }
 
 </style>
