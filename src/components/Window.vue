@@ -31,7 +31,7 @@ import FinderEmu from './FinderEmu.vue';
     return {    
       finder: false,
       windowTitle: "Terminal",
-      label: "[thoward~]$"
+      label: "[david~]$"
    }
   }
 })
