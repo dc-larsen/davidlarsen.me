@@ -55,7 +55,7 @@ onMounted(() => {
   }
 })
 
-function handleCommand() {
+async function handleCommand() {
   const cmd = command.value
   
   if (cmd === '') return
