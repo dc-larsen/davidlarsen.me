@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles preserving original design */
+@layer base {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: theme('colors.background');
+    font-family: theme('fontFamily.sans');
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .btn-link {
+    @apply text-primary no-underline px-2.5 py-0 transition-colors duration-200;
+  }
+  
+  .btn-link:hover {
+    @apply text-secondary no-underline cursor-pointer;
+  }
+
+  .footer {
+    @apply text-xs w-full fixed left-0 bottom-0 h-5 border-t border-gray-300 bg-gray-200 text-left;
+  }
+
+  .footer .left-align {
+    @apply pl-1 float-left;
+  }
+
+  .footer .right-align {
+    @apply pr-1 float-right;
+  }
+
+  .link {
+    @apply text-primary no-underline;
+  }
+
+  /* Focus styles for accessibility */
+  .focus-visible {
+    @apply outline-2 outline-offset-2 outline-secondary;
+  }
+
+  /* Skip to content link */
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-secondary focus:text-white focus:no-underline focus:rounded;
+  }
+
+  /* Terminal and Mac-style elements */
+  .terminal {
+    @apply text-muted bg-gray-800 overflow-auto h-full;
+    font-family: Monaco, 'Courier New', monospace;
+    font-size: 14px;
+  }
+
+  .terminal-content {
+    @apply overflow-auto pt-6 pl-2.5 text-left;
+  }
+
+  .command-input {
+    @apply pt-1 w-4/5 truncate font-mono text-sm border-0 bg-transparent outline-0 text-current;
+  }
+
+  /* Mac window styling */
+  .mac-window {
+    @apply rounded shadow-xl relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .mac-window-bar {
+    @apply absolute w-full h-5 bg-gray-300 rounded-t z-10;
+  }
+
+  .mac-circles {
+    @apply flex justify-start;
+  }
+
+  .mac-circle {
+    @apply z-20 m-1 w-3 h-3 rounded-full border border-gray-400;
+    background-color: #fd9494;
+  }
+
+  .mac-title-bar {
+    @apply z-10 -top-5 relative flex items-center justify-center;
+  }
+
+  /* Project grid and finder styling */
+  .finder {
+    @apply text-black bg-white overflow-auto h-full;
+  }
+
+  .project-grid {
+    @apply flex justify-center flex-row flex-wrap;
+  }
+
+  .project-item {
+    @apply m-8 no-underline p-8 pb-2;
+  }
+
+  .project-item:hover {
+    @apply bg-gray-100 rounded-lg;
+  }
+
+  .project-folder {
+    @apply w-25 h-16 relative bg-sky-300 rounded-b-md shadow-md;
+    border-radius: 0 6px 6px 6px;
+  }
+
+  .project-folder::before {
+    content: "";
+    @apply w-1/2 h-2.5 absolute -top-2.5 left-0 bg-sky-200 rounded-tl-md rounded-tr-2xl;
+  }
+
+  .project-label {
+    @apply w-25 text-black pt-5 text-center;
+  }
+
+  /* Responsive adjustments */
+  @media only screen and (max-width: 700px) {
+    .desktop-only {
+      @apply hidden;
+    }
+
+    .mobile-greeting {
+      @apply pt-16;
+    }
+  }
+}
