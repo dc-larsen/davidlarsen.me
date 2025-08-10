@@ -51,7 +51,7 @@ export default class Greeting extends Vue {
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
-    vertical-align: -0.2em;
+    vertical-align: -0.25em;
 }
 
 .wow-icon:hover {
