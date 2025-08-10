@@ -1,15 +1,12 @@
 <template>
 <div id="menu-interaction">
-<div class = "menu-button" @click="showMenu = !showMenu">
-    <i class="fas fa-bars"></i>
-</div>
-<div class= "menu-container" v-if="showMenu">
-    <div class ="arrow-up"></div>
-    <div class="menu" @mouseleave= "showMenu = !showMenu">
-            <a class= "menu-item" href = "/David_Larsen_Unified_Resume.pdf">Resume</a>
-            <a class= "menu-item" href = "#">Blog (Coming Soon)</a>
-            <a class= "menu-item" href = "https://github.com/dc-larsen/support-playbooks">Support Playbooks</a>
-        </div>
+    <div class="menu-button" @click="showMenu = !showMenu">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="menu-dropdown" v-if="showMenu" @mouseleave="showMenu = false">
+        <a class="menu-item" href="/David_Larsen_Unified_Resume.pdf">Resume</a>
+        <a class="menu-item" href="#">Blog (Coming Soon)</a>
+        <a class="menu-item" href="https://github.com/dc-larsen/support-playbooks">Support Playbooks</a>
     </div>
 </div>
 </template>
@@ -25,19 +22,24 @@ export default class FloatingActionButton extends Vue {
 
 </script>
 <style>
+#menu-interaction {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
 .menu-button{
-    position:fixed;
-    right: min(40px, 5vw);
-    top:20px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     background-color: #28262C;
-    color:#F7F9F9;
-    height:35px;
-    width:35px;
+    color: #F7F9F9;
+    height: 35px;
+    width: 35px;
     transition: transform 1s;
+    cursor: pointer;
 }
 .menu-button:hover {
     transform: rotate(90deg);
@@ -46,72 +48,71 @@ export default class FloatingActionButton extends Vue {
     text-decoration: none;
     cursor: pointer;
 }
-.menu-item{
-    color:#F7F9F9;
+.menu-item {
+    color: #F7F9F9;
     text-decoration: none;
+    padding: 12px 16px;
+    display: block;
+    transition: background-color 0.2s ease;
+    border-radius: 4px;
+    margin: 2px 8px;
 }
+
 .menu-item:hover {
     color: #87FF65;
+    background-color: rgba(135, 255, 101, 0.1);
     text-decoration: none;
     cursor: pointer;
 }
-.arrow-up {
-    position:fixed;
-    right: min(47px, calc(5vw + 7px));
-    top:60px;
-    width: 0; 
-    height: 0; 
-    opacity: 0.9;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #28262C;
-}
-.menu{
-    z-index: 999 !important;
-    position:fixed;
-    border-radius: 10px 0px 0px 10px;
-    opacity: 0.9;
-    right: 10px;
-    height: min(300px, 40vh);
-    width: min(160px, 35vw);
-    max-width: 180px;
-    top:70px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+.menu-dropdown {
+    position: absolute;
+    top: 45px;
+    right: 0;
     background-color: #28262C;
-    color:#F7F9F9;
-    padding: 10px;
-    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    padding: 8px 0;
+    min-width: 180px;
+    z-index: 1001;
+    opacity: 0.95;
+    display: flex;
+    flex-direction: column;
+    transform-origin: top right;
+    animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px) scale(0.95);
+    }
+    to {
+        opacity: 0.95;
+        transform: translateY(0) scale(1);
+    }
 }
 
 /* Mobile responsive adjustments */
 @media only screen and (max-width: 480px) {
-    .menu-button {
+    #menu-interaction {
         right: 15px;
         top: 15px;
-        height: 30px;
-        width: 30px;
     }
     
-    .arrow-up {
-        right: 22px;
-        top: 50px;
+    .menu-button {
+        height: 32px;
+        width: 32px;
+        font-size: 14px;
     }
     
-    .menu {
-        right: 5px;
-        top: 60px;
-        width: min(140px, 80vw);
-        height: min(220px, 50vh);
-        border-radius: 10px 0px 0px 10px;
+    .menu-dropdown {
+        min-width: 160px;
+        right: -5px;
     }
     
     .menu-item {
         font-size: 14px;
-        padding: 5px;
-        text-align: center;
+        padding: 10px 14px;
     }
 }
 </style>
