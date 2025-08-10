@@ -7,7 +7,7 @@
         <a href="https://github.com/dc-larsen" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-github fa-2x"></a>
         <a href="https://www.flickr.com/photos/203372618@N08/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-flickr fa-2x"></a>
         <a href="https://open.spotify.com/user/dc2larsen" target="_blank" rel="noopener noreferrer" role="button" class="btn-link fab fa-spotify fa-2x"></a>
-        <a href="https://worldofwarcraft.blizzard.com/en-us/character/us/proudmoore/fizzl%C3%AA/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link"><img src="wow-logo-new.png" alt="WoW Character" class="wow-logo-img"></a>
+        <a href="https://worldofwarcraft.blizzard.com/en-us/character/us/proudmoore/fizzl%C3%AA/" target="_blank" rel="noopener noreferrer" role="button" class="btn-link wow-logo-container fa-2x"><img src="wow-logo-new.png" alt="WoW Character" class="wow-logo-img"></a>
       </div>
     </div>
 </template>
@@ -43,17 +43,22 @@ export default class Greeting extends Vue {
     cursor: pointer;
 }
 
-.wow-logo-img {
-    width: 32px;
-    height: 32px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    vertical-align: baseline;
+.wow-logo-container {
     display: inline-block;
+    position: relative;
+    transition: all 0.3s ease;
 }
 
-.wow-logo-img:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
+.wow-logo-img {
+    width: 2em;
+    height: 2em;
+    vertical-align: baseline;
+    display: block;
+    transition: filter 0.3s ease;
+}
+
+.wow-logo-container:hover .wow-logo-img {
+    filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
 }
 
 </style>
