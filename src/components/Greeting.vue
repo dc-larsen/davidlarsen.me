@@ -50,8 +50,8 @@ export default class Greeting extends Vue {
 }
 
 .wow-logo-img {
-    width: 2em;
-    height: 2em;
+    width: 1.6em;
+    height: 1.6em;
     vertical-align: baseline;
     display: block;
     transition: filter 0.3s ease;
