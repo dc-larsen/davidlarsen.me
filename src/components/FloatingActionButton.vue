@@ -71,10 +71,10 @@ export default class FloatingActionButton extends Vue {
     position:fixed;
     border-radius: 10px 0px 0px 10px;
     opacity: 0.9;
-    right: 0;
+    right: 10px;
     height: min(300px, 40vh);
-    width: min(180px, 50vw);
-    max-width: 200px;
+    width: min(160px, 35vw);
+    max-width: 180px;
     top:70px;
     display:flex;
     flex-direction: column;
@@ -101,10 +101,10 @@ export default class FloatingActionButton extends Vue {
     }
     
     .menu {
-        right: 0;
+        right: 5px;
         top: 60px;
-        width: min(160px, 90vw);
-        height: min(250px, 60vh);
+        width: min(140px, 80vw);
+        height: min(220px, 50vh);
         border-radius: 10px 0px 0px 10px;
     }
     
