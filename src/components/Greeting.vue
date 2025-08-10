@@ -56,7 +56,7 @@ export default class Greeting extends Vue {
 }
 
 .wow-icon:hover {
-    filter: invert(30%) sepia(100%) saturate(2000%) hue-rotate(90deg) brightness(100%) contrast(120%);
+    filter: invert(35%) sepia(96%) saturate(1347%) hue-rotate(87deg) brightness(98%) contrast(101%);
 }
 
 </style>
