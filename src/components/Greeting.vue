@@ -53,10 +53,16 @@ export default class Greeting extends Vue {
     height: 1.35em;
     vertical-align: -0.3em;
     margin-right: 8px;
+    transition: all 0.3s ease;
 }
 
 .wow-icon:hover {
-    filter: invert(35%) sepia(96%) saturate(1347%) hue-rotate(87deg) brightness(98%) contrast(101%);
+    background-image: none;
+    background-color: #138A36;
+    -webkit-mask: url('/wow-icon-2.png') no-repeat center;
+    mask: url('/wow-icon-2.png') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
 }
 
 </style>
