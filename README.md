@@ -203,6 +203,14 @@ This is a personal website, but feel free to:
 - Suggest improvements
 - Use as a template for your own site (please customize!)
 
+## Credits
+
+Special thanks to [Tyler Howard](https://github.com/tylernhoward) for the original inspiration and website concept! 🙌
+
+Check out his awesome project: [tylernhoward.github.io](https://github.com/tylernhoward/tylernhoward.github.io)
+
+This site started as a template from Tyler's work and evolved into a security-hardened, modern implementation with Nuxt 3.
+
 ## License
 
 MIT License - see LICENSE file for details.
