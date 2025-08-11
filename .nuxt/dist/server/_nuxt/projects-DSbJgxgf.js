@@ -59,7 +59,7 @@ const _sfc_main = {
       }, null, _parent));
       _push(ssrRenderComponent(_component_ProjectCard, {
         title: "Customer Success Playbooks",
-        image: "/image-customer-success.png",
+        image: "/image-customer-success-playbooks.png",
         description: `Curated playbooks for customer success teams focused on onboarding, retention, expansion, and churn prevention strategies. Includes templates for customer health scoring, success metrics tracking, and proactive outreach workflows. Built from experience scaling customer success operations at high-growth startups.`,
         "github-url": "https://github.com/dc-larsen/customer-success-playbooks",
         "explore-url": "https://github.com/dc-larsen/customer-success-playbooks"
@@ -91,4 +91,4 @@ _sfc_main.setup = (props, ctx) => {
 export {
   _sfc_main as default
 };
-//# sourceMappingURL=projects-Bc-3AIuO.js.map
+//# sourceMappingURL=projects-DSbJgxgf.js.map
