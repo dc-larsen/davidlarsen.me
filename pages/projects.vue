@@ -9,7 +9,7 @@
       <!-- Support Playbooks -->
       <ProjectCard
         title="Support Playbooks"
-        image="/help-desk.png"
+        image="/image-customer-support-playbooks.png"
         :description="`Comprehensive collection of customer support playbooks covering escalation procedures, troubleshooting workflows, and team management strategies. Designed to help support teams provide consistent, high-quality customer experiences while scaling efficiently.`"
         github-url="https://github.com/dc-larsen/support-playbooks"
         explore-url="https://github.com/dc-larsen/support-playbooks"
