@@ -104,7 +104,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
   { name: 'Projects', href: '/projects' },
-  { name: 'Resume', href: '/David_Larsen_Unified_Resume.pdf', external: true },
+  { name: 'Resume', href: '/Larsen_Resume.pdf', external: true },
 ]
 
 const route = useRoute()

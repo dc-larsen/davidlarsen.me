@@ -121,7 +121,7 @@
           Connect on LinkedIn
         </a>
         <a 
-          href="/David_Larsen_Unified_Resume.pdf" 
+          href="/Larsen_Resume.pdf" 
           target="_blank" 
           class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors duration-200 flex items-center"
         >
