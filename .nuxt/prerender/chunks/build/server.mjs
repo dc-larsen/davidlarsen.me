@@ -401,11 +401,6 @@ const _routes = [
     component: () => import('./blog-CKpQIVkS.mjs'),
     children: [
       {
-        name: "blog-slug",
-        path: ":slug()",
-        component: () => import('./_slug_-Cn27eYkb.mjs')
-      },
-      {
         name: "blog-thoughts-on-leadership",
         path: "thoughts-on-leadership",
         component: () => import('./thoughts-on-leadership-DD5-shSY.mjs')

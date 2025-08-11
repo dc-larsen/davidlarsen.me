@@ -382,11 +382,6 @@ const _routes = [
     component: () => import("./_nuxt/blog-CKpQIVkS.js"),
     children: [
       {
-        name: "blog-slug",
-        path: ":slug()",
-        component: () => import("./_nuxt/_slug_-Cn27eYkb.js")
-      },
-      {
         name: "blog-thoughts-on-leadership",
         path: "thoughts-on-leadership",
         component: () => import("./_nuxt/thoughts-on-leadership-DD5-shSY.js")
