@@ -408,7 +408,7 @@ const _routes = [
   {
     name: "projects",
     path: "/projects",
-    component: () => import('./projects-54375uMH.mjs')
+    component: () => import('./projects-DGdfqpp6.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {

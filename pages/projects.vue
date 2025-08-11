@@ -18,7 +18,7 @@
       <!-- Customer Success Playbooks -->
       <ProjectCard
         title="Customer Success Playbooks"
-        image="/customer-success.png"
+        image="/image-customer-success.png"
         :description="`Curated playbooks for customer success teams focused on onboarding, retention, expansion, and churn prevention strategies. Includes templates for customer health scoring, success metrics tracking, and proactive outreach workflows. Built from experience scaling customer success operations at high-growth startups.`"
         github-url="https://github.com/dc-larsen/customer-success-playbooks"
         explore-url="https://github.com/dc-larsen/customer-success-playbooks"
