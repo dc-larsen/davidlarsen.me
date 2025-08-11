@@ -398,12 +398,12 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import('./blog-CtoiIfLY.mjs'),
+    component: () => import('./blog-CXLoM_KV.mjs'),
     children: [
       {
         name: "blog-slug",
         path: ":slug()",
-        component: () => import('./_slug_-B10NWj7s.mjs')
+        component: () => import('./_slug_-ScEqbwo0.mjs')
       }
     ]
   },
