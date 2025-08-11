@@ -384,7 +384,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-CFJDaPij.js")
+    component: () => import("./_nuxt/index-WwG4jbml.js")
   },
   {
     name: "projects",
