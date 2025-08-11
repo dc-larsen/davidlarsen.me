@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/blog/thoughts-on-leadership']
+      routes: ['/thoughts-on-leadership']
     },
     routeRules: {
       '/**': {

@@ -52,7 +52,7 @@
             
             <NuxtLink 
               v-if="featuredPost.content"
-              :to="`/blog/${featuredPost.slug}`"
+              :to="`/${featuredPost.slug}`"
               class="bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary/90 transition-colors duration-200 inline-flex items-center font-medium"
             >
               Read Full Article
