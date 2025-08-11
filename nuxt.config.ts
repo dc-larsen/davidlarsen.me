@@ -15,9 +15,8 @@ export default defineNuxtConfig({
         { name: 'twitter:site', content: '@davidlarsen' },
       ],
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg?v=2' },
-        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png?v=2' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png?v=2' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=3' },
+        { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico?v=3' },
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css', integrity: 'sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==', crossorigin: 'anonymous' }
       ]
     }
