@@ -91,7 +91,7 @@ useHead({
   display: inline-block;
   width: 1.35em;
   height: 1.35em;
-  vertical-align: 0.05em;
+  vertical-align: 0.15em;
   margin-right: 8px;
 }
 
