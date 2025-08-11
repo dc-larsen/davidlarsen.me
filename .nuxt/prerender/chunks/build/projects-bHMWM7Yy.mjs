@@ -1,17 +1,35 @@
-import { defineComponent, mergeProps, useSSRContext } from "vue";
-import { ssrRenderAttrs, ssrRenderAttr, ssrInterpolate, ssrRenderComponent } from "vue/server-renderer";
-import { u as useHead } from "./v3-Bv8Dz-O7.js";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/@unhead/vue/dist/index.mjs";
-import "../server.mjs";
-import "ofetch";
-import "#internal/nuxt/paths";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/hookable/dist/index.mjs";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unctx/dist/index.mjs";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/h3/dist/index.mjs";
-import "vue-router";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/radix3/dist/index.mjs";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/defu/dist/defu.mjs";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/ufo/dist/index.mjs";
+import { mergeProps, defineComponent, useSSRContext } from 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/vue/index.mjs';
+import { ssrRenderAttrs, ssrRenderComponent, ssrRenderAttr, ssrInterpolate } from 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/vue/server-renderer/index.mjs';
+import { u as useHead } from './v3-Bv8Dz-O7.mjs';
+import './server.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/ofetch/dist/node.mjs';
+import '../_/renderer.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/h3/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/ufo/dist/index.mjs';
+import '../nitro/nitro.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/destr/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/hookable/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/node-mock-http/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unstorage/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unstorage/drivers/lru-cache.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/nitropack/node_modules/ohash/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/klona/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/defu/dist/defu.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/scule/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unctx/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/radix3/dist/index.mjs';
+import 'node:fs';
+import 'node:url';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/pathe/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unhead/dist/server.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/devalue/index.js';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unhead/dist/utils.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unhead/dist/plugins.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/vue-router/dist/vue-router.node.mjs';
+
 const _sfc_main$1 = /* @__PURE__ */ defineComponent({
   __name: "ProjectCard",
   __ssrInlineRender: true,
@@ -49,7 +67,7 @@ const _sfc_main = {
     });
     return (_ctx, _push, _parent, _attrs) => {
       const _component_ProjectCard = _sfc_main$1;
-      _push(`<div${ssrRenderAttrs(mergeProps({ class: "max-w-6xl mx-auto" }, _attrs))}><div class="text-center mb-12"><h1 class="text-4xl font-bold text-primary mb-4">Projects</h1><p class="text-xl text-gray-600">Customer support and success tools I&#39;ve built</p></div><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">`);
+      _push(`<div${ssrRenderAttrs(mergeProps({ class: "max-w-6xl mx-auto" }, _attrs))}><div class="text-center mb-12"><h1 class="text-4xl font-bold text-primary mb-4">Projects</h1><p class="text-xl text-gray-600">Stuff I make: small tools that help people + random side quests I built because they were fun.</p></div><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">`);
       _push(ssrRenderComponent(_component_ProjectCard, {
         title: "Support Playbooks",
         image: "/image-customer-support-playbooks.png",
@@ -88,7 +106,6 @@ _sfc_main.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/projects.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-export {
-  _sfc_main as default
-};
-//# sourceMappingURL=projects-BvFuWQBp.js.map
+
+export { _sfc_main as default };
+//# sourceMappingURL=projects-bHMWM7Yy.mjs.map

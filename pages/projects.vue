@@ -2,7 +2,7 @@
   <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold text-primary mb-4">Projects</h1>
-      <p class="text-xl text-gray-600">Customer support and success tools I've built</p>
+      <p class="text-xl text-gray-600">Stuff I make: small tools that help people + random side quests I built because they were fun.</p>
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
