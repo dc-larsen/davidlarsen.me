@@ -37,7 +37,7 @@
       <!-- GitHub Portfolio -->
       <ProjectCard
         title="GitHub Portfolio"
-        image="/pro.png"
+        image="/image-github.png"
         :description="`View my complete GitHub portfolio for more projects related to customer support operations, team management tools, and technical troubleshooting solutions built throughout my career in support leadership.`"
         github-url="https://github.com/dc-larsen"
         explore-url="https://github.com/dc-larsen"
