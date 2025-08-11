@@ -9,7 +9,7 @@
     </header>
 
     <!-- Main content -->
-    <main id="content" class="mx-auto max-w-4xl px-6 py-8">
+    <main id="content" class="mx-auto max-w-7xl px-4 py-8">
       <slot />
     </main>
 

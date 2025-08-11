@@ -398,17 +398,17 @@ const _routes = [
   {
     name: "about",
     path: "/about",
-    component: () => import('./about-C8xUaKt2.mjs')
+    component: () => import('./about-DM6FCMIQ.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-Cu9GwNBp.mjs')
+    component: () => import('./index-Kzrqgocn.mjs')
   },
   {
     name: "projects",
     path: "/projects",
-    component: () => import('./projects-C8fZXtLv.mjs')
+    component: () => import('./projects-C1uLp_aM.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -802,7 +802,7 @@ const plugins = [
   prerender_server_sqIxOBipVr4FbVMA9kqWL0wT8FPop6sKAXLVfifsJzk
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-Dkuo9jYO.mjs').then((m) => m.default || m))
+  default: defineAsyncComponent(() => import('./default-D1f1C1v7.mjs').then((m) => m.default || m))
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",

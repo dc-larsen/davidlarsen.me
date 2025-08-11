@@ -15,6 +15,7 @@
               I'm a customer support and success leader based in Baltimore, MD. I specialize in building stronger teams, 
               solving complex technical problems, and scaling global support organizations at high-growth startups.
             </p>
+            <br>
             <p>
               My experience spans technical troubleshooting (APIs, logs, infrastructure), scalable operations system design, 
               team mentoring & leadership, and high-stakes technical issue resolution.

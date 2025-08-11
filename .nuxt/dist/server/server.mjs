@@ -379,17 +379,17 @@ const _routes = [
   {
     name: "about",
     path: "/about",
-    component: () => import("./_nuxt/about-C8xUaKt2.js")
+    component: () => import("./_nuxt/about-DM6FCMIQ.js")
   },
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-Cu9GwNBp.js")
+    component: () => import("./_nuxt/index-Kzrqgocn.js")
   },
   {
     name: "projects",
     path: "/projects",
-    component: () => import("./_nuxt/projects-C8fZXtLv.js")
+    component: () => import("./_nuxt/projects-C1uLp_aM.js")
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -790,7 +790,7 @@ const plugins = [
   prerender_server_sqIxOBipVr4FbVMA9kqWL0wT8FPop6sKAXLVfifsJzk
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import("./_nuxt/default-Dkuo9jYO.js").then((m) => m.default || m))
+  default: defineAsyncComponent(() => import("./_nuxt/default-D1f1C1v7.js").then((m) => m.default || m))
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
