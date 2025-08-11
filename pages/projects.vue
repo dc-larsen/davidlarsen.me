@@ -33,23 +33,6 @@
         explore-url="https://github.com/dc-larsen/zendesk-slackbot"
       />
 
-      <!-- Coming Soon -->
-      <ProjectCard
-        title="Coming Soon"
-        image="/pro.png"
-        :description="`Additional customer support and success projects in development. Focus areas include automation tools, team performance dashboards, and workflow optimization solutions.`"
-        github-url="https://github.com/dc-larsen"
-        explore-url="https://github.com/dc-larsen"
-      />
-
-      <!-- More Projects -->
-      <ProjectCard
-        title="More Projects"
-        image="/pro.png"
-        :description="`Exploring innovative solutions for support team efficiency, customer satisfaction measurement, and technical troubleshooting workflows. Always building tools that make support teams more effective.`"
-        github-url="https://github.com/dc-larsen"
-        explore-url="https://github.com/dc-larsen"
-      />
 
       <!-- GitHub Portfolio -->
       <ProjectCard

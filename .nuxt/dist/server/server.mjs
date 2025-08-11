@@ -389,7 +389,7 @@ const _routes = [
   {
     name: "projects",
     path: "/projects",
-    component: () => import("./_nuxt/projects-DGdfqpp6.js")
+    component: () => import("./_nuxt/projects-CVdG5-nW.js")
   }
 ];
 const _wrapInTransition = (props, children) => {
