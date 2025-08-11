@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col lg:flex-row items-center justify-center min-h-[80vh] gap-8">
     <!-- Hero Section -->
-    <div class="text-center lg:text-left max-w-2xl">
+    <div class="text-center lg:text-left lg:w-1/3">
       <div class="mb-8">
         <img 
           class="pro-pic mx-auto lg:mx-0 mb-6" 
@@ -64,7 +64,7 @@
     </div>
 
     <!-- Terminal Window (Desktop Only) -->
-    <div class="desktop-only lg:block hidden max-w-md w-full">
+    <div class="desktop-only lg:block hidden lg:w-2/3 w-full">
       <TerminalWindow />
     </div>
   </div>
