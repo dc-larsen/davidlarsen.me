@@ -379,7 +379,7 @@ const _routes = [
   {
     name: "about",
     path: "/about",
-    component: () => import("./_nuxt/about-DM6FCMIQ.js")
+    component: () => import("./_nuxt/about-VkVDtpDe.js")
   },
   {
     name: "index",
@@ -790,7 +790,7 @@ const plugins = [
   prerender_server_sqIxOBipVr4FbVMA9kqWL0wT8FPop6sKAXLVfifsJzk
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import("./_nuxt/default-D1f1C1v7.js").then((m) => m.default || m))
+  default: defineAsyncComponent(() => import("./_nuxt/default-JkR24tU0.js").then((m) => m.default || m))
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",

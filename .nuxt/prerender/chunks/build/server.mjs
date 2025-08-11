@@ -398,7 +398,7 @@ const _routes = [
   {
     name: "about",
     path: "/about",
-    component: () => import('./about-DM6FCMIQ.mjs')
+    component: () => import('./about-VkVDtpDe.mjs')
   },
   {
     name: "index",
@@ -802,7 +802,7 @@ const plugins = [
   prerender_server_sqIxOBipVr4FbVMA9kqWL0wT8FPop6sKAXLVfifsJzk
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-D1f1C1v7.mjs').then((m) => m.default || m))
+  default: defineAsyncComponent(() => import('./default-JkR24tU0.mjs').then((m) => m.default || m))
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
