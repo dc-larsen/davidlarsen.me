@@ -403,7 +403,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-BWs8ozag.mjs')
+    component: () => import('./index-DJ-h7uLQ.mjs')
   },
   {
     name: "projects",
