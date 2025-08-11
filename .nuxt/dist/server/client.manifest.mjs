@@ -1,21 +1,21 @@
 export default {
-  "_Cpl-oMgA.js": {
+  "_BOPu3sCw.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Cpl-oMgA.js",
+    "file": "BOPu3sCw.js",
     "name": "v3",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_DOnICjvF.js": {
+  "_DnfhGAGY.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DOnICjvF.js",
+    "file": "DnfhGAGY.js",
     "name": "nuxt-link",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -26,12 +26,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "D4hM0I-O.js",
+    "file": "sVFw7aVY.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DOnICjvF.js",
+      "_DnfhGAGY.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -40,14 +40,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CYXX8Eym.js",
+    "file": "cFUsmDU9.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DOnICjvF.js",
+      "_DnfhGAGY.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Cpl-oMgA.js"
+      "_BOPu3sCw.js"
     ],
     "css": []
   },
@@ -62,13 +62,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Bl5QQcSP.js",
+    "file": "6dn_CSVM.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_Cpl-oMgA.js"
+      "_BOPu3sCw.js"
     ],
     "css": []
   },
@@ -83,7 +83,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CFXdjX-3.js",
+    "file": "D014XdXO.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -99,12 +99,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DbpaJmpp.js",
+    "file": "CrMF6WF4.js",
     "name": "about",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Cpl-oMgA.js",
+      "_BOPu3sCw.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -113,14 +113,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DqvMTAG8.js",
+    "file": "SIB-iQAh.js",
     "name": "blog",
     "src": "pages/blog.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DOnICjvF.js",
+      "_DnfhGAGY.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Cpl-oMgA.js"
+      "_BOPu3sCw.js"
     ],
     "css": [
       "blog.DE62QbD_.css"
@@ -137,14 +137,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "TCI8M5PP.js",
+    "file": "DmMGtEA7.js",
     "name": "_slug_",
     "src": "pages/blog/[slug].vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DOnICjvF.js",
+      "_DnfhGAGY.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Cpl-oMgA.js"
+      "_BOPu3sCw.js"
     ],
     "css": []
   },
@@ -159,14 +159,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DezMd963.js",
+    "file": "hOMWR3eq.js",
     "name": "thoughts-on-leadership",
     "src": "pages/blog/thoughts-on-leadership.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DOnICjvF.js",
+      "_DnfhGAGY.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Cpl-oMgA.js"
+      "_BOPu3sCw.js"
     ],
     "css": [],
     "assets": [
@@ -190,13 +190,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CUuoC2vo.js",
+    "file": "DfR7aDD4.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_Cpl-oMgA.js"
+      "_BOPu3sCw.js"
     ],
     "css": [],
     "assets": [
@@ -227,13 +227,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "dFBOvar7.js",
+    "file": "Dx0Qna49.js",
     "name": "projects",
     "src": "pages/projects.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_Cpl-oMgA.js"
+      "_BOPu3sCw.js"
     ]
   },
   "pro.png": {

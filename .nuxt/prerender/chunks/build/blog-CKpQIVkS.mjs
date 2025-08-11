@@ -244,8 +244,44 @@ const blogPosts = [
       
       <p><strong>Post-mortem starter (copy and adapt):</strong></p>
       <blockquote>
-        <p>This appears to be where your content was cut off. Would you like me to add the rest of the blog post content here?</p>
+        <p><em>What happened:</em> Brief timeline with key events</p>
+        <p><em>Why it happened:</em> Root causes, not just triggers</p>
+        <p><em>What we learned:</em> Concrete insights about our system/process</p>
+        <p><em>Actions taken:</em></p>
+        <ul>
+          <li>Process change: [specific change with owner and date]</li>
+          <li>Documentation update: [what was added/changed]</li>
+          <li>Technical improvement: [automation/alert/monitoring added]</li>
+        </ul>
       </blockquote>
+      
+      <h2 id="building-on-strengths-at-synapse">Building on strengths at Synapse</h2>
+      <p>At Synapse, I inherited a strong foundation. The team was already doing great work - they just needed systems to scale their impact. We focused on three areas:</p>
+      
+      <ul>
+        <li><strong>Knowledge capture:</strong> Moved from Slack threads to searchable documentation</li>
+        <li><strong>Decision frameworks:</strong> Created simple templates for common choices</li>
+        <li><strong>Feedback loops:</strong> Regular retrospectives with actionable outcomes</li>
+      </ul>
+      
+      <p>The key insight: great people can do amazing work when you remove friction from their path.</p>
+      
+      <h2 id="try-it-yourself">Try it yourself</h2>
+      <p>Start small. Pick one area where your team asks permission frequently. Replace the approval process with an "I intend to..." template that includes:</p>
+      
+      <ul>
+        <li>Clear objective</li>
+        <li>Risk assessment</li>
+        <li>Rollback plan</li>
+        <li>Success metrics</li>
+      </ul>
+      
+      <p>Run it for two weeks. Measure the time saved and decisions made. Adjust the template based on what you learn.</p>
+      
+      <h2 id="next-steps">Next steps</h2>
+      <p>Leadership isn't about having all the answers. It's about creating environments where good answers emerge quickly and safely. The goal isn't to eliminate all mistakes - it's to make them cheap and educational.</p>
+      
+      <p>What's one place in your team where you could replace "Can I?" with "I intend to?" Start there.</p>
     `,
     image: "/support-playbooks.png",
     category: "Leadership",
@@ -469,4 +505,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-//# sourceMappingURL=blog-CtoiIfLY.mjs.map
+//# sourceMappingURL=blog-CKpQIVkS.mjs.map
