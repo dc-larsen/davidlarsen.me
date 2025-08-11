@@ -15,15 +15,27 @@
         <!-- Desktop navigation -->
         <div class="hidden md:block">
           <div class="ml-10 flex items-baseline space-x-8">
-            <NuxtLink
-              v-for="item in navigation"
-              :key="item.name"
-              :to="item.href"
-              class="btn-link text-sm font-medium focus-visible"
-              :aria-current="$route.path === item.href ? 'page' : undefined"
-            >
-              {{ item.name }}
-            </NuxtLink>
+            <template v-for="item in navigation" :key="item.name">
+              <!-- External links (PDFs, etc.) -->
+              <a
+                v-if="item.external"
+                :href="item.href"
+                class="btn-link text-sm font-medium focus-visible"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ item.name }}
+              </a>
+              <!-- Internal routes -->
+              <NuxtLink
+                v-else
+                :to="item.href"
+                class="btn-link text-sm font-medium focus-visible"
+                :aria-current="$route.path === item.href ? 'page' : undefined"
+              >
+                {{ item.name }}
+              </NuxtLink>
+            </template>
           </div>
         </div>
 
@@ -50,21 +62,35 @@
       @keydown.esc="closeMobileMenu"
     >
       <div class="space-y-1 px-6 pb-3 pt-2">
-        <DisclosureButton
-          v-for="item in navigation"
-          :key="item.name"
-          as="div"
-          class="w-full"
-        >
-          <NuxtLink
-            :to="item.href"
-            class="block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200"
-            :aria-current="$route.path === item.href ? 'page' : undefined"
-            @click="closeMobileMenu"
+        <template v-for="item in navigation" :key="item.name">
+          <!-- External links (PDFs, etc.) -->
+          <div v-if="item.external" class="w-full">
+            <a
+              :href="item.href"
+              class="block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200"
+              target="_blank"
+              rel="noopener noreferrer"
+              @click="closeMobileMenu"
+            >
+              {{ item.name }}
+            </a>
+          </div>
+          <!-- Internal routes -->
+          <DisclosureButton
+            v-else
+            as="div"
+            class="w-full"
           >
-            {{ item.name }}
-          </NuxtLink>
-        </DisclosureButton>
+            <NuxtLink
+              :to="item.href"
+              class="block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200"
+              :aria-current="$route.path === item.href ? 'page' : undefined"
+              @click="closeMobileMenu"
+            >
+              {{ item.name }}
+            </NuxtLink>
+          </DisclosureButton>
+        </template>
       </div>
     </DisclosurePanel>
   </Disclosure>

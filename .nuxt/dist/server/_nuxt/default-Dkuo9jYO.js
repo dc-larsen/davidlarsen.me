@@ -1,6 +1,6 @@
 import { _ as __nuxt_component_0 } from "./nuxt-link-WB1QH-oT.js";
 import { watch, unref, mergeProps, withCtx, createTextVNode, toDisplayString, createVNode, createBlock, openBlock, Fragment, renderList, withKeys, useSSRContext } from "vue";
-import { ssrRenderComponent, ssrRenderList, ssrInterpolate, ssrRenderAttrs, ssrRenderSlot } from "vue/server-renderer";
+import { ssrRenderComponent, ssrRenderList, ssrRenderAttr, ssrInterpolate, ssrRenderAttrs, ssrRenderSlot } from "vue/server-renderer";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 import { u as useRoute } from "../server.mjs";
@@ -56,23 +56,28 @@ const _sfc_main$1 = {
             }, _parent2, _scopeId));
             _push2(`</div><div class="hidden md:block"${_scopeId}><div class="ml-10 flex items-baseline space-x-8"${_scopeId}><!--[-->`);
             ssrRenderList(navigation, (item) => {
-              _push2(ssrRenderComponent(_component_NuxtLink, {
-                key: item.name,
-                to: item.href,
-                class: "btn-link text-sm font-medium focus-visible",
-                "aria-current": _ctx.$route.path === item.href ? "page" : void 0
-              }, {
-                default: withCtx((_, _push3, _parent3, _scopeId2) => {
-                  if (_push3) {
-                    _push3(`${ssrInterpolate(item.name)}`);
-                  } else {
-                    return [
-                      createTextVNode(toDisplayString(item.name), 1)
-                    ];
-                  }
-                }),
-                _: 2
-              }, _parent2, _scopeId));
+              _push2(`<!--[-->`);
+              if (item.external) {
+                _push2(`<a${ssrRenderAttr("href", item.href)} class="btn-link text-sm font-medium focus-visible" target="_blank" rel="noopener noreferrer"${_scopeId}>${ssrInterpolate(item.name)}</a>`);
+              } else {
+                _push2(ssrRenderComponent(_component_NuxtLink, {
+                  to: item.href,
+                  class: "btn-link text-sm font-medium focus-visible",
+                  "aria-current": _ctx.$route.path === item.href ? "page" : void 0
+                }, {
+                  default: withCtx((_, _push3, _parent3, _scopeId2) => {
+                    if (_push3) {
+                      _push3(`${ssrInterpolate(item.name)}`);
+                    } else {
+                      return [
+                        createTextVNode(toDisplayString(item.name), 1)
+                      ];
+                    }
+                  }),
+                  _: 2
+                }, _parent2, _scopeId));
+              }
+              _push2(`<!--]-->`);
             });
             _push2(`<!--]--></div></div><div class="md:hidden"${_scopeId}>`);
             _push2(ssrRenderComponent(unref(DisclosureButton), {
@@ -122,74 +127,94 @@ const _sfc_main$1 = {
                 if (_push3) {
                   _push3(`<div class="space-y-1 px-6 pb-3 pt-2"${_scopeId2}><!--[-->`);
                   ssrRenderList(navigation, (item) => {
-                    _push3(ssrRenderComponent(unref(DisclosureButton), {
-                      key: item.name,
-                      as: "div",
-                      class: "w-full"
-                    }, {
-                      default: withCtx((_2, _push4, _parent4, _scopeId3) => {
-                        if (_push4) {
-                          _push4(ssrRenderComponent(_component_NuxtLink, {
-                            to: item.href,
-                            class: "block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200",
-                            "aria-current": _ctx.$route.path === item.href ? "page" : void 0,
-                            onClick: closeMobileMenu
-                          }, {
-                            default: withCtx((_3, _push5, _parent5, _scopeId4) => {
-                              if (_push5) {
-                                _push5(`${ssrInterpolate(item.name)}`);
-                              } else {
-                                return [
-                                  createTextVNode(toDisplayString(item.name), 1)
-                                ];
-                              }
-                            }),
-                            _: 2
-                          }, _parent4, _scopeId3));
-                        } else {
-                          return [
-                            createVNode(_component_NuxtLink, {
+                    _push3(`<!--[-->`);
+                    if (item.external) {
+                      _push3(`<div class="w-full"${_scopeId2}><a${ssrRenderAttr("href", item.href)} class="block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200" target="_blank" rel="noopener noreferrer"${_scopeId2}>${ssrInterpolate(item.name)}</a></div>`);
+                    } else {
+                      _push3(ssrRenderComponent(unref(DisclosureButton), {
+                        as: "div",
+                        class: "w-full"
+                      }, {
+                        default: withCtx((_2, _push4, _parent4, _scopeId3) => {
+                          if (_push4) {
+                            _push4(ssrRenderComponent(_component_NuxtLink, {
                               to: item.href,
                               class: "block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200",
                               "aria-current": _ctx.$route.path === item.href ? "page" : void 0,
                               onClick: closeMobileMenu
                             }, {
-                              default: withCtx(() => [
-                                createTextVNode(toDisplayString(item.name), 1)
-                              ]),
+                              default: withCtx((_3, _push5, _parent5, _scopeId4) => {
+                                if (_push5) {
+                                  _push5(`${ssrInterpolate(item.name)}`);
+                                } else {
+                                  return [
+                                    createTextVNode(toDisplayString(item.name), 1)
+                                  ];
+                                }
+                              }),
                               _: 2
-                            }, 1032, ["to", "aria-current"])
-                          ];
-                        }
-                      }),
-                      _: 2
-                    }, _parent3, _scopeId2));
+                            }, _parent4, _scopeId3));
+                          } else {
+                            return [
+                              createVNode(_component_NuxtLink, {
+                                to: item.href,
+                                class: "block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200",
+                                "aria-current": _ctx.$route.path === item.href ? "page" : void 0,
+                                onClick: closeMobileMenu
+                              }, {
+                                default: withCtx(() => [
+                                  createTextVNode(toDisplayString(item.name), 1)
+                                ]),
+                                _: 2
+                              }, 1032, ["to", "aria-current"])
+                            ];
+                          }
+                        }),
+                        _: 2
+                      }, _parent3, _scopeId2));
+                    }
+                    _push3(`<!--]-->`);
                   });
                   _push3(`<!--]--></div>`);
                 } else {
                   return [
                     createVNode("div", { class: "space-y-1 px-6 pb-3 pt-2" }, [
                       (openBlock(), createBlock(Fragment, null, renderList(navigation, (item) => {
-                        return createVNode(unref(DisclosureButton), {
-                          key: item.name,
-                          as: "div",
-                          class: "w-full"
-                        }, {
-                          default: withCtx(() => [
-                            createVNode(_component_NuxtLink, {
-                              to: item.href,
+                        return openBlock(), createBlock(Fragment, {
+                          key: item.name
+                        }, [
+                          item.external ? (openBlock(), createBlock("div", {
+                            key: 0,
+                            class: "w-full"
+                          }, [
+                            createVNode("a", {
+                              href: item.href,
                               class: "block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200",
-                              "aria-current": _ctx.$route.path === item.href ? "page" : void 0,
+                              target: "_blank",
+                              rel: "noopener noreferrer",
                               onClick: closeMobileMenu
-                            }, {
-                              default: withCtx(() => [
-                                createTextVNode(toDisplayString(item.name), 1)
-                              ]),
-                              _: 2
-                            }, 1032, ["to", "aria-current"])
-                          ]),
-                          _: 2
-                        }, 1024);
+                            }, toDisplayString(item.name), 9, ["href"])
+                          ])) : (openBlock(), createBlock(unref(DisclosureButton), {
+                            key: 1,
+                            as: "div",
+                            class: "w-full"
+                          }, {
+                            default: withCtx(() => [
+                              createVNode(_component_NuxtLink, {
+                                to: item.href,
+                                class: "block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200",
+                                "aria-current": _ctx.$route.path === item.href ? "page" : void 0,
+                                onClick: closeMobileMenu
+                              }, {
+                                default: withCtx(() => [
+                                  createTextVNode(toDisplayString(item.name), 1)
+                                ]),
+                                _: 2
+                              }, 1032, ["to", "aria-current"])
+                            ]),
+                            _: 2
+                          }, 1024))
+                        ], 64);
                       }), 64))
                     ])
                   ];
@@ -215,17 +240,27 @@ const _sfc_main$1 = {
                   createVNode("div", { class: "hidden md:block" }, [
                     createVNode("div", { class: "ml-10 flex items-baseline space-x-8" }, [
                       (openBlock(), createBlock(Fragment, null, renderList(navigation, (item) => {
-                        return createVNode(_component_NuxtLink, {
-                          key: item.name,
-                          to: item.href,
-                          class: "btn-link text-sm font-medium focus-visible",
-                          "aria-current": _ctx.$route.path === item.href ? "page" : void 0
-                        }, {
-                          default: withCtx(() => [
-                            createTextVNode(toDisplayString(item.name), 1)
-                          ]),
-                          _: 2
-                        }, 1032, ["to", "aria-current"]);
+                        return openBlock(), createBlock(Fragment, {
+                          key: item.name
+                        }, [
+                          item.external ? (openBlock(), createBlock("a", {
+                            key: 0,
+                            href: item.href,
+                            class: "btn-link text-sm font-medium focus-visible",
+                            target: "_blank",
+                            rel: "noopener noreferrer"
+                          }, toDisplayString(item.name), 9, ["href"])) : (openBlock(), createBlock(_component_NuxtLink, {
+                            key: 1,
+                            to: item.href,
+                            class: "btn-link text-sm font-medium focus-visible",
+                            "aria-current": _ctx.$route.path === item.href ? "page" : void 0
+                          }, {
+                            default: withCtx(() => [
+                              createTextVNode(toDisplayString(item.name), 1)
+                            ]),
+                            _: 2
+                          }, 1032, ["to", "aria-current"]))
+                        ], 64);
                       }), 64))
                     ])
                   ]),
@@ -261,26 +296,41 @@ const _sfc_main$1 = {
                 default: withCtx(() => [
                   createVNode("div", { class: "space-y-1 px-6 pb-3 pt-2" }, [
                     (openBlock(), createBlock(Fragment, null, renderList(navigation, (item) => {
-                      return createVNode(unref(DisclosureButton), {
-                        key: item.name,
-                        as: "div",
-                        class: "w-full"
-                      }, {
-                        default: withCtx(() => [
-                          createVNode(_component_NuxtLink, {
-                            to: item.href,
+                      return openBlock(), createBlock(Fragment, {
+                        key: item.name
+                      }, [
+                        item.external ? (openBlock(), createBlock("div", {
+                          key: 0,
+                          class: "w-full"
+                        }, [
+                          createVNode("a", {
+                            href: item.href,
                             class: "block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200",
-                            "aria-current": _ctx.$route.path === item.href ? "page" : void 0,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
                             onClick: closeMobileMenu
-                          }, {
-                            default: withCtx(() => [
-                              createTextVNode(toDisplayString(item.name), 1)
-                            ]),
-                            _: 2
-                          }, 1032, ["to", "aria-current"])
-                        ]),
-                        _: 2
-                      }, 1024);
+                          }, toDisplayString(item.name), 9, ["href"])
+                        ])) : (openBlock(), createBlock(unref(DisclosureButton), {
+                          key: 1,
+                          as: "div",
+                          class: "w-full"
+                        }, {
+                          default: withCtx(() => [
+                            createVNode(_component_NuxtLink, {
+                              to: item.href,
+                              class: "block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200",
+                              "aria-current": _ctx.$route.path === item.href ? "page" : void 0,
+                              onClick: closeMobileMenu
+                            }, {
+                              default: withCtx(() => [
+                                createTextVNode(toDisplayString(item.name), 1)
+                              ]),
+                              _: 2
+                            }, 1032, ["to", "aria-current"])
+                          ]),
+                          _: 2
+                        }, 1024))
+                      ], 64);
                     }), 64))
                   ])
                 ]),
@@ -324,4 +374,4 @@ _sfc_main.setup = (props, ctx) => {
 export {
   _sfc_main as default
 };
-//# sourceMappingURL=default-DYiMXn-a.js.map
+//# sourceMappingURL=default-Dkuo9jYO.js.map

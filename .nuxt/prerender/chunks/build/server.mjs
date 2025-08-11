@@ -802,7 +802,7 @@ const plugins = [
   prerender_server_sqIxOBipVr4FbVMA9kqWL0wT8FPop6sKAXLVfifsJzk
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-DYiMXn-a.mjs').then((m) => m.default || m))
+  default: defineAsyncComponent(() => import('./default-Dkuo9jYO.mjs').then((m) => m.default || m))
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",

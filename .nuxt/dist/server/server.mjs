@@ -790,7 +790,7 @@ const plugins = [
   prerender_server_sqIxOBipVr4FbVMA9kqWL0wT8FPop6sKAXLVfifsJzk
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import("./_nuxt/default-DYiMXn-a.js").then((m) => m.default || m))
+  default: defineAsyncComponent(() => import("./_nuxt/default-Dkuo9jYO.js").then((m) => m.default || m))
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
