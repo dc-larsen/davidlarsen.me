@@ -56,7 +56,14 @@ onMounted(() => {
 })
 
 async function handleCommand() {
-  const cmd = command.value
+  const cmd = command.value.trim().toLowerCase()
+  
+  // Sanitize input - only allow alphanumeric and basic characters
+  if (!/^[a-zA-Z0-9\s\-_]*$/.test(cmd)) {
+    output.value = 'Invalid command format'
+    command.value = ''
+    return
+  }
   
   if (cmd === '') return
   
