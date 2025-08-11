@@ -49,7 +49,20 @@
       
       <!-- Read More Link -->
       <div class="flex items-center justify-between">
-        <div class="inline-flex items-center text-secondary hover:text-primary font-medium transition-colors duration-200 cursor-pointer">
+        <NuxtLink 
+          v-if="post.content"
+          :to="`/blog/${post.slug}`"
+          class="inline-flex items-center text-secondary hover:text-primary font-medium transition-colors duration-200"
+        >
+          Read More
+          <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </NuxtLink>
+        <div 
+          v-else
+          class="inline-flex items-center text-secondary hover:text-primary font-medium transition-colors duration-200 cursor-pointer"
+        >
           Coming Soon
           <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>

@@ -398,7 +398,14 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import('./blog-C8vZ84T6.mjs')
+    component: () => import('./blog-CXLoM_KV.mjs'),
+    children: [
+      {
+        name: "blog-slug",
+        path: ":slug()",
+        component: () => import('./_slug_-CQXMB9ne.mjs')
+      }
+    ]
   },
   {
     name: "about",

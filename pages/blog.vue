@@ -50,7 +50,20 @@
               </span>
             </div>
             
-            <div class="bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary/90 transition-colors duration-200 inline-flex items-center font-medium cursor-pointer">
+            <NuxtLink 
+              v-if="featuredPost.content"
+              :to="`/blog/${featuredPost.slug}`"
+              class="bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary/90 transition-colors duration-200 inline-flex items-center font-medium"
+            >
+              Read Full Article
+              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </NuxtLink>
+            <div 
+              v-else
+              class="bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary/90 transition-colors duration-200 inline-flex items-center font-medium cursor-pointer"
+            >
               Coming Soon
               <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -134,87 +147,10 @@ useHead({
   ]
 })
 
-// Sample blog posts data - sorted by date (most recent first)
-const blogPosts = ref([
-  {
-    id: 1,
-    title: 'Building High-Performance Support Teams in 2025',
-    slug: 'building-high-performance-support-teams-2025',
-    excerpt: 'Learn the key strategies for scaling customer support teams while maintaining quality and team satisfaction. From hiring practices to performance metrics, discover what works.',
-    content: '',
-    image: '/support-playbooks.png',
-    category: 'Leadership',
-    tags: ['team-building', 'support', 'leadership', 'scaling'],
-    date: '2025-01-15',
-    readTime: 8,
-    author: 'David Larsen'
-  },
-  {
-    id: 2,
-    title: 'The Art of Technical Troubleshooting: A Support Leader\'s Guide',
-    slug: 'art-of-technical-troubleshooting-guide',
-    excerpt: 'Debugging complex technical issues requires more than just technical knowledge. Here\'s how to build systematic approaches that work every time.',
-    content: '',
-    image: '/zendesk-slackbot.png',
-    category: 'Technical',
-    tags: ['troubleshooting', 'technical-support', 'processes', 'debugging'],
-    date: '2024-12-20',
-    readTime: 12,
-    author: 'David Larsen'
-  },
-  {
-    id: 3,
-    title: 'Customer Success Metrics That Actually Matter',
-    slug: 'customer-success-metrics-that-matter',
-    excerpt: 'Move beyond vanity metrics to track what really drives customer satisfaction and business growth. A deep dive into meaningful KPIs.',
-    content: '',
-    image: '/customer-success.png',
-    category: 'Strategy',
-    tags: ['metrics', 'customer-success', 'kpis', 'analytics'],
-    date: '2024-12-10',
-    readTime: 6,
-    author: 'David Larsen'
-  },
-  {
-    id: 4,
-    title: 'Automation vs. Human Touch: Finding the Right Balance',
-    slug: 'automation-vs-human-touch-balance',
-    excerpt: 'When should you automate customer support processes, and when is the human touch irreplaceable? Learn to make these critical decisions.',
-    content: '',
-    image: '/markdowner.png',
-    category: 'Technology',
-    tags: ['automation', 'ai', 'customer-experience', 'process-improvement'],
-    date: '2024-11-25',
-    readTime: 10,
-    author: 'David Larsen'
-  },
-  {
-    id: 5,
-    title: 'Remote Team Leadership: Lessons from Baltimore',
-    slug: 'remote-team-leadership-lessons',
-    excerpt: 'Managing distributed support teams requires different skills. Here are the strategies that work for building culture and maintaining performance remotely.',
-    content: '',
-    image: '/pro.png',
-    category: 'Leadership',
-    tags: ['remote-work', 'team-culture', 'management', 'distributed-teams'],
-    date: '2024-11-10',
-    readTime: 7,
-    author: 'David Larsen'
-  },
-  {
-    id: 6,
-    title: 'API Documentation: A Support Team\'s Secret Weapon',
-    slug: 'api-documentation-support-secret-weapon',
-    excerpt: 'Great API docs don\'t just help developers—they empower support teams to solve complex technical issues faster. Here\'s how to leverage them.',
-    content: '',
-    image: '/threeo.jpg',
-    category: 'Technical',
-    tags: ['api', 'documentation', 'technical-support', 'developer-tools'],
-    date: '2024-10-28',
-    readTime: 9,
-    author: 'David Larsen'
-  }
-])
+import { blogPosts as allBlogPosts } from '~/data/blogPosts'
+
+// Blog posts data - imported from data file
+const blogPosts = ref(allBlogPosts)
 
 // Reactive data
 const selectedCategory = ref('All')
