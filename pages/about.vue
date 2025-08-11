@@ -42,6 +42,10 @@
               <span class="mr-2">🥪</span>
               Hunting for Baltimore's best breakfast sandwich
             </li>
+            <li class="flex items-center">
+              <span class="mr-2">🐉</span>
+              Slaying dragons in World of Warcraft
+            </li>
           </ul>
         </div>
       </div>
