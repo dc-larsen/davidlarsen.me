@@ -1,17 +1,35 @@
-import { defineComponent, mergeProps, useSSRContext } from "vue";
-import { ssrRenderAttrs, ssrRenderAttr, ssrInterpolate, ssrRenderComponent } from "vue/server-renderer";
-import { u as useHead } from "./v3-Bv8Dz-O7.js";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/@unhead/vue/dist/index.mjs";
-import "../server.mjs";
-import "ofetch";
-import "#internal/nuxt/paths";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/hookable/dist/index.mjs";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unctx/dist/index.mjs";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/h3/dist/index.mjs";
-import "vue-router";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/radix3/dist/index.mjs";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/defu/dist/defu.mjs";
-import "/Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/ufo/dist/index.mjs";
+import { mergeProps, defineComponent, useSSRContext } from 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/vue/index.mjs';
+import { ssrRenderAttrs, ssrRenderComponent, ssrRenderAttr, ssrInterpolate } from 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/vue/server-renderer/index.mjs';
+import { u as useHead } from './v3-Bv8Dz-O7.mjs';
+import './server.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/ofetch/dist/node.mjs';
+import '../_/renderer.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/h3/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/ufo/dist/index.mjs';
+import '../nitro/nitro.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/destr/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/hookable/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/node-mock-http/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unstorage/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unstorage/drivers/lru-cache.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/nitropack/node_modules/ohash/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/klona/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/defu/dist/defu.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/scule/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unctx/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/radix3/dist/index.mjs';
+import 'node:fs';
+import 'node:url';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/pathe/dist/index.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unhead/dist/server.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/devalue/index.js';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unhead/dist/utils.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/unhead/dist/plugins.mjs';
+import 'file:///Users/davidlarsen/Downloads/tylernhoward.github.io-develop/node_modules/vue-router/dist/vue-router.node.mjs';
+
 const _sfc_main$1 = /* @__PURE__ */ defineComponent({
   __name: "ProjectCard",
   __ssrInlineRender: true,
@@ -66,7 +84,7 @@ const _sfc_main = {
       }, null, _parent));
       _push(ssrRenderComponent(_component_ProjectCard, {
         title: "Zendesk Slackbot",
-        image: "/slackbot.jpg",
+        image: "/image-zendesk-slackbot.png",
         description: `Slack bot integration for managers to streamline 1-on-1 preparation with their team members. Pulls Zendesk ticket data, performance metrics, and team insights to help managers have more effective, data-driven conversations with their reports.`,
         "github-url": "https://github.com/dc-larsen/zendesk-slackbot",
         "explore-url": "https://github.com/dc-larsen/zendesk-slackbot"
@@ -88,7 +106,6 @@ _sfc_main.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/projects.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-export {
-  _sfc_main as default
-};
-//# sourceMappingURL=projects-DX7U8OV3.js.map
+
+export { _sfc_main as default };
+//# sourceMappingURL=projects-Bc-3AIuO.mjs.map

@@ -27,7 +27,7 @@
       <!-- Zendesk Slackbot -->
       <ProjectCard
         title="Zendesk Slackbot"
-        image="/slackbot.jpg"
+        image="/image-zendesk-slackbot.png"
         :description="`Slack bot integration for managers to streamline 1-on-1 preparation with their team members. Pulls Zendesk ticket data, performance metrics, and team insights to help managers have more effective, data-driven conversations with their reports.`"
         github-url="https://github.com/dc-larsen/zendesk-slackbot"
         explore-url="https://github.com/dc-larsen/zendesk-slackbot"
