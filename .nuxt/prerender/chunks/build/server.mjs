@@ -398,12 +398,17 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import('./blog-CXLoM_KV.mjs'),
+    component: () => import('./blog-CtoiIfLY.mjs'),
     children: [
       {
         name: "blog-slug",
         path: ":slug()",
-        component: () => import('./_slug_-ScEqbwo0.mjs')
+        component: () => import('./_slug_-Cn27eYkb.mjs')
+      },
+      {
+        name: "blog-thoughts-on-leadership",
+        path: "thoughts-on-leadership",
+        component: () => import('./thoughts-on-leadership-DD5-shSY.mjs')
       }
     ]
   },

@@ -379,12 +379,17 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import("./_nuxt/blog-CXLoM_KV.js"),
+    component: () => import("./_nuxt/blog-CtoiIfLY.js"),
     children: [
       {
         name: "blog-slug",
         path: ":slug()",
-        component: () => import("./_nuxt/_slug_-ScEqbwo0.js")
+        component: () => import("./_nuxt/_slug_-Cn27eYkb.js")
+      },
+      {
+        name: "blog-thoughts-on-leadership",
+        path: "thoughts-on-leadership",
+        component: () => import("./_nuxt/thoughts-on-leadership-DD5-shSY.js")
       }
     ]
   },

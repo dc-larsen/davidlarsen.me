@@ -1,29 +1,21 @@
 {
-  "_BaflsbvQ.js": {
+  "_Cpl-oMgA.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BaflsbvQ.js",
-    "name": "blogPosts"
-  },
-  "_BbkxFouj.js": {
-    "resourceType": "script",
-    "module": true,
-    "prefetch": true,
-    "preload": true,
-    "file": "BbkxFouj.js",
+    "file": "Cpl-oMgA.js",
     "name": "v3",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_Du9USHdm.js": {
+  "_DOnICjvF.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Du9USHdm.js",
+    "file": "DOnICjvF.js",
     "name": "nuxt-link",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -34,12 +26,12 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "OC1q_Emc.js",
+    "file": "D4hM0I-O.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Du9USHdm.js",
+      "_DOnICjvF.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -48,14 +40,14 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CCny860o.js",
+    "file": "CYXX8Eym.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Du9USHdm.js",
+      "_DOnICjvF.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_BbkxFouj.js"
+      "_Cpl-oMgA.js"
     ],
     "css": []
   },
@@ -70,13 +62,13 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "D3e4MuSM.js",
+    "file": "Bl5QQcSP.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_BbkxFouj.js"
+      "_Cpl-oMgA.js"
     ],
     "css": []
   },
@@ -91,7 +83,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Dk5iUiiY.js",
+    "file": "CFXdjX-3.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -107,12 +99,12 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CpvYHS8P.js",
+    "file": "DbpaJmpp.js",
     "name": "about",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BbkxFouj.js",
+      "_Cpl-oMgA.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -121,15 +113,14 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CMkJ-g_T.js",
+    "file": "DqvMTAG8.js",
     "name": "blog",
     "src": "pages/blog.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Du9USHdm.js",
+      "_DOnICjvF.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_BaflsbvQ.js",
-      "_BbkxFouj.js"
+      "_Cpl-oMgA.js"
     ],
     "css": [
       "blog.DE62QbD_.css"
@@ -146,36 +137,66 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DdYiJ7Fj.js",
+    "file": "TCI8M5PP.js",
     "name": "_slug_",
     "src": "pages/blog/[slug].vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Du9USHdm.js",
-      "_BaflsbvQ.js",
+      "_DOnICjvF.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_BbkxFouj.js"
+      "_Cpl-oMgA.js"
     ],
     "css": []
   },
-  "_slug_.CLHv4iY4.css": {
-    "file": "_slug_.CLHv4iY4.css",
+  "_slug_.DAzz-fwM.css": {
+    "file": "_slug_.DAzz-fwM.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
+  },
+  "pages/blog/thoughts-on-leadership.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "DezMd963.js",
+    "name": "thoughts-on-leadership",
+    "src": "pages/blog/thoughts-on-leadership.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_DOnICjvF.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_Cpl-oMgA.js"
+    ],
+    "css": [],
+    "assets": [
+      "support-playbooks.drD_i0pX.png"
+    ]
+  },
+  "thoughts-on-leadership.CX0g5ro3.css": {
+    "file": "thoughts-on-leadership.CX0g5ro3.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "support-playbooks.drD_i0pX.png": {
+    "file": "support-playbooks.drD_i0pX.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
   },
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CIPD9C4U.js",
+    "file": "CUuoC2vo.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_BbkxFouj.js"
+      "_Cpl-oMgA.js"
     ],
     "css": [],
     "assets": [
@@ -206,13 +227,13 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "tiAMw3-R.js",
+    "file": "dFBOvar7.js",
     "name": "projects",
     "src": "pages/projects.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_BbkxFouj.js"
+      "_Cpl-oMgA.js"
     ]
   },
   "pro.png": {
@@ -221,6 +242,13 @@
     "mimeType": "image/png",
     "file": "pro.DZ6561Fe.png",
     "src": "pro.png"
+  },
+  "support-playbooks.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "support-playbooks.drD_i0pX.png",
+    "src": "support-playbooks.png"
   },
   "wow-icon-2.png": {
     "resourceType": "image",
