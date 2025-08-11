@@ -92,7 +92,7 @@ useHead({
   width: 1.35em;
   height: 1.35em;
   vertical-align: baseline;
-  transform: translateY(-3px);
+  transform: translateY(-1px);
   margin-right: 8px;
 }
 
