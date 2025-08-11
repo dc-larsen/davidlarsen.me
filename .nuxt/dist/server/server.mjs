@@ -377,6 +377,11 @@ async function getRouteRules(arg) {
 }
 const _routes = [
   {
+    name: "blog",
+    path: "/blog",
+    component: () => import("./_nuxt/blog-C8vZ84T6.js")
+  },
+  {
     name: "about",
     path: "/about",
     component: () => import("./_nuxt/about-Ch8VA8UT.js")
@@ -384,7 +389,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-CQIewxzd.js")
+    component: () => import("./_nuxt/index-B5UkwfQb.js")
   },
   {
     name: "projects",
@@ -790,7 +795,7 @@ const plugins = [
   prerender_server_sqIxOBipVr4FbVMA9kqWL0wT8FPop6sKAXLVfifsJzk
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import("./_nuxt/default-BZ0q9thC.js").then((m) => m.default || m))
+  default: defineAsyncComponent(() => import("./_nuxt/default-B2dDDcbu.js").then((m) => m.default || m))
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",

@@ -12,7 +12,8 @@ type HydrationStrategies = {
 }
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 interface _GlobalComponents {
-      'NavBar': typeof import("../components/NavBar.vue")['default']
+      'BlogCard': typeof import("../components/BlogCard.vue")['default']
+    'NavBar': typeof import("../components/NavBar.vue")['default']
     'ProjectCard': typeof import("../components/ProjectCard.vue")['default']
     'TerminalWindow': typeof import("../components/TerminalWindow.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
@@ -39,7 +40,8 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
-      'LazyNavBar': LazyComponent<typeof import("../components/NavBar.vue")['default']>
+      'LazyBlogCard': LazyComponent<typeof import("../components/BlogCard.vue")['default']>
+    'LazyNavBar': LazyComponent<typeof import("../components/NavBar.vue")['default']>
     'LazyProjectCard': LazyComponent<typeof import("../components/ProjectCard.vue")['default']>
     'LazyTerminalWindow': LazyComponent<typeof import("../components/TerminalWindow.vue")['default']>
     'LazyNuxtWelcome': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
@@ -72,6 +74,7 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const BlogCard: typeof import("../components/BlogCard.vue")['default']
 export const NavBar: typeof import("../components/NavBar.vue")['default']
 export const ProjectCard: typeof import("../components/ProjectCard.vue")['default']
 export const TerminalWindow: typeof import("../components/TerminalWindow.vue")['default']
@@ -99,6 +102,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
+export const LazyBlogCard: LazyComponent<typeof import("../components/BlogCard.vue")['default']>
 export const LazyNavBar: LazyComponent<typeof import("../components/NavBar.vue")['default']>
 export const LazyProjectCard: LazyComponent<typeof import("../components/ProjectCard.vue")['default']>
 export const LazyTerminalWindow: LazyComponent<typeof import("../components/TerminalWindow.vue")['default']>
