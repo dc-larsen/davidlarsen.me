@@ -1,0 +1,472 @@
+import { _ as __nuxt_component_0 } from './nuxt-link-CySUTwVK.mjs';
+import { ref, computed, mergeProps, unref, withCtx, createTextVNode, createBlock, openBlock, createVNode, useSSRContext } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/vue/index.mjs';
+import { ssrRenderAttrs, ssrRenderAttr, ssrInterpolate, ssrRenderList, ssrRenderComponent, ssrRenderClass } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/vue/server-renderer/index.mjs';
+import { _ as _export_sfc } from './server.mjs';
+import { u as useHead } from './v3-BK_8c_dM.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/ufo/dist/index.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/ofetch/dist/node.mjs';
+import '../_/renderer.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/h3/dist/index.mjs';
+import '../nitro/nitro.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/destr/dist/index.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/hookable/dist/index.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/node-mock-http/dist/index.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/unstorage/dist/index.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/unstorage/drivers/lru-cache.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/nitropack/node_modules/ohash/dist/index.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/klona/dist/index.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/defu/dist/defu.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/scule/dist/index.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/unctx/dist/index.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/radix3/dist/index.mjs';
+import 'node:fs';
+import 'node:url';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/pathe/dist/index.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/unhead/dist/server.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/devalue/index.js';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/unhead/dist/utils.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/unhead/dist/plugins.mjs';
+import 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/vue-router/dist/vue-router.node.mjs';
+
+const _sfc_main$1 = {
+  __name: "BlogCard",
+  __ssrInlineRender: true,
+  props: {
+    post: {
+      type: Object,
+      required: true
+    }
+  },
+  setup(__props) {
+    const formatDate = (dateString) => {
+      const date = new Date(dateString);
+      return date.toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      });
+    };
+    return (_ctx, _push, _parent, _attrs) => {
+      const _component_NuxtLink = __nuxt_component_0;
+      _push(`<article${ssrRenderAttrs(mergeProps({ class: "bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden group" }, _attrs))} data-v-e32211e5><div class="relative h-48 sm:h-64 overflow-hidden" data-v-e32211e5><img${ssrRenderAttr("src", __props.post.image)}${ssrRenderAttr("alt", __props.post.title)} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-v-e32211e5><div class="absolute top-4 left-4" data-v-e32211e5><span class="bg-secondary text-white px-3 py-1 rounded-full text-sm font-medium" data-v-e32211e5>${ssrInterpolate(__props.post.category)}</span></div></div><div class="p-6" data-v-e32211e5><div class="flex items-center text-sm text-gray-500 mb-3" data-v-e32211e5><time${ssrRenderAttr("datetime", __props.post.date)} data-v-e32211e5>${ssrInterpolate(formatDate(__props.post.date))}</time><span class="mx-2" data-v-e32211e5>\u2022</span><span data-v-e32211e5>${ssrInterpolate(__props.post.readTime)} min read</span></div><h3 class="text-xl font-bold text-primary mb-3 line-clamp-2 group-hover:text-secondary transition-colors duration-200" data-v-e32211e5>${ssrInterpolate(__props.post.title)}</h3><p class="text-gray-600 mb-4 line-clamp-3" data-v-e32211e5>${ssrInterpolate(__props.post.excerpt)}</p>`);
+      if (__props.post.tags && __props.post.tags.length) {
+        _push(`<div class="flex flex-wrap gap-2 mb-4" data-v-e32211e5><!--[-->`);
+        ssrRenderList(__props.post.tags, (tag) => {
+          _push(`<span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs font-medium" data-v-e32211e5> #${ssrInterpolate(tag)}</span>`);
+        });
+        _push(`<!--]--></div>`);
+      } else {
+        _push(`<!---->`);
+      }
+      _push(`<div class="flex items-center justify-between" data-v-e32211e5>`);
+      if (__props.post.content) {
+        _push(ssrRenderComponent(_component_NuxtLink, {
+          to: `/blog/${__props.post.slug}`,
+          class: "inline-flex items-center text-secondary hover:text-primary font-medium transition-colors duration-200"
+        }, {
+          default: withCtx((_, _push2, _parent2, _scopeId) => {
+            if (_push2) {
+              _push2(` Read More <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-v-e32211e5${_scopeId}><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" data-v-e32211e5${_scopeId}></path></svg>`);
+            } else {
+              return [
+                createTextVNode(" Read More "),
+                (openBlock(), createBlock("svg", {
+                  class: "w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200",
+                  fill: "none",
+                  stroke: "currentColor",
+                  viewBox: "0 0 24 24"
+                }, [
+                  createVNode("path", {
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "stroke-width": "2",
+                    d: "M9 5l7 7-7 7"
+                  })
+                ]))
+              ];
+            }
+          }),
+          _: 1
+        }, _parent));
+      } else {
+        _push(`<div class="inline-flex items-center text-secondary hover:text-primary font-medium transition-colors duration-200 cursor-pointer" data-v-e32211e5> Coming Soon <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-v-e32211e5><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" data-v-e32211e5></path></svg></div>`);
+      }
+      if (__props.post.author) {
+        _push(`<div class="text-sm text-gray-500" data-v-e32211e5> by ${ssrInterpolate(__props.post.author)}</div>`);
+      } else {
+        _push(`<!---->`);
+      }
+      _push(`</div></div></article>`);
+    };
+  }
+};
+const _sfc_setup$1 = _sfc_main$1.setup;
+_sfc_main$1.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/BlogCard.vue");
+  return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
+};
+const __nuxt_component_1 = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-e32211e5"]]);
+const blogPosts = [
+  {
+    id: 1,
+    title: "Thoughts on leadership",
+    slug: "thoughts-on-leadership",
+    excerpt: "Short version: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.",
+    content: `
+      <blockquote>
+        <p><strong>Author:</strong> David Larsen<br>
+        <strong>Published:</strong> August 11, 2025<br>
+        <strong>Last updated:</strong> August 11, 2025<br>
+        <strong>Reading time:</strong> ~8 minutes</p>
+      </blockquote>
+      
+      <p><strong>Short version:</strong> I try to make good work easier. Set the intent, raise the floor, and get out of the way.</p>
+      
+      <p>Two things shaped how I lead: David Marquet's <em>Turn the Ship Around!</em> and my time in support engineering at Contrast Security. The book pushed me toward leader-leader thinking. Contrast gave me the reps to put it into practice when things were moving fast.</p>
+      
+      <h2>Table of contents</h2>
+      <ul>
+        <li><a href="#intent-over-permission">Intent over permission</a></li>
+        <li><a href="#principles-at-a-glance">Principles at a glance</a></li>
+        <li><a href="#walkthrough-moving-support-into-qbrs-at-contrast">Walkthrough: moving support into QBRs at Contrast</a></li>
+        <li><a href="#language-dos-and-donts">Language do's and don'ts</a></li>
+        <li><a href="#post-mortems-that-change-something">Post-mortems that change something</a></li>
+        <li><a href="#building-on-strengths-at-synapse">Building on strengths at Synapse</a></li>
+        <li><a href="#try-it-yourself">Try it yourself</a></li>
+        <li><a href="#next-steps">Next steps</a></li>
+      </ul>
+      
+      <h2 id="intent-over-permission">Intent over permission</h2>
+      <p>Leader-leader sounds abstract until you change the language. The quickest unlock I have seen is swapping "Can I\u2026?" for "I intend to\u2026". It forces clear thinking. What is the goal. What is the risk. Where are the guardrails. How do we roll back. When intent statements show up every day, the team stops waiting around. My job becomes coach and unblocker.</p>
+      
+      <h2 id="principles-at-a-glance">Principles at a glance</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Principle</th>
+            <th>What it looks like</th>
+            <th>Why it works</th>
+            <th>How to try it</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Push control to where the info lives</td>
+            <td>Decisions made by the person closest to the work</td>
+            <td>Faster, fewer translation losses</td>
+            <td>Replace approvals with "I intend to\u2026" plus risk and rollback</td>
+          </tr>
+          <tr>
+            <td>Clarity over control</td>
+            <td>Clear why, constraints, and definition of done</td>
+            <td>People pick better how when the why is visible</td>
+            <td>Publish simple briefs and visible checklists</td>
+          </tr>
+          <tr>
+            <td>Certify, not brief</td>
+            <td>Pairing, dry runs, and explicit sign-off before solo ownership</td>
+            <td>Reduces guesswork under pressure</td>
+            <td>Add a two-run rule before someone flies solo</td>
+          </tr>
+          <tr>
+            <td>Short feedback loops</td>
+            <td>Post-mortems within 24 hours and visible actions</td>
+            <td>Learning compounds, drift shrinks</td>
+            <td>Put one doc change and one mechanism change on every Sev1 or Sev2</td>
+          </tr>
+          <tr>
+            <td>Mechanisms, not memos</td>
+            <td>Fields, runbooks, automations</td>
+            <td>Behaviors stick when encoded</td>
+            <td>Add the field, add the step, wire the alert</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2 id="walkthrough-moving-support-into-qbrs-at-contrast">Walkthrough: moving support into QBRs at Contrast</h2>
+      <p>This was not an outage story. It was a growth push. Our department set an aggressive goal to run more QBRs. I was on the support team and had just taken over corporate accounts.</p>
+      
+      <ol>
+        <li><p><strong>State intent</strong><br>
+        I told my manager: <em>I intend to have support participate in this initiative with corporate accounts.</em> Clear scope and a clear why.</p></li>
+        
+        <li><p><strong>Share a lightweight template</strong><br>
+        I brought a QBR outline tuned for our customers: a few support metrics tied to value moments, top friction points, and a short roadmap of fixes with owners and dates.</p></li>
+        
+        <li><p><strong>Run the first rep fast</strong><br>
+        We booked the first customer that same week. Short deck. Most of the time spent on actions.</p></li>
+        
+        <li><p><strong>Feed findings back into the system</strong><br>
+        Items flowed to product, docs, and support runbooks. Nothing lived only in slides.</p></li>
+        
+        <li><p><strong>Scale what worked</strong><br>
+        Over the next couple of weeks, support ran QBRs with about half a dozen customers. The win was the role shift. Support showed up as an account partner with real inputs and follow-through.</p></li>
+      </ol>
+      
+      <h2 id="language-dos-and-donts">Language do's and don'ts</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Do</th>
+            <th>Do Not</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>"I intend to rotate keys for tenant X to close gap Y. Risk is session churn. Rollback is flag off within two minutes."</td>
+            <td>"Should I rotate keys?"</td>
+          </tr>
+          <tr>
+            <td>"Ship the fix behind a feature flag so that we can validate with customer A before broad release."</td>
+            <td>"We will ship soon."</td>
+          </tr>
+          <tr>
+            <td>"Decision: option B because lower blast radius. We will revisit if error rate exceeds 2%."</td>
+            <td>"We picked B."</td>
+          </tr>
+          <tr>
+            <td>"By Friday, outcome is a 20% drop in repeat tickets on topic Z."</td>
+            <td>"We will improve Z."</td>
+          </tr>
+          <tr>
+            <td>"Post-mortem action: add runbook step 3 and automate alerting."</td>
+            <td>"We will be more careful."</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2 id="post-mortems-that-change-something">Post-mortems that change something</h2>
+      <p>I prefer post-mortem over after-action review. The rule is simple. If nothing changes, we did not learn. Each post-mortem closes with one process change, one doc update, and one automation or alert. We also keep a slim decision log so context does not evaporate when people rotate.</p>
+      
+      <p><strong>Post-mortem starter (copy and adapt):</strong></p>
+      <blockquote>
+        <p>This appears to be where your content was cut off. Would you like me to add the rest of the blog post content here?</p>
+      </blockquote>
+    `,
+    image: "/support-playbooks.png",
+    category: "Leadership",
+    tags: ["leadership", "management", "team-culture", "engineering"],
+    date: "2025-08-11",
+    lastUpdated: "2025-08-11",
+    readTime: 8,
+    author: "David Larsen"
+  },
+  {
+    id: 2,
+    title: "Building High-Performance Support Teams in 2025",
+    slug: "building-high-performance-support-teams-2025",
+    excerpt: "Learn the key strategies for scaling customer support teams while maintaining quality and team satisfaction. From hiring practices to performance metrics, discover what works.",
+    content: "",
+    image: "/zendesk-slackbot.png",
+    category: "Leadership",
+    tags: ["team-building", "support", "leadership", "scaling"],
+    date: "2025-01-15",
+    readTime: 8,
+    author: "David Larsen"
+  },
+  {
+    id: 3,
+    title: "The Art of Technical Troubleshooting: A Support Leader's Guide",
+    slug: "art-of-technical-troubleshooting-guide",
+    excerpt: "Debugging complex technical issues requires more than just technical knowledge. Here's how to build systematic approaches that work every time.",
+    content: "",
+    image: "/customer-success.png",
+    category: "Technical",
+    tags: ["troubleshooting", "technical-support", "processes", "debugging"],
+    date: "2024-12-20",
+    readTime: 12,
+    author: "David Larsen"
+  },
+  {
+    id: 4,
+    title: "Customer Success Metrics That Actually Matter",
+    slug: "customer-success-metrics-that-matter",
+    excerpt: "Move beyond vanity metrics to track what really drives customer satisfaction and business growth. A deep dive into meaningful KPIs.",
+    content: "",
+    image: "/markdowner.png",
+    category: "Strategy",
+    tags: ["metrics", "customer-success", "kpis", "analytics"],
+    date: "2024-12-10",
+    readTime: 6,
+    author: "David Larsen"
+  },
+  {
+    id: 5,
+    title: "Automation vs. Human Touch: Finding the Right Balance",
+    slug: "automation-vs-human-touch-balance",
+    excerpt: "When should you automate customer support processes, and when is the human touch irreplaceable? Learn to make these critical decisions.",
+    content: "",
+    image: "/pro.png",
+    category: "Technology",
+    tags: ["automation", "ai", "customer-experience", "process-improvement"],
+    date: "2024-11-25",
+    readTime: 10,
+    author: "David Larsen"
+  },
+  {
+    id: 6,
+    title: "Remote Team Leadership: Lessons from Baltimore",
+    slug: "remote-team-leadership-lessons",
+    excerpt: "Managing distributed support teams requires different skills. Here are the strategies that work for building culture and maintaining performance remotely.",
+    content: "",
+    image: "/threeo.jpg",
+    category: "Leadership",
+    tags: ["remote-work", "team-culture", "management", "distributed-teams"],
+    date: "2024-11-10",
+    readTime: 7,
+    author: "David Larsen"
+  },
+  {
+    id: 7,
+    title: "API Documentation: A Support Team's Secret Weapon",
+    slug: "api-documentation-support-secret-weapon",
+    excerpt: "Great API docs don't just help developers\u2014they empower support teams to solve complex technical issues faster. Here's how to leverage them.",
+    content: "",
+    image: "/threeo.jpg",
+    category: "Technical",
+    tags: ["api", "documentation", "technical-support", "developer-tools"],
+    date: "2024-10-28",
+    readTime: 9,
+    author: "David Larsen"
+  }
+];
+const _sfc_main = {
+  __name: "blog",
+  __ssrInlineRender: true,
+  setup(__props) {
+    useHead({
+      title: "Blog",
+      meta: [
+        {
+          name: "description",
+          content: "David Larsen's blog on customer support, team leadership, technology, and professional insights from Baltimore."
+        }
+      ]
+    });
+    const blogPosts$1 = ref(blogPosts);
+    const selectedCategory = ref("All");
+    const searchQuery = ref("");
+    const sortedPosts = computed(() => {
+      return [...blogPosts$1.value].sort((a, b) => new Date(b.date) - new Date(a.date));
+    });
+    const featuredPost = computed(() => {
+      return sortedPosts.value[0] || null;
+    });
+    const categories = computed(() => {
+      const cats = ["All", ...new Set(blogPosts$1.value.map((post) => post.category))];
+      return cats;
+    });
+    const filteredPosts = computed(() => {
+      let posts = sortedPosts.value.slice(1);
+      if (selectedCategory.value !== "All") {
+        posts = posts.filter((post) => post.category === selectedCategory.value);
+      }
+      if (searchQuery.value) {
+        const query = searchQuery.value.toLowerCase();
+        posts = posts.filter(
+          (post) => post.title.toLowerCase().includes(query) || post.excerpt.toLowerCase().includes(query) || post.tags.some((tag) => tag.toLowerCase().includes(query))
+        );
+      }
+      return posts;
+    });
+    const formatDate = (dateString) => {
+      const date = new Date(dateString);
+      return date.toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      });
+    };
+    return (_ctx, _push, _parent, _attrs) => {
+      const _component_NuxtLink = __nuxt_component_0;
+      const _component_BlogCard = __nuxt_component_1;
+      _push(`<div${ssrRenderAttrs(mergeProps({ class: "max-w-6xl mx-auto" }, _attrs))}><div class="text-center mb-12"><h1 class="text-4xl font-bold text-primary mb-4">Blog</h1><p class="text-xl text-gray-600 max-w-2xl mx-auto"> Thoughts on customer support, team leadership, technology, and everything in between. </p></div>`);
+      if (unref(featuredPost)) {
+        _push(`<div class="mb-16"><h2 class="text-2xl font-semibold text-primary mb-6">Featured Post</h2><div class="bg-white rounded-lg shadow-xl overflow-hidden"><div class="md:flex"><div class="md:w-1/2"><img${ssrRenderAttr("src", unref(featuredPost).image)}${ssrRenderAttr("alt", unref(featuredPost).title)} class="w-full h-64 md:h-full object-cover"></div><div class="md:w-1/2 p-8"><div class="flex items-center text-sm text-gray-500 mb-4"><span class="bg-secondary text-white px-3 py-1 rounded-full text-xs font-medium mr-4">${ssrInterpolate(unref(featuredPost).category)}</span><time${ssrRenderAttr("datetime", unref(featuredPost).date)}>${ssrInterpolate(formatDate(unref(featuredPost).date))}</time><span class="mx-2">\u2022</span><span>${ssrInterpolate(unref(featuredPost).readTime)} min read</span></div><h3 class="text-2xl font-bold text-primary mb-4">${ssrInterpolate(unref(featuredPost).title)}</h3><p class="text-gray-600 mb-6">${ssrInterpolate(unref(featuredPost).excerpt)}</p>`);
+        if (unref(featuredPost).tags) {
+          _push(`<div class="flex flex-wrap gap-2 mb-6"><!--[-->`);
+          ssrRenderList(unref(featuredPost).tags, (tag) => {
+            _push(`<span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm"> #${ssrInterpolate(tag)}</span>`);
+          });
+          _push(`<!--]--></div>`);
+        } else {
+          _push(`<!---->`);
+        }
+        if (unref(featuredPost).content) {
+          _push(ssrRenderComponent(_component_NuxtLink, {
+            to: `/blog/${unref(featuredPost).slug}`,
+            class: "bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary/90 transition-colors duration-200 inline-flex items-center font-medium"
+          }, {
+            default: withCtx((_, _push2, _parent2, _scopeId) => {
+              if (_push2) {
+                _push2(` Read Full Article <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"${_scopeId}><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"${_scopeId}></path></svg>`);
+              } else {
+                return [
+                  createTextVNode(" Read Full Article "),
+                  (openBlock(), createBlock("svg", {
+                    class: "w-5 h-5 ml-2",
+                    fill: "none",
+                    stroke: "currentColor",
+                    viewBox: "0 0 24 24"
+                  }, [
+                    createVNode("path", {
+                      "stroke-linecap": "round",
+                      "stroke-linejoin": "round",
+                      "stroke-width": "2",
+                      d: "M9 5l7 7-7 7"
+                    })
+                  ]))
+                ];
+              }
+            }),
+            _: 1
+          }, _parent));
+        } else {
+          _push(`<div class="bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary/90 transition-colors duration-200 inline-flex items-center font-medium cursor-pointer"> Coming Soon <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></div>`);
+        }
+        _push(`</div></div></div></div>`);
+      } else {
+        _push(`<!---->`);
+      }
+      _push(`<div class="mb-8"><div class="flex flex-col sm:flex-row gap-4 items-center justify-between"><div class="flex flex-wrap gap-2"><!--[-->`);
+      ssrRenderList(unref(categories), (category) => {
+        _push(`<button class="${ssrRenderClass([
+          "px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200",
+          unref(selectedCategory) === category ? "bg-secondary text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+        ])}">${ssrInterpolate(category)}</button>`);
+      });
+      _push(`<!--]--></div><div class="relative"><input${ssrRenderAttr("value", unref(searchQuery))} type="text" placeholder="Search posts..." class="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent"><svg class="absolute left-3 top-2.5 h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></div></div></div><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12"><!--[-->`);
+      ssrRenderList(unref(filteredPosts), (post) => {
+        _push(ssrRenderComponent(_component_BlogCard, {
+          key: post.id,
+          post
+        }, null, _parent));
+      });
+      _push(`<!--]--></div>`);
+      if (unref(filteredPosts).length === 0) {
+        _push(`<div class="text-center py-12"><div class="text-gray-400 mb-4"><svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg></div><h3 class="text-xl font-medium text-gray-600 mb-2">No posts found</h3><p class="text-gray-500">Try adjusting your search or filter criteria.</p></div>`);
+      } else {
+        _push(`<!---->`);
+      }
+      if (unref(filteredPosts).length > 0) {
+        _push(`<div class="text-center"><button class="bg-gray-100 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors duration-200 font-medium"> Load More Posts </button></div>`);
+      } else {
+        _push(`<!---->`);
+      }
+      _push(`</div>`);
+    };
+  }
+};
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/blog.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+
+export { _sfc_main as default };
+//# sourceMappingURL=blog-CtoiIfLY.mjs.map

@@ -1,9 +1,9 @@
 const interopDefault = r => r.default || r || []
 export default {
-  "node_modules/nuxt/dist/app/entry.js": () => import('./_nuxt/entry-styles.BPw5kTns.mjs').then(interopDefault),
-  "pages/blog/[slug].vue": () => import('./_nuxt/_slug_-styles.BcQvg6NL.mjs').then(interopDefault),
+  "node_modules/nuxt/dist/app/entry.js": () => import('./_nuxt/entry-styles.D4HakE-O.mjs').then(interopDefault),
+  "pages/blog/[slug].vue": () => import('./_nuxt/_slug_-styles.DGRs26u4.mjs').then(interopDefault),
   "pages/index.vue": () => import('./_nuxt/index-styles.bR9VHmtZ.mjs').then(interopDefault),
-  "pages/blog/[slug].vue?vue&type=style&index=0&scoped=c1397a09&lang.css": () => import('./_nuxt/_slug_-styles.BYv-7eMB.mjs').then(interopDefault),
+  "pages/blog/[slug].vue?vue&type=style&index=0&scoped=7df31d76&lang.css": () => import('./_nuxt/_slug_-styles.2Ua5Yonp.mjs').then(interopDefault),
   "components/BlogCard.vue": () => import('./_nuxt/BlogCard-styles.CWKOi5nG.mjs').then(interopDefault),
   "pages/index.vue?vue&type=style&index=0&scoped=45257502&lang.css": () => import('./_nuxt/index-styles.chVEWuaS.mjs').then(interopDefault),
   "node_modules/nuxt/dist/app/components/error-404.vue": () => import('./_nuxt/error-404-styles.DYPeZSru.mjs').then(interopDefault),
