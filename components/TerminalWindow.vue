@@ -1,5 +1,5 @@
 <template>
-  <div class="mac-window w-full h-96 overflow-hidden">
+  <div class="mac-window w-full h-[32rem] overflow-hidden">
     <!-- Mac window title bar -->
     <div class="mac-window-bar">
       <div class="mac-circles">
