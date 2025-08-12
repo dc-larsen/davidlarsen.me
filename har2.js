@@ -1,0 +1,1 @@
+const a=()=>new Promise(o=>{chrome.storage.local.get("hiddenFobDomains",e=>{const s=e.hiddenFobDomains?e.hiddenFobDomains:[];o(s)})}),i=o=>{chrome.storage.local.set({hiddenFobDomains:o})};export{a as g,i as s};

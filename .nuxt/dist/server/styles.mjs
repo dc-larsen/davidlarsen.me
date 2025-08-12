@@ -1,9 +1,11 @@
 const interopDefault = r => r.default || r || []
 export default {
   "node_modules/nuxt/dist/app/entry.js": () => import('./_nuxt/entry-styles.CJzcKGf0.mjs').then(interopDefault),
-  "pages/blog/thoughts-on-leadership.vue": () => import('./_nuxt/thoughts-on-leadership-styles.Ms5ZrpN3.mjs').then(interopDefault),
   "pages/index.vue": () => import('./_nuxt/index-styles.bR9VHmtZ.mjs').then(interopDefault),
+  "pages/blog/thoughts-on-leadership.vue": () => import('./_nuxt/thoughts-on-leadership-styles.Ms5ZrpN3.mjs').then(interopDefault),
+  "pages/thoughts-on-leadership.vue": () => import('./_nuxt/thoughts-on-leadership-styles.DcA6Ixq7.mjs').then(interopDefault),
   "pages/blog/thoughts-on-leadership.vue?vue&type=style&index=0&scoped=05316e3b&lang.css": () => import('./_nuxt/thoughts-on-leadership-styles.Dj0mpFQR.mjs').then(interopDefault),
+  "pages/thoughts-on-leadership.vue?vue&type=style&index=0&scoped=fb538ab2&lang.css": () => import('./_nuxt/thoughts-on-leadership-styles.DLiTTL0A.mjs').then(interopDefault),
   "node_modules/nuxt/dist/app/components/error-404.vue": () => import('./_nuxt/error-404-styles.DYPeZSru.mjs').then(interopDefault),
   "node_modules/nuxt/dist/app/components/error-500.vue": () => import('./_nuxt/error-500-styles.DH4SuYyS.mjs').then(interopDefault),
   "components/BlogCard.vue": () => import('./_nuxt/BlogCard-styles.CWKOi5nG.mjs').then(interopDefault),
