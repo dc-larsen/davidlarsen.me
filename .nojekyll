@@ -1,1 +1,12 @@
-Tue Aug 12 10:29:25 EDT 2025
+# .nojekyll - Disables Jekyll processing for GitHub Pages
+# 
+# IMPORTANT: This file prevents GitHub Pages from using Jekyll to process the site
+# Instead, it allows our custom GitHub Actions workflow to deploy Nuxt-generated static files
+# 
+# TROUBLESHOOTING:
+# - If assets return 404 errors, update this file's timestamp to force cache refresh
+# - Command to refresh: echo "$(date)" > .nojekyll
+# - This file must be present in the root directory and be committed to git
+# - Without this file, GitHub Pages may ignore _nuxt/ directory and other assets
+# 
+# Last updated: Tue Aug 12 10:29:25 EDT 2025
