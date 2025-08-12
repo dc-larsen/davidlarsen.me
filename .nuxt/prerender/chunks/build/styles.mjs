@@ -1,8 +1,8 @@
 const interopDefault = r => r.default || r || [];
 const styles = {
   "node_modules/nuxt/dist/app/entry.js": () => import('./entry-styles.CJzcKGf0.mjs').then(interopDefault),
-  "pages/index.vue": () => import('./index-styles.bR9VHmtZ.mjs').then(interopDefault),
   "pages/blog/thoughts-on-leadership.vue": () => import('./thoughts-on-leadership-styles.Ms5ZrpN3.mjs').then(interopDefault),
+  "pages/index.vue": () => import('./index-styles.bR9VHmtZ.mjs').then(interopDefault),
   "pages/thoughts-on-leadership.vue": () => import('./thoughts-on-leadership-styles.DcA6Ixq7.mjs').then(interopDefault),
   "pages/blog/thoughts-on-leadership.vue?vue&type=style&index=0&scoped=05316e3b&lang.css": () => import('./thoughts-on-leadership-styles.Dj0mpFQR.mjs').then(interopDefault),
   "pages/thoughts-on-leadership.vue?vue&type=style&index=0&scoped=fb538ab2&lang.css": () => import('./thoughts-on-leadership-styles.DLiTTL0A.mjs').then(interopDefault),

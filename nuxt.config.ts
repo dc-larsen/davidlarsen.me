@@ -15,6 +15,9 @@ export default defineNuxtConfig({
         { name: 'twitter:site', content: '@davidlarsen' },
       ],
       link: [
+        // Favicon configuration - ensure favicon.ico exists in /public directory
+        // The ?v=3 query parameter forces browser cache refresh when favicon changes
+        // Both 'icon' and 'shortcut icon' are included for broader browser compatibility
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=3' },
         { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico?v=3' },
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css', integrity: 'sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==', crossorigin: 'anonymous' }
