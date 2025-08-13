@@ -399,7 +399,7 @@ const _routes = [
   {
     name: "blog-thoughts-on-leadership",
     path: "/blog/thoughts-on-leadership",
-    component: () => import("./_nuxt/thoughts-on-leadership-CVINLgeW.js")
+    component: () => import("./_nuxt/thoughts-on-leadership-BHSGsGpu.js")
   },
   {
     name: "blog-zendesk-slack-cheat-sheet",

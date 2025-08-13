@@ -418,7 +418,7 @@ const _routes = [
   {
     name: "blog-thoughts-on-leadership",
     path: "/blog/thoughts-on-leadership",
-    component: () => import('./thoughts-on-leadership-CVINLgeW.mjs')
+    component: () => import('./thoughts-on-leadership-BHSGsGpu.mjs')
   },
   {
     name: "blog-zendesk-slack-cheat-sheet",

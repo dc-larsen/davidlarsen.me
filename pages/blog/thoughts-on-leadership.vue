@@ -58,14 +58,7 @@
 
     <!-- Content -->
     <div class="prose prose-lg max-w-none mb-12">
-      <blockquote>
-        <p><strong>Author:</strong> David Larsen<br>
-        <strong>Published:</strong> August 11, 2025<br>
-        <strong>Last updated:</strong> August 11, 2025<br>
-        <strong>Reading time:</strong> ~8 minutes</p>
-      </blockquote>
-      
-      <p><strong>Short version:</strong> I try to make good work easier. Set the intent, raise the floor, and get out of the way.</p>
+      <p><strong>TLDR:</strong> I try to make good work easier. Set the intent, raise the floor, and get out of the way.</p>
       
       <p>Two things shaped how I lead: David Marquet's <em>Turn the Ship Around!</em> and my time in support engineering at Contrast Security. The book pushed me toward leader-leader thinking. Contrast gave me the reps to put it into practice when things were moving fast.</p>
       
@@ -223,6 +216,9 @@
       <p>Leadership isn't about having all the answers. It's about creating environments where good answers emerge quickly and safely. The goal isn't to eliminate all mistakes - it's to make them cheap and educational.</p>
       
       <p>What's one place in your team where you could replace "Can I?" with "I intend to?" Start there.</p>
+      
+      <h2>Resources</h2>
+      <p>For more practical leadership templates and frameworks, check out my <a href="https://github.com/dc-larsen/support-playbooks/tree/main/people-management" target="_blank" rel="noopener noreferrer">People Management playbook on GitHub</a>.</p>
     </div>
 
     <!-- Footer Navigation -->
@@ -244,14 +240,14 @@
 useHead({
   title: 'Thoughts on leadership',
   meta: [
-    { name: 'description', content: 'Short version: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.' },
+    { name: 'description', content: 'TLDR: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.' },
     { property: 'og:title', content: 'Thoughts on leadership' },
-    { property: 'og:description', content: 'Short version: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.' },
+    { property: 'og:description', content: 'TLDR: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.' },
     { property: 'og:image', content: '/support-playbooks.png' },
     { property: 'og:type', content: 'article' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Thoughts on leadership' },
-    { name: 'twitter:description', content: 'Short version: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.' }
+    { name: 'twitter:description', content: 'TLDR: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.' }
   ]
 })
 </script>

@@ -1,1 +1,0 @@
-import{A as s,B as a,C as r,s as u,D as o}from"./BxEdyRLx.js";function i(e){const t=e||a();return t?.ssrContext?.head||t?.runWithContext(()=>{if(r())return u(o)})}function x(e,t={}){const n=i(t.nuxt);if(n)return s(e,{head:n,...t})}export{x as u};
