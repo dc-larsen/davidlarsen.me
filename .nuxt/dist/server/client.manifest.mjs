@@ -1,21 +1,48 @@
 export default {
-  "_BNSDBJcj.js": {
+  "_CEI8DVZQ.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BNSDBJcj.js",
+    "file": "CEI8DVZQ.js",
+    "name": "sample-slack-post",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "assets": [
+      "slackbot.BHOtE3VQ.png",
+      "sample-slack-post.DeYX-7yl.png"
+    ]
+  },
+  "slackbot.BHOtE3VQ.png": {
+    "file": "slackbot.BHOtE3VQ.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "sample-slack-post.DeYX-7yl.png": {
+    "file": "sample-slack-post.DeYX-7yl.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "_D9JVO1ft.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "D9JVO1ft.js",
     "name": "v3",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_BQW9cNQv.js": {
+  "_Zz1ybgMO.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BQW9cNQv.js",
+    "file": "Zz1ybgMO.js",
     "name": "nuxt-link",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -26,12 +53,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BTqeQRHu.js",
+    "file": "oLPJ68lv.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BQW9cNQv.js",
+      "_Zz1ybgMO.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -47,14 +74,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "jWtKsFn4.js",
+    "file": "Djq5jh9N.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BQW9cNQv.js",
+      "_Zz1ybgMO.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_BNSDBJcj.js"
+      "_D9JVO1ft.js"
     ],
     "css": []
   },
@@ -69,13 +96,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "TzniCpYb.js",
+    "file": "Cd5rT1Ec.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_BNSDBJcj.js"
+      "_D9JVO1ft.js"
     ],
     "css": []
   },
@@ -90,7 +117,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "jXufs4ps.js",
+    "file": "e7SC2euX.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -106,12 +133,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "C3oeRlSg.js",
+    "file": "B_3yW0ld.js",
     "name": "about",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BNSDBJcj.js",
+      "_D9JVO1ft.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -120,14 +147,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BdG__LHu.js",
+    "file": "7q162WmT.js",
     "name": "blog",
     "src": "pages/blog.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BQW9cNQv.js",
+      "_Zz1ybgMO.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_BNSDBJcj.js"
+      "_D9JVO1ft.js"
     ],
     "css": [
       "blog.DE62QbD_.css"
@@ -144,14 +171,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CP3x4RGv.js",
+    "file": "DsrvXBm7.js",
     "name": "thoughts-on-leadership",
     "src": "pages/blog/thoughts-on-leadership.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BQW9cNQv.js",
+      "_Zz1ybgMO.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_BNSDBJcj.js"
+      "_D9JVO1ft.js"
     ],
     "css": [],
     "assets": [
@@ -170,18 +197,41 @@ export default {
     "prefetch": true,
     "mimeType": "image/png"
   },
+  "pages/blog/zendesk-slack-cheat-sheet.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "BlSZTdif.js",
+    "name": "zendesk-slack-cheat-sheet",
+    "src": "pages/blog/zendesk-slack-cheat-sheet.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Zz1ybgMO.js",
+      "_CEI8DVZQ.js",
+      "_D9JVO1ft.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "css": []
+  },
+  "zendesk-slack-cheat-sheet.Cqx3YblM.css": {
+    "file": "zendesk-slack-cheat-sheet.Cqx3YblM.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DY0y-tDU.js",
+    "file": "299eTebS.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_BNSDBJcj.js"
+      "_D9JVO1ft.js"
     ],
     "css": [],
     "assets": [
@@ -212,13 +262,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "esmx2Hul.js",
+    "file": "DfH7Vh1n.js",
     "name": "projects",
     "src": "pages/projects.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_BNSDBJcj.js"
+      "_D9JVO1ft.js"
     ]
   },
   "pages/thoughts-on-leadership.vue": {
@@ -226,14 +276,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BpvWjmad.js",
+    "file": "VIOR9ZrM.js",
     "name": "thoughts-on-leadership",
     "src": "pages/thoughts-on-leadership.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BQW9cNQv.js",
+      "_Zz1ybgMO.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_BNSDBJcj.js"
+      "_D9JVO1ft.js"
     ],
     "css": [],
     "assets": [
@@ -252,12 +302,49 @@ export default {
     "prefetch": true,
     "mimeType": "image/png"
   },
+  "pages/zendesk-slack-cheat-sheet.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "CfQ0Grsr.js",
+    "name": "zendesk-slack-cheat-sheet",
+    "src": "pages/zendesk-slack-cheat-sheet.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Zz1ybgMO.js",
+      "_CEI8DVZQ.js",
+      "_D9JVO1ft.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "css": []
+  },
+  "zendesk-slack-cheat-sheet.DTf2FowG.css": {
+    "file": "zendesk-slack-cheat-sheet.DTf2FowG.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
   "pro.png": {
     "resourceType": "image",
     "prefetch": true,
     "mimeType": "image/png",
     "file": "pro.DZ6561Fe.png",
     "src": "pro.png"
+  },
+  "sample-slack-post.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "sample-slack-post.DeYX-7yl.png",
+    "src": "sample-slack-post.png"
+  },
+  "slackbot.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "slackbot.BHOtE3VQ.png",
+    "src": "slackbot.png"
   },
   "thoughts-on-leadership.png": {
     "resourceType": "image",

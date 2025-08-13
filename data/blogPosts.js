@@ -2,6 +2,57 @@
 export const blogPosts = [
   {
     id: 1,
+    title: 'One-on-one autopilot: the Zendesk → Slack cheat sheet',
+    slug: 'zendesk-slack-cheat-sheet',
+    excerpt: 'A lightweight bot that checks Google Calendar for upcoming 1:1s, pulls a focused Zendesk snapshot for the attendee, and posts a compact summary to Slack so managers arrive prepped without extra work.',
+    content: `
+      <p>I wanted a manager to be able to show up to every 1:1 with a clean cheat sheet and zero prep. The idea first hit when my manager was juggling about 15 direct reports and weekly 1:1s. I did not build the tool at that company and they never used it, but the pain point stuck with me. Later I coded a small bot to make the prep disappear: show up with a shared summary of recent work and a few discussion flags. No homework. Just signal.</p>
+      
+      <h2>What it does (by system)</h2>
+      
+      <h3>What happens in Google Calendar</h3>
+      <ul>
+        <li>GitHub Actions checks Google Calendar every 5 minutes for upcoming meetings with "1on1" in the title.</li>
+        <li>When it finds one starting soon, it grabs the attendee email that is not the organizer (the direct report) and the start time.</li>
+        <li>If the meeting is within the lead window (about 30 minutes), it triggers the next step.</li>
+      </ul>
+      
+      <h3>What happens in Zendesk</h3>
+      <ul>
+        <li>Using that attendee email, the bot looks up the matching Zendesk user.</li>
+        <li>It pulls a focused snapshot for the last 7 days (configurable): tickets handled and solved, positive CSAT count and ratio, reopens, SLA breaches, urgent or open items, on-hold items older than N days, and tickets older than N days.</li>
+        <li>It collects links for anything that needs attention so you can jump straight in.</li>
+      </ul>
+      
+      <h3>What happens in Slack</h3>
+      <ul>
+        <li>The bot formats the Zendesk snapshot into a compact, readable post: headline stats first, flags with links next, and a short "prompts for the 1:1" block.</li>
+        <li>It posts the summary to the designated Slack channel about 30 minutes before the meeting so both manager and rep see the same truth.</li>
+      </ul>
+      
+      <h2>Using it in your 1:1</h2>
+      <ol>
+        <li>Put "1on1" in your recurring meeting title and invite the rep's email that matches their Zendesk user.</li>
+        <li>About 30 minutes before the meeting, a summary lands in Slack with links and a few prompts.</li>
+        <li>Use the time for patterns, coaching, and decisions instead of screensharing dashboards.</li>
+      </ol>
+      
+      <h2>Sample Slack post</h2>
+      <p><img src="/sample-slack-post.png" alt="Sample Slack post" /></p>
+      
+      <h2>Setup and docs</h2>
+      <p>For installation, configuration, and environment variables, see the README:<br>
+      <a href="https://github.com/dc-larsen/zendesk-slackbot#readme" target="_blank" rel="noopener noreferrer">https://github.com/dc-larsen/zendesk-slackbot#readme</a></p>
+    `,
+    image: '/slackbot.png',
+    category: 'Technical',
+    tags: ['zendesk', 'slack', 'github-actions', 'google-calendar', 'service-accounts', '1:1s', 'cs-ops', 'automation', 'manager-tooling'],
+    date: '2025-08-13',
+    readTime: 7,
+    author: 'David Larsen'
+  },
+  {
+    id: 2,
     title: 'Thoughts on leadership',
     slug: 'thoughts-on-leadership',
     excerpt: 'TLDR: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.',
@@ -174,7 +225,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Building High-Performance Support Teams in 2025',
     slug: 'building-high-performance-support-teams-2025',
     excerpt: 'Learn the key strategies for scaling customer support teams while maintaining quality and team satisfaction. From hiring practices to performance metrics, discover what works.',
@@ -187,7 +238,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 3,
+    id: 4,
     title: 'The Art of Technical Troubleshooting: A Support Leader\'s Guide',
     slug: 'art-of-technical-troubleshooting-guide',
     excerpt: 'Debugging complex technical issues requires more than just technical knowledge. Here\'s how to build systematic approaches that work every time.',
@@ -200,7 +251,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Customer Success Metrics That Actually Matter',
     slug: 'customer-success-metrics-that-matter',
     excerpt: 'Move beyond vanity metrics to track what really drives customer satisfaction and business growth. A deep dive into meaningful KPIs.',
@@ -213,7 +264,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Automation vs. Human Touch: Finding the Right Balance',
     slug: 'automation-vs-human-touch-balance',
     excerpt: 'When should you automate customer support processes, and when is the human touch irreplaceable? Learn to make these critical decisions.',
@@ -226,7 +277,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 6,
+    id: 7,
     title: 'Remote Team Leadership: Lessons from Baltimore',
     slug: 'remote-team-leadership-lessons',
     excerpt: 'Managing distributed support teams requires different skills. Here are the strategies that work for building culture and maintaining performance remotely.',
@@ -239,7 +290,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 7,
+    id: 8,
     title: 'API Documentation: A Support Team\'s Secret Weapon',
     slug: 'api-documentation-support-secret-weapon',
     excerpt: 'Great API docs don\'t just help developers—they empower support teams to solve complex technical issues faster. Here\'s how to leverage them.',

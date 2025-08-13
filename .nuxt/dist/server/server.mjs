@@ -379,12 +379,17 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import("./_nuxt/blog-CrNG0wj0.js"),
+    component: () => import("./_nuxt/blog-D_FO0GU-.js"),
     children: [
       {
         name: "blog-thoughts-on-leadership",
         path: "thoughts-on-leadership",
         component: () => import("./_nuxt/thoughts-on-leadership-CVINLgeW.js")
+      },
+      {
+        name: "blog-zendesk-slack-cheat-sheet",
+        path: "zendesk-slack-cheat-sheet",
+        component: () => import("./_nuxt/zendesk-slack-cheat-sheet-COYNBzmq.js")
       }
     ]
   },
@@ -407,6 +412,11 @@ const _routes = [
     name: "thoughts-on-leadership",
     path: "/thoughts-on-leadership",
     component: () => import("./_nuxt/thoughts-on-leadership-DwQnlIQq.js")
+  },
+  {
+    name: "zendesk-slack-cheat-sheet",
+    path: "/zendesk-slack-cheat-sheet",
+    component: () => import("./_nuxt/zendesk-slack-cheat-sheet-BA06KrMK.js")
   }
 ];
 const _wrapInTransition = (props, children) => {

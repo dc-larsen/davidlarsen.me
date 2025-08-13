@@ -398,12 +398,17 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import('./blog-CrNG0wj0.mjs'),
+    component: () => import('./blog-D_FO0GU-.mjs'),
     children: [
       {
         name: "blog-thoughts-on-leadership",
         path: "thoughts-on-leadership",
         component: () => import('./thoughts-on-leadership-CVINLgeW.mjs')
+      },
+      {
+        name: "blog-zendesk-slack-cheat-sheet",
+        path: "zendesk-slack-cheat-sheet",
+        component: () => import('./zendesk-slack-cheat-sheet-COYNBzmq.mjs')
       }
     ]
   },
@@ -426,6 +431,11 @@ const _routes = [
     name: "thoughts-on-leadership",
     path: "/thoughts-on-leadership",
     component: () => import('./thoughts-on-leadership-DwQnlIQq.mjs')
+  },
+  {
+    name: "zendesk-slack-cheat-sheet",
+    path: "/zendesk-slack-cheat-sheet",
+    component: () => import('./zendesk-slack-cheat-sheet-BA06KrMK.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {
