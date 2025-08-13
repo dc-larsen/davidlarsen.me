@@ -53,6 +53,65 @@ export const blogPosts = [
   },
   {
     id: 2,
+    title: 'Why I keep going back to La Cuchara',
+    slug: 'la-cuchara-baltimore-review',
+    excerpt: 'Years in, La Cuchara still delivers: sit at the bar, share small plates, chase the rotating gin & tonics, and watch a tight team run like clockwork.',
+    content: `
+      <h1>Why I keep going back to La Cuchara</h1>
+      
+      <p><a href="https://www.lacucharabaltimore.com/" target="_blank" rel="noopener noreferrer">La Cuchara — lacucharabaltimore.com</a></p>
+      
+      <p>I've been going to La Cuchara for years, and it still feels fresh every time. The room hums, the plates move, and the bar is the best seat in the house.</p>
+      
+      <h2>The bar > a table</h2>
+      <p>I've done both, but the bar wins. You're in the flow with bartenders, runners, and that quiet choreography between service and kitchen. It is fun to watch a team that tight do their thing, and this place runs like a machine.</p>
+      
+      <h2>Menus that actually change</h2>
+      <p>They print menus daily, and the cooking is built around seasonality. You never have to ask what is eighty-sixed because the paper in your hand is the source of truth. It keeps regulars like me curious, and it gives the team room to cook what is good right now.</p>
+      
+      <h2>The rotating gin & tonics</h2>
+      <p>One of my favorite quirks: the bar often runs rotating gin and tonic builds, usually two at a time, and they swap often. I have gone back two weeks later and had totally different combos. It is an easy way to try something new without overthinking it.</p>
+      
+      <h2>Shared plates done right</h2>
+      <p>The menu keeps a few staples and then shifts around them. Most things are built to share, which is how I like to eat here. A couple of small plates, something from the wood fire, and a wild card from the day's list makes a great lineup. The whole concept leans Basque and wood-fired, which fits the style.</p>
+      
+      <h2>What I order most</h2>
+      <ul>
+        <li>Jamón croquettes</li>
+        <li>Boquerones</li>
+        <li>Spinach & Gruyère croquettes</li>
+        <li>Shrimp a la plantxa</li>
+      </ul>
+      
+      <h2>The staff and that "menu whisperer"</h2>
+      <p>Everyone you deal with is on it: host, servers, bartenders. There is also a person whose whole job is to talk through the menu at the bar, field questions, and steer you to the right dishes. Knowing prep methods, sourcing, and how things come together makes a difference. It is the kind of role you usually see in fine-dining rooms, and it adds real value to a casual night out.</p>
+      
+      <h2>Happy hour is a cheat code</h2>
+      <p>Prices are fair for the quality, but happy hour is where you can really sample widely. They run bar happy hours with drink specials and half-priced small plates. That lets you order a spread without guessing.</p>
+      
+      <h2>Logistics: easy to get to, easy to park</h2>
+      <p>It is in the Meadow Mill building in Woodberry. I rarely wait if I am smart about time, and I have always found parking in the lot next to the restaurant.</p>
+      
+      <h2>Quick tips if it is your first time</h2>
+      <ul>
+        <li>Sit at the bar if you can. That is the show.</li>
+        <li>Ask about the day's G&Ts.</li>
+        <li>Order for the table: two or three smalls, then share something from the grill.</li>
+        <li>If you like dessert, keep room. The pistachio ice cream I had recently was worth it.</li>
+      </ul>
+      
+      <h2>Why it stays in my rotation</h2>
+      <p>Consistent service. A menu that changes without losing its backbone. A bar program that nudges you to try new things. And a space that rewards regulars without getting precious about it. When I want a great meal and I am up for something new, this is where I land.</p>
+    `,
+    image: '/lacuchara.png',
+    category: 'Strategy',
+    tags: ['restaurant review', 'baltimore', 'la cuchara', 'shared plates', 'happy hour', 'gin and tonic', 'woodberry'],
+    date: '2025-08-13',
+    readTime: 5,
+    author: 'David Larsen'
+  },
+  {
+    id: 3,
     title: 'Thoughts on leadership',
     slug: 'thoughts-on-leadership',
     excerpt: 'TLDR: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.',
@@ -225,7 +284,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Building High-Performance Support Teams in 2025',
     slug: 'building-high-performance-support-teams-2025',
     excerpt: 'Learn the key strategies for scaling customer support teams while maintaining quality and team satisfaction. From hiring practices to performance metrics, discover what works.',
@@ -238,7 +297,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 4,
+    id: 5,
     title: 'The Art of Technical Troubleshooting: A Support Leader\'s Guide',
     slug: 'art-of-technical-troubleshooting-guide',
     excerpt: 'Debugging complex technical issues requires more than just technical knowledge. Here\'s how to build systematic approaches that work every time.',
@@ -251,7 +310,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Customer Success Metrics That Actually Matter',
     slug: 'customer-success-metrics-that-matter',
     excerpt: 'Move beyond vanity metrics to track what really drives customer satisfaction and business growth. A deep dive into meaningful KPIs.',
@@ -264,7 +323,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 6,
+    id: 7,
     title: 'Automation vs. Human Touch: Finding the Right Balance',
     slug: 'automation-vs-human-touch-balance',
     excerpt: 'When should you automate customer support processes, and when is the human touch irreplaceable? Learn to make these critical decisions.',
@@ -277,7 +336,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 7,
+    id: 8,
     title: 'Remote Team Leadership: Lessons from Baltimore',
     slug: 'remote-team-leadership-lessons',
     excerpt: 'Managing distributed support teams requires different skills. Here are the strategies that work for building culture and maintaining performance remotely.',
@@ -290,7 +349,7 @@ export const blogPosts = [
     author: 'David Larsen'
   },
   {
-    id: 8,
+    id: 9,
     title: 'API Documentation: A Support Team\'s Secret Weapon',
     slug: 'api-documentation-support-secret-weapon',
     excerpt: 'Great API docs don\'t just help developers—they empower support teams to solve complex technical issues faster. Here\'s how to leverage them.',

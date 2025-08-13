@@ -1,10 +1,10 @@
 export default {
-  "_BMDblHFw.js": {
+  "_CcVaqu0u.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BMDblHFw.js",
+    "file": "CcVaqu0u.js",
     "name": "sample-slack-post",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -26,39 +26,46 @@ export default {
     "prefetch": true,
     "mimeType": "image/png"
   },
-  "_CgJwLJAE.js": {
+  "_DhvEnoV4.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CgJwLJAE.js",
+    "file": "DhvEnoV4.js",
+    "name": "v3",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_DpG-8rt8.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "DpG-8rt8.js",
     "name": "nuxt-link",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_smNPXkES.js": {
-    "resourceType": "script",
-    "module": true,
+  "lacuchara.png": {
+    "resourceType": "image",
     "prefetch": true,
-    "preload": true,
-    "file": "smNPXkES.js",
-    "name": "v3",
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
-    ]
+    "mimeType": "image/png",
+    "file": "lacuchara.CWFr5H1C.png",
+    "src": "lacuchara.png"
   },
   "layouts/default.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BvLCf-UY.js",
+    "file": "DMnhYXiC.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CgJwLJAE.js",
+      "_DpG-8rt8.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -74,14 +81,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CxQGP_ej.js",
+    "file": "XD33-Zmd.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CgJwLJAE.js",
+      "_DpG-8rt8.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_smNPXkES.js"
+      "_DhvEnoV4.js"
     ],
     "css": []
   },
@@ -96,13 +103,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BRVNm8bx.js",
+    "file": "B0wfEket.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_smNPXkES.js"
+      "_DhvEnoV4.js"
     ],
     "css": []
   },
@@ -117,7 +124,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CZuiIG0H.js",
+    "file": "DzjmAXR7.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -133,12 +140,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B7Eueq6y.js",
+    "file": "PLtSXAnl.js",
     "name": "about",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_smNPXkES.js",
+      "_DhvEnoV4.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -147,14 +154,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CwpBNpf_.js",
+    "file": "BypP8mvI.js",
     "name": "blog",
     "src": "pages/blog.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CgJwLJAE.js",
+      "_DpG-8rt8.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_smNPXkES.js"
+      "_DhvEnoV4.js"
     ],
     "css": [
       "blog.DE62QbD_.css"
@@ -166,19 +173,50 @@ export default {
     "prefetch": true,
     "preload": true
   },
+  "pages/blog/la-cuchara-baltimore-review.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "B8JEIkk3.js",
+    "name": "la-cuchara-baltimore-review",
+    "src": "pages/blog/la-cuchara-baltimore-review.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_DhvEnoV4.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_DpG-8rt8.js"
+    ],
+    "css": [],
+    "assets": [
+      "lacuchara.CWFr5H1C.png"
+    ]
+  },
+  "la-cuchara-baltimore-review.CE9W6UU1.css": {
+    "file": "la-cuchara-baltimore-review.CE9W6UU1.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "lacuchara.CWFr5H1C.png": {
+    "file": "lacuchara.CWFr5H1C.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
   "pages/blog/thoughts-on-leadership.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CqOrlLcj.js",
+    "file": "CEy89-Cg.js",
     "name": "thoughts-on-leadership",
     "src": "pages/blog/thoughts-on-leadership.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CgJwLJAE.js",
+      "_DpG-8rt8.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_smNPXkES.js"
+      "_DhvEnoV4.js"
     ],
     "css": [],
     "assets": [
@@ -202,14 +240,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DrCSEgmk.js",
+    "file": "Cy7jC3C5.js",
     "name": "zendesk-slack-cheat-sheet",
     "src": "pages/blog/zendesk-slack-cheat-sheet.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CgJwLJAE.js",
-      "_BMDblHFw.js",
-      "_smNPXkES.js",
+      "_DpG-8rt8.js",
+      "_CcVaqu0u.js",
+      "_DhvEnoV4.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -225,13 +263,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BNUTUu0i.js",
+    "file": "CAWwQHPO.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_smNPXkES.js"
+      "_DhvEnoV4.js"
     ],
     "css": [],
     "assets": [
@@ -257,18 +295,31 @@ export default {
     "prefetch": true,
     "mimeType": "image/png"
   },
+  "pages/la-cuchara-baltimore-review.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "BGOChABt.js",
+    "name": "la-cuchara-baltimore-review",
+    "src": "pages/la-cuchara-baltimore-review.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
   "pages/projects.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BxvhhG2z.js",
+    "file": "Cci0yO44.js",
     "name": "projects",
     "src": "pages/projects.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_smNPXkES.js"
+      "_DhvEnoV4.js"
     ]
   },
   "pages/thoughts-on-leadership.vue": {
@@ -276,14 +327,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Cv5Y1ALK.js",
+    "file": "DLiTYLGS.js",
     "name": "thoughts-on-leadership",
     "src": "pages/thoughts-on-leadership.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CgJwLJAE.js",
+      "_DpG-8rt8.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_smNPXkES.js"
+      "_DhvEnoV4.js"
     ],
     "css": [],
     "assets": [
@@ -307,14 +358,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DKmf8njP.js",
+    "file": "D-RxQi7v.js",
     "name": "zendesk-slack-cheat-sheet",
     "src": "pages/zendesk-slack-cheat-sheet.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CgJwLJAE.js",
-      "_BMDblHFw.js",
-      "_smNPXkES.js",
+      "_DpG-8rt8.js",
+      "_CcVaqu0u.js",
+      "_DhvEnoV4.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []

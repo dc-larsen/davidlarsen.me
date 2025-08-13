@@ -1,0 +1,1 @@
+import{E as o,c,b as n,z as r,o as _,G as s}from"./DzjmAXR7.js";const u={__name:"la-cuchara-baltimore-review",async setup(l){let e,a;return[e,a]=o(()=>r("/blog/la-cuchara-baltimore-review",{})),await e,a(),(i,m)=>{const t=s;return _(),c("div",null,[n(t)])}}};export{u as default};
