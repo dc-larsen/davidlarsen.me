@@ -235,9 +235,6 @@
           ← Back to All Posts
         </NuxtLink>
         
-        <div class="text-sm text-gray-500">
-          Share this post with your team
-        </div>
       </div>
     </div>
   </article>
