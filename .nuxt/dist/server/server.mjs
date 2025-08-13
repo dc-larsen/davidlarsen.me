@@ -379,7 +379,7 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import("./_nuxt/blog-cZMGlN1f.js"),
+    component: () => import("./_nuxt/blog-Gvk1i70y.js"),
     children: [
       {
         name: "blog-thoughts-on-leadership",
@@ -406,7 +406,7 @@ const _routes = [
   {
     name: "thoughts-on-leadership",
     path: "/thoughts-on-leadership",
-    component: () => import("./_nuxt/thoughts-on-leadership-SSTeRduL.js")
+    component: () => import("./_nuxt/thoughts-on-leadership-BSHqazFu.js")
   }
 ];
 const _wrapInTransition = (props, children) => {

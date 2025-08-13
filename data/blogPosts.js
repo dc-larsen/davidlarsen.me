@@ -4,16 +4,9 @@ export const blogPosts = [
     id: 1,
     title: 'Thoughts on leadership',
     slug: 'thoughts-on-leadership',
-    excerpt: 'Short version: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.',
+    excerpt: 'TLDR: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.',
     content: `
-      <blockquote>
-        <p><strong>Author:</strong> David Larsen<br>
-        <strong>Published:</strong> August 11, 2025<br>
-        <strong>Last updated:</strong> August 11, 2025<br>
-        <strong>Reading time:</strong> ~8 minutes</p>
-      </blockquote>
-      
-      <p><strong>Short version:</strong> I try to make good work easier. Set the intent, raise the floor, and get out of the way.</p>
+      <p><strong>TLDR:</strong> I try to make good work easier. Set the intent, raise the floor, and get out of the way.</p>
       
       <p>Two things shaped how I lead: David Marquet's <em>Turn the Ship Around!</em> and my time in support engineering at Contrast Security. The book pushed me toward leader-leader thinking. Contrast gave me the reps to put it into practice when things were moving fast.</p>
       
