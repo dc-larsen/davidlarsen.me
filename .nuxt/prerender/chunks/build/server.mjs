@@ -398,7 +398,7 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import('./blog-DOJ4QP9x.mjs'),
+    component: () => import('./blog-Bk-FbALS.mjs'),
     children: [
       {
         name: "blog-thoughts-on-leadership",
@@ -413,7 +413,7 @@ const _routes = [
       {
         name: "blog-la-cuchara-baltimore-review",
         path: "la-cuchara-baltimore-review",
-        component: () => import('./la-cuchara-baltimore-review-COBYJEM3.mjs')
+        component: () => import('./la-cuchara-baltimore-review-Wg5XVfUm.mjs')
       }
     ]
   },

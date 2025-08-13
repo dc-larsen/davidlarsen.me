@@ -379,7 +379,7 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import("./_nuxt/blog-DOJ4QP9x.js"),
+    component: () => import("./_nuxt/blog-Bk-FbALS.js"),
     children: [
       {
         name: "blog-thoughts-on-leadership",
@@ -394,7 +394,7 @@ const _routes = [
       {
         name: "blog-la-cuchara-baltimore-review",
         path: "la-cuchara-baltimore-review",
-        component: () => import("./_nuxt/la-cuchara-baltimore-review-COBYJEM3.js")
+        component: () => import("./_nuxt/la-cuchara-baltimore-review-Wg5XVfUm.js")
       }
     ]
   },
