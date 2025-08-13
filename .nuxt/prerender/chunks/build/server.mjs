@@ -396,28 +396,6 @@ async function getRouteRules(arg) {
 }
 const _routes = [
   {
-    name: "blog",
-    path: "/blog",
-    component: () => import('./blog-L2lJS0TU.mjs'),
-    children: [
-      {
-        name: "blog-thoughts-on-leadership",
-        path: "thoughts-on-leadership",
-        component: () => import('./thoughts-on-leadership-CVINLgeW.mjs')
-      },
-      {
-        name: "blog-zendesk-slack-cheat-sheet",
-        path: "zendesk-slack-cheat-sheet",
-        component: () => import('./zendesk-slack-cheat-sheet-BLwATMQM.mjs')
-      },
-      {
-        name: "blog-la-cuchara-baltimore-review",
-        path: "la-cuchara-baltimore-review",
-        component: () => import('./la-cuchara-baltimore-review-DdVuGglC.mjs')
-      }
-    ]
-  },
-  {
     name: "about",
     path: "/about",
     component: () => import('./about-Ch8VA8UT.mjs')
@@ -431,6 +409,26 @@ const _routes = [
     name: "projects",
     path: "/projects",
     component: () => import('./projects-B2kWUZJX.mjs')
+  },
+  {
+    name: "blog",
+    path: "/blog",
+    component: () => import('./index-gBnJjPON.mjs')
+  },
+  {
+    name: "blog-thoughts-on-leadership",
+    path: "/blog/thoughts-on-leadership",
+    component: () => import('./thoughts-on-leadership-CVINLgeW.mjs')
+  },
+  {
+    name: "blog-zendesk-slack-cheat-sheet",
+    path: "/blog/zendesk-slack-cheat-sheet",
+    component: () => import('./zendesk-slack-cheat-sheet-BLwATMQM.mjs')
+  },
+  {
+    name: "blog-la-cuchara-baltimore-review",
+    path: "/blog/la-cuchara-baltimore-review",
+    component: () => import('./la-cuchara-baltimore-review-DdVuGglC.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {

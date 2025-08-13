@@ -377,28 +377,6 @@ async function getRouteRules(arg) {
 }
 const _routes = [
   {
-    name: "blog",
-    path: "/blog",
-    component: () => import("./_nuxt/blog-L2lJS0TU.js"),
-    children: [
-      {
-        name: "blog-thoughts-on-leadership",
-        path: "thoughts-on-leadership",
-        component: () => import("./_nuxt/thoughts-on-leadership-CVINLgeW.js")
-      },
-      {
-        name: "blog-zendesk-slack-cheat-sheet",
-        path: "zendesk-slack-cheat-sheet",
-        component: () => import("./_nuxt/zendesk-slack-cheat-sheet-BLwATMQM.js")
-      },
-      {
-        name: "blog-la-cuchara-baltimore-review",
-        path: "la-cuchara-baltimore-review",
-        component: () => import("./_nuxt/la-cuchara-baltimore-review-DdVuGglC.js")
-      }
-    ]
-  },
-  {
     name: "about",
     path: "/about",
     component: () => import("./_nuxt/about-Ch8VA8UT.js")
@@ -412,6 +390,26 @@ const _routes = [
     name: "projects",
     path: "/projects",
     component: () => import("./_nuxt/projects-B2kWUZJX.js")
+  },
+  {
+    name: "blog",
+    path: "/blog",
+    component: () => import("./_nuxt/index-gBnJjPON.js")
+  },
+  {
+    name: "blog-thoughts-on-leadership",
+    path: "/blog/thoughts-on-leadership",
+    component: () => import("./_nuxt/thoughts-on-leadership-CVINLgeW.js")
+  },
+  {
+    name: "blog-zendesk-slack-cheat-sheet",
+    path: "/blog/zendesk-slack-cheat-sheet",
+    component: () => import("./_nuxt/zendesk-slack-cheat-sheet-BLwATMQM.js")
+  },
+  {
+    name: "blog-la-cuchara-baltimore-review",
+    path: "/blog/la-cuchara-baltimore-review",
+    component: () => import("./_nuxt/la-cuchara-baltimore-review-DdVuGglC.js")
   }
 ];
 const _wrapInTransition = (props, children) => {
