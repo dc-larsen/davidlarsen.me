@@ -4,7 +4,7 @@
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold text-primary mb-4">Blog</h1>
       <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-        Thoughts on customer support, team leadership, technology, and everything in between.
+        Thoughts on work and whatever I find interesting.
       </p>
     </div>
 

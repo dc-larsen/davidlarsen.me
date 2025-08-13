@@ -1,10 +1,10 @@
 const client_manifest = {
-  "_CEI8DVZQ.js": {
+  "_BMDblHFw.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CEI8DVZQ.js",
+    "file": "BMDblHFw.js",
     "name": "sample-slack-post",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -26,24 +26,24 @@ const client_manifest = {
     "prefetch": true,
     "mimeType": "image/png"
   },
-  "_D9JVO1ft.js": {
+  "_CgJwLJAE.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "D9JVO1ft.js",
-    "name": "v3",
+    "file": "CgJwLJAE.js",
+    "name": "nuxt-link",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_Zz1ybgMO.js": {
+  "_smNPXkES.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Zz1ybgMO.js",
-    "name": "nuxt-link",
+    "file": "smNPXkES.js",
+    "name": "v3",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -53,12 +53,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "oLPJ68lv.js",
+    "file": "BvLCf-UY.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Zz1ybgMO.js",
+      "_CgJwLJAE.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -74,14 +74,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Djq5jh9N.js",
+    "file": "CxQGP_ej.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Zz1ybgMO.js",
+      "_CgJwLJAE.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_D9JVO1ft.js"
+      "_smNPXkES.js"
     ],
     "css": []
   },
@@ -96,13 +96,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Cd5rT1Ec.js",
+    "file": "BRVNm8bx.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_D9JVO1ft.js"
+      "_smNPXkES.js"
     ],
     "css": []
   },
@@ -117,7 +117,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "e7SC2euX.js",
+    "file": "CZuiIG0H.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -133,12 +133,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B_3yW0ld.js",
+    "file": "B7Eueq6y.js",
     "name": "about",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_D9JVO1ft.js",
+      "_smNPXkES.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -147,14 +147,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "7q162WmT.js",
+    "file": "CwpBNpf_.js",
     "name": "blog",
     "src": "pages/blog.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Zz1ybgMO.js",
+      "_CgJwLJAE.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_D9JVO1ft.js"
+      "_smNPXkES.js"
     ],
     "css": [
       "blog.DE62QbD_.css"
@@ -171,14 +171,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DsrvXBm7.js",
+    "file": "CqOrlLcj.js",
     "name": "thoughts-on-leadership",
     "src": "pages/blog/thoughts-on-leadership.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Zz1ybgMO.js",
+      "_CgJwLJAE.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_D9JVO1ft.js"
+      "_smNPXkES.js"
     ],
     "css": [],
     "assets": [
@@ -202,14 +202,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BlSZTdif.js",
+    "file": "DrCSEgmk.js",
     "name": "zendesk-slack-cheat-sheet",
     "src": "pages/blog/zendesk-slack-cheat-sheet.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Zz1ybgMO.js",
-      "_CEI8DVZQ.js",
-      "_D9JVO1ft.js",
+      "_CgJwLJAE.js",
+      "_BMDblHFw.js",
+      "_smNPXkES.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -225,13 +225,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "299eTebS.js",
+    "file": "BNUTUu0i.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_D9JVO1ft.js"
+      "_smNPXkES.js"
     ],
     "css": [],
     "assets": [
@@ -262,13 +262,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DfH7Vh1n.js",
+    "file": "BxvhhG2z.js",
     "name": "projects",
     "src": "pages/projects.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_D9JVO1ft.js"
+      "_smNPXkES.js"
     ]
   },
   "pages/thoughts-on-leadership.vue": {
@@ -276,14 +276,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "VIOR9ZrM.js",
+    "file": "Cv5Y1ALK.js",
     "name": "thoughts-on-leadership",
     "src": "pages/thoughts-on-leadership.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Zz1ybgMO.js",
+      "_CgJwLJAE.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_D9JVO1ft.js"
+      "_smNPXkES.js"
     ],
     "css": [],
     "assets": [
@@ -307,14 +307,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CfQ0Grsr.js",
+    "file": "DKmf8njP.js",
     "name": "zendesk-slack-cheat-sheet",
     "src": "pages/zendesk-slack-cheat-sheet.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Zz1ybgMO.js",
-      "_CEI8DVZQ.js",
-      "_D9JVO1ft.js",
+      "_CgJwLJAE.js",
+      "_BMDblHFw.js",
+      "_smNPXkES.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
