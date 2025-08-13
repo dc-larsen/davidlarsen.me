@@ -1,73 +1,60 @@
 export default {
-  "_CtuD7Z2d.js": {
+  "_BNSDBJcj.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CtuD7Z2d.js",
+    "file": "BNSDBJcj.js",
     "name": "v3",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_D7gmg5Vf.js": {
+  "_BQW9cNQv.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "D7gmg5Vf.js",
+    "file": "BQW9cNQv.js",
     "name": "nuxt-link",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
-  },
-  "_VS_p1OBM.js": {
-    "resourceType": "script",
-    "module": true,
-    "prefetch": true,
-    "preload": true,
-    "file": "VS_p1OBM.js",
-    "name": "thoughts-on-leadership",
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
-    ],
-    "assets": [
-      "thoughts-on-leadership.CwTIjtCh.png"
-    ]
-  },
-  "thoughts-on-leadership.CwTIjtCh.png": {
-    "file": "thoughts-on-leadership.CwTIjtCh.png",
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/png"
   },
   "layouts/default.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CK4uBizm.js",
+    "file": "BTqeQRHu.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_D7gmg5Vf.js",
+      "_BQW9cNQv.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
+  },
+  "leadership-badge-1200x675-letterbox.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "leadership-badge-1200x675-letterbox.1u1e1l35.png",
+    "src": "leadership-badge-1200x675-letterbox.png"
   },
   "node_modules/nuxt/dist/app/components/error-404.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Bo-MifvW.js",
+    "file": "jWtKsFn4.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_D7gmg5Vf.js",
+      "_BQW9cNQv.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_CtuD7Z2d.js"
+      "_BNSDBJcj.js"
     ],
     "css": []
   },
@@ -82,13 +69,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DRd6C0Xm.js",
+    "file": "TzniCpYb.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_CtuD7Z2d.js"
+      "_BNSDBJcj.js"
     ],
     "css": []
   },
@@ -103,7 +90,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DliQb5ab.js",
+    "file": "jXufs4ps.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -119,12 +106,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BzD7Lv8Q.js",
+    "file": "C3oeRlSg.js",
     "name": "about",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CtuD7Z2d.js",
+      "_BNSDBJcj.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -133,14 +120,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B2oRNdNt.js",
+    "file": "BdG__LHu.js",
     "name": "blog",
     "src": "pages/blog.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_D7gmg5Vf.js",
+      "_BQW9cNQv.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_CtuD7Z2d.js"
+      "_BNSDBJcj.js"
     ],
     "css": [
       "blog.DE62QbD_.css"
@@ -157,17 +144,19 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "yHZwPCAB.js",
+    "file": "CP3x4RGv.js",
     "name": "thoughts-on-leadership",
     "src": "pages/blog/thoughts-on-leadership.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_D7gmg5Vf.js",
-      "_VS_p1OBM.js",
-      "_CtuD7Z2d.js",
-      "node_modules/nuxt/dist/app/entry.js"
+      "_BQW9cNQv.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_BNSDBJcj.js"
     ],
-    "css": []
+    "css": [],
+    "assets": [
+      "thoughts-on-leadership.CwTIjtCh.png"
+    ]
   },
   "thoughts-on-leadership.B35CMlbV.css": {
     "file": "thoughts-on-leadership.B35CMlbV.css",
@@ -175,18 +164,24 @@ export default {
     "prefetch": true,
     "preload": true
   },
+  "thoughts-on-leadership.CwTIjtCh.png": {
+    "file": "thoughts-on-leadership.CwTIjtCh.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CvIqYaEO.js",
+    "file": "DY0y-tDU.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_CtuD7Z2d.js"
+      "_BNSDBJcj.js"
     ],
     "css": [],
     "assets": [
@@ -217,13 +212,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "kA4IIf2j.js",
+    "file": "esmx2Hul.js",
     "name": "projects",
     "src": "pages/projects.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_CtuD7Z2d.js"
+      "_BNSDBJcj.js"
     ]
   },
   "pages/thoughts-on-leadership.vue": {
@@ -231,23 +226,31 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BaHw-uND.js",
+    "file": "BpvWjmad.js",
     "name": "thoughts-on-leadership",
     "src": "pages/thoughts-on-leadership.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_D7gmg5Vf.js",
-      "_VS_p1OBM.js",
-      "_CtuD7Z2d.js",
-      "node_modules/nuxt/dist/app/entry.js"
+      "_BQW9cNQv.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_BNSDBJcj.js"
     ],
-    "css": []
+    "css": [],
+    "assets": [
+      "leadership-badge-1200x675-letterbox.1u1e1l35.png"
+    ]
   },
-  "thoughts-on-leadership.Crd_9v1v.css": {
-    "file": "thoughts-on-leadership.Crd_9v1v.css",
+  "thoughts-on-leadership.CWIjcrr1.css": {
+    "file": "thoughts-on-leadership.CWIjcrr1.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
+  },
+  "leadership-badge-1200x675-letterbox.1u1e1l35.png": {
+    "file": "leadership-badge-1200x675-letterbox.1u1e1l35.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
   },
   "pro.png": {
     "resourceType": "image",

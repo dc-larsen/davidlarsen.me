@@ -398,12 +398,12 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import('./blog-Gvk1i70y.mjs'),
+    component: () => import('./blog-CrNG0wj0.mjs'),
     children: [
       {
         name: "blog-thoughts-on-leadership",
         path: "thoughts-on-leadership",
-        component: () => import('./thoughts-on-leadership-BOhVWjri.mjs')
+        component: () => import('./thoughts-on-leadership-CVINLgeW.mjs')
       }
     ]
   },
@@ -425,7 +425,7 @@ const _routes = [
   {
     name: "thoughts-on-leadership",
     path: "/thoughts-on-leadership",
-    component: () => import('./thoughts-on-leadership-BSHqazFu.mjs')
+    component: () => import('./thoughts-on-leadership-DwQnlIQq.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {
