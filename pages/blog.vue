@@ -16,7 +16,7 @@
           <div class="md:w-1/2 md:flex">
             <NuxtLink 
               v-if="featuredPost.content"
-              :to="`/${featuredPost.slug}`"
+              :to="`/blog/${featuredPost.slug}`"
               class="block cursor-pointer w-full"
             >
               <img
@@ -46,7 +46,7 @@
             
             <NuxtLink 
               v-if="featuredPost.content"
-              :to="`/${featuredPost.slug}`"
+              :to="`/blog/${featuredPost.slug}`"
               class="block cursor-pointer"
             >
               <h3 class="text-2xl font-bold text-primary mb-4 hover:text-secondary transition-colors duration-200">
@@ -76,7 +76,7 @@
             
             <NuxtLink 
               v-if="featuredPost.content"
-              :to="`/${featuredPost.slug}`"
+              :to="`/blog/${featuredPost.slug}`"
               class="bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary/90 transition-colors duration-200 inline-flex items-center font-medium"
             >
               Read Full Article
