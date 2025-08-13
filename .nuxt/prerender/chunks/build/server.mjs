@@ -1,10 +1,10 @@
-import { defineComponent, ref, inject, h, Suspense, hasInjectionContext, getCurrentInstance, provide, shallowReactive, Fragment, defineAsyncComponent, computed, unref, shallowRef, createApp, toRef, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, reactive, effectScope, isReadonly, isRef, isShallow, isReactive, toRaw, mergeProps, getCurrentScope, withCtx, nextTick, useSSRContext } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/vue/index.mjs';
+import { hasInjectionContext, getCurrentInstance, inject, defineAsyncComponent, defineComponent, h, computed, unref, shallowRef, provide, shallowReactive, ref, Suspense, Fragment, createApp, toRef, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, reactive, effectScope, isReadonly, isRef, isShallow, isReactive, toRaw, mergeProps, getCurrentScope, withCtx, nextTick, useSSRContext } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/vue/index.mjs';
 import { $fetch } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/ofetch/dist/node.mjs';
 import { b as baseURL } from '../_/renderer.mjs';
 import { createHooks } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/hookable/dist/index.mjs';
 import { getContext, executeAsync } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/unctx/dist/index.mjs';
 import { sanitizeStatusCode, createError as createError$1, appendHeader } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/h3/dist/index.mjs';
-import { RouterView, useRoute as useRoute$1, createMemoryHistory, createRouter, START_LOCATION } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/vue-router/dist/vue-router.node.mjs';
+import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/vue-router/dist/vue-router.node.mjs';
 import { toRouteMatcher, createRouter as createRouter$1 } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/radix3/dist/index.mjs';
 import { defu } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/defu/dist/defu.mjs';
 import { hasProtocol, isScriptProtocol, joinURL, withQuery } from 'file:///Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/ufo/dist/index.mjs';
@@ -398,22 +398,22 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import('./blog-lb2Ctygg.mjs'),
+    component: () => import('./blog-L2lJS0TU.mjs'),
     children: [
       {
         name: "blog-thoughts-on-leadership",
         path: "thoughts-on-leadership",
-        component: () => import('./thoughts-on-leadership-Dp9VM7rF.mjs')
+        component: () => import('./thoughts-on-leadership-CVINLgeW.mjs')
       },
       {
         name: "blog-zendesk-slack-cheat-sheet",
         path: "zendesk-slack-cheat-sheet",
-        component: () => import('./zendesk-slack-cheat-sheet-Bphpk4wp.mjs')
+        component: () => import('./zendesk-slack-cheat-sheet-BLwATMQM.mjs')
       },
       {
         name: "blog-la-cuchara-baltimore-review",
         path: "la-cuchara-baltimore-review",
-        component: () => import('./la-cuchara-baltimore-review-Wg5XVfUm.mjs')
+        component: () => import('./la-cuchara-baltimore-review-DdVuGglC.mjs')
       }
     ]
   },
@@ -431,21 +431,6 @@ const _routes = [
     name: "projects",
     path: "/projects",
     component: () => import('./projects-B2kWUZJX.mjs')
-  },
-  {
-    name: "thoughts-on-leadership",
-    path: "/thoughts-on-leadership",
-    component: () => import('./thoughts-on-leadership-gzgXijyQ.mjs')
-  },
-  {
-    name: "zendesk-slack-cheat-sheet",
-    path: "/zendesk-slack-cheat-sheet",
-    component: () => import('./zendesk-slack-cheat-sheet-DZ-lqTyk.mjs')
-  },
-  {
-    name: "la-cuchara-baltimore-review",
-    path: "/la-cuchara-baltimore-review",
-    component: () => import('./la-cuchara-baltimore-review-Bh_FKbLe.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -839,7 +824,7 @@ const plugins = [
   prerender_server_sqIxOBipVr4FbVMA9kqWL0wT8FPop6sKAXLVfifsJzk
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-BHQiJgqu.mjs').then((m) => m.default || m))
+  default: defineAsyncComponent(() => import('./default-B2dDDcbu.mjs').then((m) => m.default || m))
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
@@ -862,7 +847,7 @@ const nuxtLayoutProps = {
     default: null
   }
 };
-const __nuxt_component_0$1 = defineComponent({
+const __nuxt_component_0 = defineComponent({
   name: "NuxtLayout",
   inheritAttrs: false,
   props: nuxtLayoutProps,
@@ -1000,7 +985,7 @@ const defineRouteProvider = (name = "RouteProvider") => defineComponent({
   }
 });
 const RouteProvider = defineRouteProvider();
-const __nuxt_component_0 = defineComponent({
+const __nuxt_component_1 = defineComponent({
   name: "NuxtPage",
   inheritAttrs: false,
   props: {
@@ -1060,8 +1045,8 @@ const _export_sfc = (sfc, props) => {
 };
 const _sfc_main$2 = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_NuxtLayout = __nuxt_component_0$1;
-  const _component_NuxtPage = __nuxt_component_0;
+  const _component_NuxtLayout = __nuxt_component_0;
+  const _component_NuxtPage = __nuxt_component_1;
   _push(ssrRenderComponent(_component_NuxtLayout, _attrs, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -1103,7 +1088,7 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import('./error-404-5EqA0YNC.mjs'));
+    const _Error404 = defineAsyncComponent(() => import('./error-404-CvzBWZoS.mjs'));
     const _Error = defineAsyncComponent(() => import('./error-500-CgmLlTse.mjs'));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
@@ -1185,5 +1170,5 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 
-export { _export_sfc as _, __nuxt_component_0 as a, useRouter as b, useNuxtApp as c, useRuntimeConfig as d, entry$1 as default, nuxtLinkDefaults as e, navigateTo as n, resolveRouteObject as r, tryUseNuxtApp as t, useRoute as u };
+export { _export_sfc as _, useRouter as a, useNuxtApp as b, useRuntimeConfig as c, nuxtLinkDefaults as d, entry$1 as default, navigateTo as n, resolveRouteObject as r, tryUseNuxtApp as t, useRoute as u };
 //# sourceMappingURL=server.mjs.map

@@ -39,7 +39,7 @@ export default defineNuxtConfig({
     // Prerendering settings - generates static HTML files for deployment
     prerender: {
       crawlLinks: true, // Automatically discovers and prerenders linked pages
-      routes: ['/thoughts-on-leadership'] // Explicitly prerender these routes
+      routes: [] // No explicit routes needed, crawler will find them
     },
     // Security headers applied to all routes
     routeRules: {

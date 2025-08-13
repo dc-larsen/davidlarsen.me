@@ -1,52 +1,25 @@
 const client_manifest = {
-  "_1-OKr3Hz.js": {
+  "_BLCVkEkn.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "1-OKr3Hz.js",
+    "file": "BLCVkEkn.js",
     "name": "v3",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_GB4YNGVr.js": {
+  "_ChkdFrAD.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "GB4YNGVr.js",
+    "file": "ChkdFrAD.js",
     "name": "nuxt-link",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
-  },
-  "_bfgFk64H.js": {
-    "resourceType": "script",
-    "module": true,
-    "prefetch": true,
-    "preload": true,
-    "file": "bfgFk64H.js",
-    "name": "sample-slack-post",
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
-    ],
-    "assets": [
-      "slackbot.BHOtE3VQ.png",
-      "sample-slack-post.DeYX-7yl.png"
-    ]
-  },
-  "slackbot.BHOtE3VQ.png": {
-    "file": "slackbot.BHOtE3VQ.png",
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/png"
-  },
-  "sample-slack-post.DeYX-7yl.png": {
-    "file": "sample-slack-post.DeYX-7yl.png",
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/png"
   },
   "lacuchara.png": {
     "resourceType": "image",
@@ -60,35 +33,28 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BHqtSPBx.js",
+    "file": "BN6OnZB7.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_GB4YNGVr.js",
+      "_ChkdFrAD.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
-  },
-  "leadership-badge-1200x675-letterbox.png": {
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/png",
-    "file": "leadership-badge-1200x675-letterbox.1u1e1l35.png",
-    "src": "leadership-badge-1200x675-letterbox.png"
   },
   "node_modules/nuxt/dist/app/components/error-404.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "C0nyCbmX.js",
+    "file": "Bcd1GZ2W.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_GB4YNGVr.js",
+      "_ChkdFrAD.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_1-OKr3Hz.js"
+      "_BLCVkEkn.js"
     ],
     "css": []
   },
@@ -103,13 +69,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DfeFOszZ.js",
+    "file": "Cz7ANpJ5.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_1-OKr3Hz.js"
+      "_BLCVkEkn.js"
     ],
     "css": []
   },
@@ -124,7 +90,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DzDNf9Td.js",
+    "file": "DvgVm7WU.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -140,12 +106,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Bt2agLA8.js",
+    "file": "BaiTuZdl.js",
     "name": "about",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_1-OKr3Hz.js",
+      "_BLCVkEkn.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -154,14 +120,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Cx2HI9XG.js",
+    "file": "Cg1tPLnc.js",
     "name": "blog",
     "src": "pages/blog.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_GB4YNGVr.js",
+      "_ChkdFrAD.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_1-OKr3Hz.js"
+      "_BLCVkEkn.js"
     ],
     "css": [
       "blog.DNix-B55.css"
@@ -178,14 +144,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BrUeiMEz.js",
+    "file": "DdG2JLJ8.js",
     "name": "la-cuchara-baltimore-review",
     "src": "pages/blog/la-cuchara-baltimore-review.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_1-OKr3Hz.js",
+      "_BLCVkEkn.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_GB4YNGVr.js"
+      "_ChkdFrAD.js"
     ],
     "css": [],
     "assets": [
@@ -209,14 +175,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "JmqStWW2.js",
+    "file": "8eXO13gV.js",
     "name": "thoughts-on-leadership",
     "src": "pages/blog/thoughts-on-leadership.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_GB4YNGVr.js",
+      "_ChkdFrAD.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_1-OKr3Hz.js"
+      "_BLCVkEkn.js"
     ],
     "css": [],
     "assets": [
@@ -240,17 +206,20 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B_q358fm.js",
+    "file": "ZXaVn5K-.js",
     "name": "zendesk-slack-cheat-sheet",
     "src": "pages/blog/zendesk-slack-cheat-sheet.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_GB4YNGVr.js",
-      "_bfgFk64H.js",
-      "_1-OKr3Hz.js",
-      "node_modules/nuxt/dist/app/entry.js"
+      "_ChkdFrAD.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_BLCVkEkn.js"
     ],
-    "css": []
+    "css": [],
+    "assets": [
+      "slackbot.BHOtE3VQ.png",
+      "sample-slack-post.DeYX-7yl.png"
+    ]
   },
   "zendesk-slack-cheat-sheet.Cqx3YblM.css": {
     "file": "zendesk-slack-cheat-sheet.Cqx3YblM.css",
@@ -258,18 +227,30 @@ const client_manifest = {
     "prefetch": true,
     "preload": true
   },
+  "slackbot.BHOtE3VQ.png": {
+    "file": "slackbot.BHOtE3VQ.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
+  "sample-slack-post.DeYX-7yl.png": {
+    "file": "sample-slack-post.DeYX-7yl.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  },
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CkWGYbza.js",
+    "file": "CfIQ8Y4u.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_1-OKr3Hz.js"
+      "_BLCVkEkn.js"
     ],
     "css": [],
     "assets": [
@@ -295,86 +276,19 @@ const client_manifest = {
     "prefetch": true,
     "mimeType": "image/png"
   },
-  "pages/la-cuchara-baltimore-review.vue": {
-    "resourceType": "script",
-    "module": true,
-    "prefetch": true,
-    "preload": true,
-    "file": "BKUylIZp.js",
-    "name": "la-cuchara-baltimore-review",
-    "src": "pages/la-cuchara-baltimore-review.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
-    ]
-  },
   "pages/projects.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CmV333c0.js",
+    "file": "BVVLO8qO.js",
     "name": "projects",
     "src": "pages/projects.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_1-OKr3Hz.js"
+      "_BLCVkEkn.js"
     ]
-  },
-  "pages/thoughts-on-leadership.vue": {
-    "resourceType": "script",
-    "module": true,
-    "prefetch": true,
-    "preload": true,
-    "file": "C-fd6EUK.js",
-    "name": "thoughts-on-leadership",
-    "src": "pages/thoughts-on-leadership.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "_GB4YNGVr.js",
-      "node_modules/nuxt/dist/app/entry.js",
-      "_1-OKr3Hz.js"
-    ],
-    "css": [],
-    "assets": [
-      "leadership-badge-1200x675-letterbox.1u1e1l35.png"
-    ]
-  },
-  "thoughts-on-leadership.CWIjcrr1.css": {
-    "file": "thoughts-on-leadership.CWIjcrr1.css",
-    "resourceType": "style",
-    "prefetch": true,
-    "preload": true
-  },
-  "leadership-badge-1200x675-letterbox.1u1e1l35.png": {
-    "file": "leadership-badge-1200x675-letterbox.1u1e1l35.png",
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/png"
-  },
-  "pages/zendesk-slack-cheat-sheet.vue": {
-    "resourceType": "script",
-    "module": true,
-    "prefetch": true,
-    "preload": true,
-    "file": "BJrYzkOH.js",
-    "name": "zendesk-slack-cheat-sheet",
-    "src": "pages/zendesk-slack-cheat-sheet.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "_GB4YNGVr.js",
-      "_bfgFk64H.js",
-      "_1-OKr3Hz.js",
-      "node_modules/nuxt/dist/app/entry.js"
-    ],
-    "css": []
-  },
-  "zendesk-slack-cheat-sheet.DTf2FowG.css": {
-    "file": "zendesk-slack-cheat-sheet.DTf2FowG.css",
-    "resourceType": "style",
-    "prefetch": true,
-    "preload": true
   },
   "pro.png": {
     "resourceType": "image",

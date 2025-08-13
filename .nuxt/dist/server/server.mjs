@@ -7,7 +7,7 @@ import { sanitizeStatusCode, createError as createError$1, appendHeader } from "
 import { START_LOCATION, createMemoryHistory, createRouter as createRouter$1, useRoute as useRoute$1, RouterView } from "vue-router";
 import { toRouteMatcher, createRouter } from "/Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/radix3/dist/index.mjs";
 import { defu } from "/Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/defu/dist/defu.mjs";
-import { hasProtocol, isScriptProtocol, joinURL, withQuery } from "/Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/ufo/dist/index.mjs";
+import { hasProtocol, joinURL, withQuery, isScriptProtocol } from "/Users/davidlarsen/Desktop/Projects/davidlarsen.me/node_modules/ufo/dist/index.mjs";
 import { ssrRenderComponent, ssrRenderSuspense, ssrRenderVNode } from "vue/server-renderer";
 if (!globalThis.$fetch) {
   globalThis.$fetch = $fetch.create({
@@ -379,22 +379,22 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import("./_nuxt/blog-lb2Ctygg.js"),
+    component: () => import("./_nuxt/blog-L2lJS0TU.js"),
     children: [
       {
         name: "blog-thoughts-on-leadership",
         path: "thoughts-on-leadership",
-        component: () => import("./_nuxt/thoughts-on-leadership-Dp9VM7rF.js")
+        component: () => import("./_nuxt/thoughts-on-leadership-CVINLgeW.js")
       },
       {
         name: "blog-zendesk-slack-cheat-sheet",
         path: "zendesk-slack-cheat-sheet",
-        component: () => import("./_nuxt/zendesk-slack-cheat-sheet-Bphpk4wp.js")
+        component: () => import("./_nuxt/zendesk-slack-cheat-sheet-BLwATMQM.js")
       },
       {
         name: "blog-la-cuchara-baltimore-review",
         path: "la-cuchara-baltimore-review",
-        component: () => import("./_nuxt/la-cuchara-baltimore-review-Wg5XVfUm.js")
+        component: () => import("./_nuxt/la-cuchara-baltimore-review-DdVuGglC.js")
       }
     ]
   },
@@ -412,21 +412,6 @@ const _routes = [
     name: "projects",
     path: "/projects",
     component: () => import("./_nuxt/projects-B2kWUZJX.js")
-  },
-  {
-    name: "thoughts-on-leadership",
-    path: "/thoughts-on-leadership",
-    component: () => import("./_nuxt/thoughts-on-leadership-gzgXijyQ.js")
-  },
-  {
-    name: "zendesk-slack-cheat-sheet",
-    path: "/zendesk-slack-cheat-sheet",
-    component: () => import("./_nuxt/zendesk-slack-cheat-sheet-DZ-lqTyk.js")
-  },
-  {
-    name: "la-cuchara-baltimore-review",
-    path: "/la-cuchara-baltimore-review",
-    component: () => import("./_nuxt/la-cuchara-baltimore-review-Bh_FKbLe.js")
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -827,7 +812,7 @@ const plugins = [
   prerender_server_sqIxOBipVr4FbVMA9kqWL0wT8FPop6sKAXLVfifsJzk
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import("./_nuxt/default-BHQiJgqu.js").then((m) => m.default || m))
+  default: defineAsyncComponent(() => import("./_nuxt/default-B2dDDcbu.js").then((m) => m.default || m))
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
@@ -850,7 +835,7 @@ const nuxtLayoutProps = {
     default: null
   }
 };
-const __nuxt_component_0$1 = defineComponent({
+const __nuxt_component_0 = defineComponent({
   name: "NuxtLayout",
   inheritAttrs: false,
   props: nuxtLayoutProps,
@@ -988,7 +973,7 @@ const defineRouteProvider = (name = "RouteProvider") => defineComponent({
   }
 });
 const RouteProvider = defineRouteProvider();
-const __nuxt_component_0 = defineComponent({
+const __nuxt_component_1 = defineComponent({
   name: "NuxtPage",
   inheritAttrs: false,
   props: {
@@ -1048,8 +1033,8 @@ const _export_sfc = (sfc, props) => {
 };
 const _sfc_main$2 = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_NuxtLayout = __nuxt_component_0$1;
-  const _component_NuxtPage = __nuxt_component_0;
+  const _component_NuxtLayout = __nuxt_component_0;
+  const _component_NuxtPage = __nuxt_component_1;
   _push(ssrRenderComponent(_component_NuxtLayout, _attrs, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -1091,7 +1076,7 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-5EqA0YNC.js"));
+    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-CvzBWZoS.js"));
     const _Error = defineAsyncComponent(() => import("./_nuxt/error-500-CgmLlTse.js"));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
@@ -1174,12 +1159,11 @@ let entry;
 const entry$1 = (ssrContext) => entry(ssrContext);
 export {
   _export_sfc as _,
-  __nuxt_component_0 as a,
-  useRouter as b,
-  useNuxtApp as c,
-  useRuntimeConfig as d,
+  useRouter as a,
+  useNuxtApp as b,
+  useRuntimeConfig as c,
+  nuxtLinkDefaults as d,
   entry$1 as default,
-  nuxtLinkDefaults as e,
   navigateTo as n,
   resolveRouteObject as r,
   tryUseNuxtApp as t,
