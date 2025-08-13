@@ -379,7 +379,7 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import("./_nuxt/blog-CDTdcrGO.js"),
+    component: () => import("./_nuxt/blog-BebxOb2r.js"),
     children: [
       {
         name: "blog-thoughts-on-leadership",

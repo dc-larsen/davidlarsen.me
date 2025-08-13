@@ -12,27 +12,27 @@
     <div v-if="featuredPost" class="mb-16">
       <h2 class="text-2xl font-semibold text-primary mb-6">Featured Post</h2>
       <div class="bg-white rounded-lg shadow-xl overflow-hidden">
-        <div class="md:flex">
-          <div class="md:w-1/2">
+        <div class="md:flex md:min-h-[400px]">
+          <div class="md:w-1/2 md:flex">
             <NuxtLink 
               v-if="featuredPost.content"
               :to="`/${featuredPost.slug}`"
-              class="block cursor-pointer"
+              class="block cursor-pointer w-full"
             >
               <img
                 :src="featuredPost.image"
                 :alt="featuredPost.title"
-                class="w-full h-64 md:h-full object-cover hover:scale-105 transition-transform duration-300"
+                class="w-full h-64 md:h-full md:min-h-[400px] object-cover hover:scale-105 transition-transform duration-300"
               />
             </NuxtLink>
             <img
               v-else
               :src="featuredPost.image"
               :alt="featuredPost.title"
-              class="w-full h-64 md:h-full object-cover"
+              class="w-full h-64 md:h-full md:min-h-[400px] object-cover"
             />
           </div>
-          <div class="md:w-1/2 p-8">
+          <div class="md:w-1/2 p-8 md:flex md:flex-col md:justify-center">
             <div class="flex items-center text-sm text-gray-500 mb-4">
               <span class="bg-secondary text-white px-3 py-1 rounded-full text-xs font-medium mr-4">
                 {{ featuredPost.category }}
