@@ -9,7 +9,7 @@
       <!-- Support Playbooks -->
       <ProjectCard
         title="Support Playbooks"
-        image="/image-customer-support-playbooks.png"
+        image="/support-playbooks.png"
         :description="`Comprehensive collection of customer support playbooks covering escalation procedures, troubleshooting workflows, and team management strategies. Designed to help support teams provide consistent, high-quality customer experiences while scaling efficiently.`"
         github-url="https://github.com/dc-larsen/support-playbooks"
         explore-url="https://github.com/dc-larsen/support-playbooks"
@@ -18,7 +18,7 @@
       <!-- Customer Success Playbooks -->
       <ProjectCard
         title="Customer Success Playbooks"
-        image="/image-customer-success-playbooks.png"
+        image="/customer-success.png"
         :description="`Curated playbooks for customer success teams focused on onboarding, retention, expansion, and churn prevention strategies. Includes templates for customer health scoring, success metrics tracking, and proactive outreach workflows. Built from experience scaling customer success operations at high-growth startups.`"
         github-url="https://github.com/dc-larsen/customer-success-playbooks"
         explore-url="https://github.com/dc-larsen/customer-success-playbooks"
@@ -27,7 +27,7 @@
       <!-- Zendesk Slackbot -->
       <ProjectCard
         title="Zendesk Slackbot"
-        image="/image-zendesk-slackbot.png"
+        image="/zendesk-slackbot.png"
         :description="`Slack bot integration for managers to streamline 1-on-1 preparation with their team members. Pulls Zendesk ticket data, performance metrics, and team insights to help managers have more effective, data-driven conversations with their reports.`"
         github-url="https://github.com/dc-larsen/zendesk-slackbot"
         explore-url="https://github.com/dc-larsen/zendesk-slackbot"
@@ -37,7 +37,7 @@
       <!-- GitHub Portfolio -->
       <ProjectCard
         title="GitHub Portfolio"
-        image="/image-github.png"
+        image="/lol.png"
         :description="`View my complete GitHub portfolio for more projects related to customer support operations, team management tools, and technical troubleshooting solutions built throughout my career in support leadership.`"
         github-url="https://github.com/dc-larsen"
         explore-url="https://github.com/dc-larsen"

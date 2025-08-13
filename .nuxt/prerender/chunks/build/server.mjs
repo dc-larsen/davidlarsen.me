@@ -420,7 +420,7 @@ const _routes = [
   {
     name: "projects",
     path: "/projects",
-    component: () => import('./projects-D2J4qT6P.mjs')
+    component: () => import('./projects-KQzloF_d.mjs')
   },
   {
     name: "thoughts-on-leadership",
