@@ -104,7 +104,7 @@ export const blogPosts = [
       <p>Consistent service. A menu that changes without losing its backbone. A bar program that nudges you to try new things. And a space that rewards regulars without getting precious about it. When I want a great meal and I am up for something new, this is where I land.</p>
     `,
     image: '/lacuchara.png',
-    category: 'Strategy',
+    category: 'Personal',
     tags: ['restaurant review', 'baltimore', 'la cuchara', 'shared plates', 'happy hour', 'gin and tonic', 'woodberry'],
     date: '2025-08-13',
     readTime: 5,

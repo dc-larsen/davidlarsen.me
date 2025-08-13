@@ -29,7 +29,7 @@
           <span>•</span>
           <span>5 min read</span>
           <span>•</span>
-          <span class="bg-gray-100 px-3 py-1 rounded-full">Strategy</span>
+          <span class="bg-gray-100 px-3 py-1 rounded-full">Personal</span>
         </div>
         
         <div class="flex flex-wrap gap-2 mb-8">
