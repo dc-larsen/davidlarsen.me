@@ -2,7 +2,19 @@
   <article class="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
     <!-- Image -->
     <div class="relative h-48 sm:h-64 overflow-hidden">
+      <NuxtLink 
+        v-if="post.content"
+        :to="`/blog/${post.slug}`"
+        class="block h-full cursor-pointer"
+      >
+        <img
+          :src="post.image"
+          :alt="post.title"
+          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+        />
+      </NuxtLink>
       <img
+        v-else
         :src="post.image"
         :alt="post.title"
         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -27,7 +39,19 @@
       </div>
       
       <!-- Title -->
-      <h3 class="text-xl font-bold text-primary mb-3 line-clamp-2 group-hover:text-secondary transition-colors duration-200">
+      <NuxtLink 
+        v-if="post.content"
+        :to="`/blog/${post.slug}`"
+        class="block cursor-pointer"
+      >
+        <h3 class="text-xl font-bold text-primary mb-3 line-clamp-2 hover:text-secondary transition-colors duration-200">
+          {{ post.title }}
+        </h3>
+      </NuxtLink>
+      <h3 
+        v-else
+        class="text-xl font-bold text-primary mb-3 line-clamp-2"
+      >
         {{ post.title }}
       </h3>
       

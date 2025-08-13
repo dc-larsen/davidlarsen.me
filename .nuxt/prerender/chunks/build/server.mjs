@@ -398,7 +398,7 @@ const _routes = [
   {
     name: "blog",
     path: "/blog",
-    component: () => import('./blog-Bk-FbALS.mjs'),
+    component: () => import('./blog-CDTdcrGO.mjs'),
     children: [
       {
         name: "blog-thoughts-on-leadership",

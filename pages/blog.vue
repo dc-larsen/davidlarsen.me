@@ -14,7 +14,19 @@
       <div class="bg-white rounded-lg shadow-xl overflow-hidden">
         <div class="md:flex">
           <div class="md:w-1/2">
+            <NuxtLink 
+              v-if="featuredPost.content"
+              :to="`/${featuredPost.slug}`"
+              class="block cursor-pointer"
+            >
+              <img
+                :src="featuredPost.image"
+                :alt="featuredPost.title"
+                class="w-full h-64 md:h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </NuxtLink>
             <img
+              v-else
               :src="featuredPost.image"
               :alt="featuredPost.title"
               class="w-full h-64 md:h-full object-cover"
@@ -32,7 +44,19 @@
               <span>{{ featuredPost.readTime }} min read</span>
             </div>
             
-            <h3 class="text-2xl font-bold text-primary mb-4">
+            <NuxtLink 
+              v-if="featuredPost.content"
+              :to="`/${featuredPost.slug}`"
+              class="block cursor-pointer"
+            >
+              <h3 class="text-2xl font-bold text-primary mb-4 hover:text-secondary transition-colors duration-200">
+                {{ featuredPost.title }}
+              </h3>
+            </NuxtLink>
+            <h3 
+              v-else
+              class="text-2xl font-bold text-primary mb-4"
+            >
               {{ featuredPost.title }}
             </h3>
             
