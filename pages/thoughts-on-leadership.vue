@@ -50,7 +50,7 @@
     <!-- Featured Image -->
     <div class="mb-8">
       <img
-        src="/support-playbooks.png"
+        src="/thoughts-on-leadership.png"
         alt="Thoughts on leadership"
         class="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg"
       />
@@ -250,7 +250,7 @@ useHead({
     { name: 'description', content: 'Short version: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.' },
     { property: 'og:title', content: 'Thoughts on leadership' },
     { property: 'og:description', content: 'Short version: I try to make good work easier. Set the intent, raise the floor, and get out of the way. A deep dive into leader-leader thinking and practical approaches to engineering leadership.' },
-    { property: 'og:image', content: '/support-playbooks.png' },
+    { property: 'og:image', content: '/thoughts-on-leadership.png' },
     { property: 'og:type', content: 'article' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Thoughts on leadership' },

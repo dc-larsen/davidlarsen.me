@@ -172,7 +172,7 @@ export const blogPosts = [
       
       <p>What's one place in your team where you could replace "Can I?" with "I intend to?" Start there.</p>
     `,
-    image: '/support-playbooks.png',
+    image: '/thoughts-on-leadership.png',
     category: 'Leadership',
     tags: ['leadership', 'management', 'team-culture', 'engineering'],
     date: '2025-08-11',

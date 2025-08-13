@@ -50,7 +50,7 @@
     <!-- Featured Image -->
     <div class="mb-8">
       <img
-        src="/support-playbooks.png"
+        src="/thoughts-on-leadership.png"
         alt="Thoughts on leadership"
         class="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg"
       />
