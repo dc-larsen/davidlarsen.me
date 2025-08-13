@@ -1,1 +1,0 @@
-import{B as a,C as s,D as r,x as u,E as o}from"./5ZJp-8HD.js";function i(e){const t=e||s();return t?.ssrContext?.head||t?.runWithContext(()=>{if(r())return u(o)})}function c(e,t={}){const n=i(t.nuxt);if(n)return a(e,{head:n,...t})}export{c as u};

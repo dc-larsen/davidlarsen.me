@@ -151,12 +151,6 @@
       <p class="text-gray-500">Try adjusting your search or filter criteria.</p>
     </div>
 
-    <!-- Load More (Placeholder for future pagination) -->
-    <div v-if="filteredPosts.length > 0" class="text-center">
-      <button class="bg-gray-100 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors duration-200 font-medium">
-        Load More Posts
-      </button>
-    </div>
   </div>
 </template>
 
