@@ -423,7 +423,7 @@ const _routes = [
   {
     name: "blog-zendesk-slack-cheat-sheet",
     path: "/blog/zendesk-slack-cheat-sheet",
-    component: () => import('./zendesk-slack-cheat-sheet-BLwATMQM.mjs')
+    component: () => import('./zendesk-slack-cheat-sheet-Cq2gTU35.mjs')
   },
   {
     name: "blog-la-cuchara-baltimore-review",

@@ -404,7 +404,7 @@ const _routes = [
   {
     name: "blog-zendesk-slack-cheat-sheet",
     path: "/blog/zendesk-slack-cheat-sheet",
-    component: () => import("./_nuxt/zendesk-slack-cheat-sheet-BLwATMQM.js")
+    component: () => import("./_nuxt/zendesk-slack-cheat-sheet-Cq2gTU35.js")
   },
   {
     name: "blog-la-cuchara-baltimore-review",
