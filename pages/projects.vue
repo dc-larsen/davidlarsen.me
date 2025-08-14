@@ -34,6 +34,15 @@
       />
 
 
+      <!-- k8s Support Lab -->
+      <ProjectCard
+        title="k8s support lab"
+        image="/kb8-support-lab.png"
+        :description="`Hands-on Kubernetes troubleshooting labs for technical support engineers. Learn debugging skills through realistic scenarios: CrashLoopBackOff, DNS issues, and service connectivity.`"
+        github-url="https://github.com/dc-larsen/k8s-support-lab"
+        explore-url="https://github.com/dc-larsen/k8s-support-lab"
+      />
+
       <!-- GitHub Portfolio -->
       <ProjectCard
         title="GitHub Portfolio"
