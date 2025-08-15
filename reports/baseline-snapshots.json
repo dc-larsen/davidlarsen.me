@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-08-15T03:21:32.828Z",
+  "snapshots": [
+    {
+      "page": "home",
+      "url": "http://localhost:3000/",
+      "screenshots": {
+        "desktop": "reports/snapshots/before/home-desktop.png",
+        "tablet": "reports/snapshots/before/home-tablet.png",
+        "mobile": "reports/snapshots/before/home-mobile.png"
+      }
+    },
+    {
+      "page": "about",
+      "url": "http://localhost:3000/about",
+      "screenshots": {
+        "desktop": "reports/snapshots/before/about-desktop.png",
+        "tablet": "reports/snapshots/before/about-tablet.png",
+        "mobile": "reports/snapshots/before/about-mobile.png"
+      }
+    },
+    {
+      "page": "blog",
+      "url": "http://localhost:3000/blog",
+      "screenshots": {
+        "desktop": "reports/snapshots/before/blog-desktop.png",
+        "tablet": "reports/snapshots/before/blog-tablet.png",
+        "mobile": "reports/snapshots/before/blog-mobile.png"
+      }
+    },
+    {
+      "page": "projects",
+      "url": "http://localhost:3000/projects",
+      "screenshots": {
+        "desktop": "reports/snapshots/before/projects-desktop.png",
+        "tablet": "reports/snapshots/before/projects-tablet.png",
+        "mobile": "reports/snapshots/before/projects-mobile.png"
+      }
+    },
+    {
+      "page": "thoughts-on-leadership",
+      "url": "http://localhost:3000/blog/thoughts-on-leadership",
+      "screenshots": {
+        "desktop": "reports/snapshots/before/thoughts-on-leadership-desktop.png",
+        "tablet": "reports/snapshots/before/thoughts-on-leadership-tablet.png",
+        "mobile": "reports/snapshots/before/thoughts-on-leadership-mobile.png"
+      }
+    }
+  ],
+  "total_screenshots": 15,
+  "viewport_sizes": {
+    "desktop": "1920x1080",
+    "tablet": "768x1024",
+    "mobile": "375x667"
+  }
+}
