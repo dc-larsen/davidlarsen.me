@@ -6,7 +6,7 @@
         <img 
           class="pro-pic mx-auto lg:mx-0 mb-6" 
           alt="David Larsen - Customer Support Leader" 
-          src="/pro.png"
+          src="/images/pro.png"
           width="175"
           height="175"
         >
@@ -84,7 +84,7 @@ useHead({
 }
 
 .wow-icon {
-  background-image: url('/wow-icon-2.png');
+  background-image: url('/images/wow-icon-2.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -99,8 +99,8 @@ useHead({
 .wow-icon:hover {
   background-image: none;
   background-color: #138A36;
-  -webkit-mask: url('/wow-icon-2.png') no-repeat center;
-  mask: url('/wow-icon-2.png') no-repeat center;
+  -webkit-mask: url('/images/wow-icon-2.png') no-repeat center;
+  mask: url('/images/wow-icon-2.png') no-repeat center;
   -webkit-mask-size: contain;
   mask-size: contain;
 }

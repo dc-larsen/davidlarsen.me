@@ -5,12 +5,12 @@
       <Meta name="description" content="Years in, La Cuchara still delivers: sit at the bar, share small plates, chase the rotating gin & tonics, and watch a tight team run like clockwork." />
       <Meta property="og:title" content="Why I keep going back to La Cuchara" />
       <Meta property="og:description" content="Years in, La Cuchara still delivers: sit at the bar, share small plates, chase the rotating gin & tonics, and watch a tight team run like clockwork." />
-      <Meta property="og:image" content="https://davidlarsen.me/lacuchara.png" />
+      <Meta property="og:image" content="https://davidlarsen.me/images/lacuchara.png" />
       <Meta property="og:url" content="https://davidlarsen.me/blog/la-cuchara-baltimore-review" />
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:title" content="Why I keep going back to La Cuchara" />
       <Meta name="twitter:description" content="Years in, La Cuchara still delivers: sit at the bar, share small plates, chase the rotating gin & tonics, and watch a tight team run like clockwork." />
-      <Meta name="twitter:image" content="https://davidlarsen.me/lacuchara.png" />
+      <Meta name="twitter:image" content="https://davidlarsen.me/images/lacuchara.png" />
     </Head>
 
     <div class="container mx-auto px-6 py-12 max-w-4xl">
@@ -44,7 +44,7 @@
       <!-- Featured Image -->
       <div class="mb-8">
         <img 
-          src="/lacuchara.png" 
+          src="/images/lacuchara.png" 
           alt="La Cuchara Baltimore Review"
           class="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg"
         />

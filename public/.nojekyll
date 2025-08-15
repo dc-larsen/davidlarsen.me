@@ -1,0 +1,2 @@
+# This file prevents GitHub Pages from treating this as a Jekyll site
+# Required for proper deployment of Nuxt.js static sites
