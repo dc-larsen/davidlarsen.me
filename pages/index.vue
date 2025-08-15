@@ -105,9 +105,4 @@ useHead({
   mask-size: contain;
 }
 
-@media (max-width: 700px) {
-  .mobile-greeting {
-    padding-top: 15vh;
-  }
-}
 </style>
