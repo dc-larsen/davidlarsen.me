@@ -9,7 +9,7 @@
       <!-- Support Playbooks -->
       <ProjectCard
         title="Support Playbooks"
-        image="/support-playbooks.png"
+        image="/images/support-playbooks.png"
         :description="`Comprehensive collection of customer support playbooks covering escalation procedures, troubleshooting workflows, and team management strategies. Designed to help support teams provide consistent, high-quality customer experiences while scaling efficiently.`"
         github-url="https://github.com/dc-larsen/support-playbooks"
         explore-url="https://github.com/dc-larsen/support-playbooks"
@@ -18,7 +18,7 @@
       <!-- Customer Success Playbooks -->
       <ProjectCard
         title="Customer Success Playbooks"
-        image="/customer-success.png"
+        image="/images/customer-success.png"
         :description="`Curated playbooks for customer success teams focused on onboarding, retention, expansion, and churn prevention strategies. Includes templates for customer health scoring, success metrics tracking, and proactive outreach workflows. Built from experience scaling customer success operations at high-growth startups.`"
         github-url="https://github.com/dc-larsen/customer-success-playbooks"
         explore-url="https://github.com/dc-larsen/customer-success-playbooks"
@@ -27,7 +27,7 @@
       <!-- Zendesk Slackbot -->
       <ProjectCard
         title="Zendesk Slackbot"
-        image="/zendesk-slackbot.png"
+        image="/images/zendesk-slackbot.png"
         :description="`Slack bot integration for managers to streamline 1-on-1 preparation with their team members. Pulls Zendesk ticket data, performance metrics, and team insights to help managers have more effective, data-driven conversations with their reports.`"
         github-url="https://github.com/dc-larsen/zendesk-slackbot"
         explore-url="https://github.com/dc-larsen/zendesk-slackbot"
@@ -37,7 +37,7 @@
       <!-- k8s Support Lab -->
       <ProjectCard
         title="k8s support lab"
-        image="/kb8-support-lab.png"
+        image="/images/kb8-support-lab.png"
         :description="`Hands-on Kubernetes troubleshooting labs for technical support engineers. Learn debugging skills through realistic scenarios: CrashLoopBackOff, DNS issues, and service connectivity.`"
         github-url="https://github.com/dc-larsen/k8s-support-lab"
         explore-url="https://github.com/dc-larsen/k8s-support-lab"
@@ -46,7 +46,7 @@
       <!-- GitHub Portfolio -->
       <ProjectCard
         title="GitHub Portfolio"
-        image="/github.png"
+        image="/images/github.png"
         :description="`View my complete GitHub portfolio for more projects related to customer support operations, team management tools, and technical troubleshooting solutions built throughout my career in support leadership.`"
         github-url="https://github.com/dc-larsen"
         explore-url="https://github.com/dc-larsen"

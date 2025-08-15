@@ -50,7 +50,7 @@
     <!-- Featured Image -->
     <div class="mb-8">
       <img
-        src="/slackbot.png"
+        src="/images/slackbot.png"
         alt="One-on-one autopilot: the Zendesk → Slack cheat sheet"
         class="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg"
       />
@@ -90,7 +90,7 @@
       </ol>
       
       <h2>Sample Slack post</h2>
-      <p><img src="/sample-slack-post.png" alt="Sample Slack post" /></p>
+      <p><img src="/images/sample-slack-post.png" alt="Sample Slack post" /></p>
       
       <h2>Setup and docs</h2>
       <p>For installation, configuration, and environment variables, see the README:<br>
@@ -118,7 +118,7 @@ useHead({
     { name: 'description', content: 'A lightweight bot that checks Google Calendar for upcoming 1:1s, pulls a focused Zendesk snapshot for the attendee, and posts a compact summary to Slack so managers arrive prepped without extra work.' },
     { property: 'og:title', content: 'One-on-one autopilot: the Zendesk → Slack cheat sheet' },
     { property: 'og:description', content: 'A lightweight bot that checks Google Calendar for upcoming 1:1s, pulls a focused Zendesk snapshot for the attendee, and posts a compact summary to Slack so managers arrive prepped without extra work.' },
-    { property: 'og:image', content: '/slackbot.png' },
+    { property: 'og:image', content: '/images/slackbot.png' },
     { property: 'og:type', content: 'article' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'One-on-one autopilot: the Zendesk → Slack cheat sheet' },

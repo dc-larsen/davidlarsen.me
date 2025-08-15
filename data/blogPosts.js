@@ -38,13 +38,13 @@ export const blogPosts = [
       </ol>
       
       <h2>Sample Slack post</h2>
-      <p><img src="/sample-slack-post.png" alt="Sample Slack post" /></p>
+      <p><img src="/images/sample-slack-post.png" alt="Sample Slack post" /></p>
       
       <h2>Setup and docs</h2>
       <p>For installation, configuration, and environment variables, see the README:<br>
       <a href="https://github.com/dc-larsen/zendesk-slackbot#readme" target="_blank" rel="noopener noreferrer">https://github.com/dc-larsen/zendesk-slackbot#readme</a></p>
     `,
-    image: '/slackbot.png',
+    image: '/images/slackbot.png',
     category: 'Technical',
     tags: ['zendesk', 'slack', 'github-actions', 'google-calendar', 'service-accounts', '1:1s', 'cs-ops', 'automation', 'manager-tooling'],
     date: '2025-08-13',
@@ -103,7 +103,7 @@ export const blogPosts = [
       <h2>Why it stays in my rotation</h2>
       <p>Consistent service. A menu that changes without losing its backbone. A bar program that nudges you to try new things. And a space that rewards regulars without getting precious about it. When I want a great meal and I am up for something new, this is where I land.</p>
     `,
-    image: '/lacuchara.png',
+    image: '/images/lacuchara.png',
     category: 'Food',
     tags: ['restaurant review', 'baltimore', 'la cuchara', 'shared plates', 'happy hour', 'gin and tonic', 'woodberry'],
     date: '2025-08-13',
@@ -275,7 +275,7 @@ export const blogPosts = [
       
       <p>What's one place in your team where you could replace "Can I?" with "I intend to?" Start there.</p>
     `,
-    image: '/leadership-badge-1200x675-letterbox.png',
+    image: '/images/leadership-badge-1200x675-letterbox.png',
     category: 'Leadership',
     tags: ['leadership', 'management', 'team-culture', 'engineering'],
     date: '2025-08-11',
