@@ -14,7 +14,7 @@
           Hey there! I'm David.
         </h1>
         <p class="text-lg lg:text-xl text-gray-600 mb-8 leading-relaxed">
-          Technical Success Manager @ <img src="/images/socket.png" alt="Socket" class="inline-block h-6 w-auto mx-1 align-text-bottom" />, helping customers build securely and scale with confidence. Outside of work, you'll usually find me exploring Baltimore's food scene or traveling with friends and family.
+          Technical Success Manager @ <img src="/images/socket.png" alt="Socket" class="inline-block h-7 w-auto mx-1 align-text-bottom" />, helping customers build securely and scale with confidence. Outside of work, you'll usually find me exploring Baltimore's food scene or traveling with friends and family.
         </p>
       </div>
 
