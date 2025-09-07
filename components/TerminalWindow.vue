@@ -124,14 +124,15 @@ function printAbout() {
 
     Location   =    Baltimore, MD 🦀
 
-    Role       =    Customer Support & Success Leader
-                    Building stronger teams, solving tricky problems
-                    Leading global support orgs at high-growth startups
+    Role       =    Customer Success Leader
+                    Partnering with customers to drive secure adoption and outcomes
+                    Enabling engineering teams at high-growth startups to succeed
 
-    Background = {  Technical troubleshooting (APIs, logs, infrastructure),
-                    Scalable ops systems design,
-                    Team mentoring & leadership,
-                    High-stakes technical issue resolution  }
+    Background = {  Secure software supply chain expertise,
+                    Customer success & value realization,
+                    Technical troubleshooting (APIs, integrations, infrastructure),
+                    Driving product adoption & growth,
+                    Stakeholder alignment & executive communication  }
 
     Free Time  = {  Chasing my sheepadoodle Goku 🐶 around Patterson Park,
                     Exploring Baltimore coffee shops,
@@ -142,29 +143,29 @@ function printAbout() {
 function printSkills() {
   return `Experience and Skills:
     Core Expertise = {
-        Customer Support & Success Leadership,
-        Technical Troubleshooting,
-        Team Building & Mentoring,
-        Operations Systems Design
+        Managing high-ARR enterprise accounts,
+        Secure software supply chain enablement,
+        Technical troubleshooting & diagnostics,
+        Driving adoption & customer outcomes
     }
     Tools & Platforms = {
         Salesforce,
-        Zendesk,
-        Splunk,
+        Gainsight,
+        Gong,
         Postman,
         SQL,
         Kubernetes,
-        Zapier,
+        Splunk,
         Jira
     }
     Specializations = {
-        Support org scaling & efficiency ⚙️,
-        High-stakes technical issue resolution 🚨,
-        Workflow automation & tooling ✍️,
-        APIs, logs & infrastructure troubleshooting,
-        Cross-functional team leadership
+        Enterprise customer success & retention 💼,
+        Security-focused technical success 🔐,
+        APIs, integrations & infrastructure debugging 🛠️,
+        Executive alignment & stakeholder management 🤝,
+        Scalable playbooks & customer workflows 📈
     }
     
-     Resume available in navigation menu!`
+    Resume available in navigation menu!`
 }
 </script>

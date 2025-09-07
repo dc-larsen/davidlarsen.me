@@ -2,7 +2,7 @@
   <div class="max-w-3xl mx-auto">
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold text-primary mb-4">About David</h1>
-      <p class="text-xl text-gray-600">Customer Support & Success Leader in Baltimore</p>
+      <p class="text-xl text-gray-600">Technical Success Manager in Baltimore</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-12 items-start">
@@ -12,13 +12,11 @@
           <h2 class="text-2xl font-semibold text-primary mb-4">Background</h2>
           <div class="prose prose-lg text-gray-700">
             <p>
-              I'm a customer support and success leader based in Baltimore, MD. I specialize in building stronger teams, 
-              solving complex technical problems, and scaling global support organizations at high-growth startups.
+              I'm a technical success manager based in Baltimore, MD. I partner with engineering teams at high-growth startups to drive secure adoption, manage high-ARR accounts, and deliver measurable customer outcomes.
             </p>
             <br>
             <p>
-              My experience spans technical troubleshooting (APIs, logs, infrastructure), scalable operations system design, 
-              team mentoring & leadership, and high-stakes technical issue resolution.
+              My experience spans secure software supply chain enablement, enterprise account management, technical troubleshooting (APIs, integrations, infrastructure), and guiding customers through complex adoption and retention challenges.
             </p>
           </div>
         </div>
@@ -55,10 +53,10 @@
         <div>
           <h2 class="text-2xl font-semibold text-primary mb-4">Core Expertise</h2>
           <ul class="space-y-2 text-gray-700">
-            <li>• Customer Support & Success Leadership</li>
-            <li>• Technical Troubleshooting</li>
-            <li>• Team Building & Mentoring</li>
-            <li>• Operations Systems Design</li>
+            <li>• Enterprise account management & retention</li>
+            <li>• Secure software supply chain enablement</li>
+            <li>• Technical troubleshooting & diagnostics</li>
+            <li>• Driving product adoption & customer outcomes</li>
           </ul>
         </div>
 
@@ -66,13 +64,15 @@
           <h2 class="text-2xl font-semibold text-primary mb-4">Tools & Platforms</h2>
           <div class="flex flex-wrap gap-2">
             <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Salesforce</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Zendesk</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Splunk</span>
+            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Gainsight</span>
+            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">HubSpot</span>
+            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Gong</span>
             <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Postman</span>
             <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">SQL</span>
+            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Splunk</span>
             <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Kubernetes</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Zapier</span>
             <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Jira</span>
+            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Linear</span>
           </div>
         </div>
 
@@ -80,24 +80,24 @@
           <h2 class="text-2xl font-semibold text-primary mb-4">Specializations</h2>
           <ul class="space-y-2 text-gray-700">
             <li class="flex items-center">
-              <span class="mr-2">⚙️</span>
-              Support org scaling & efficiency
+              <span class="mr-2">💼</span>
+              Enterprise account management & retention
             </li>
             <li class="flex items-center">
-              <span class="mr-2">🚨</span>
-              High-stakes technical issue resolution
+              <span class="mr-2">🔐</span>
+              Secure software supply chain enablement
             </li>
             <li class="flex items-center">
-              <span class="mr-2">✍️</span>
-              Workflow automation & tooling
+              <span class="mr-2">🛠️</span>
+              APIs, integrations & infrastructure troubleshooting
             </li>
             <li class="flex items-center">
-              <span class="mr-2">🔧</span>
-              APIs, logs & infrastructure troubleshooting
+              <span class="mr-2">📊</span>
+              Driving adoption & measurable customer outcomes
             </li>
             <li class="flex items-center">
-              <span class="mr-2">👥</span>
-              Cross-functional team leadership
+              <span class="mr-2">🤝</span>
+              Executive alignment & stakeholder management
             </li>
           </ul>
         </div>
