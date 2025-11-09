@@ -1,0 +1,311 @@
+{
+  "html_files": [
+    {
+      "path": "index.html",
+      "css_files": [
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      ],
+      "js_files": [
+        "/_nuxt/BY9hTKhk.js",
+        "/_nuxt/BLs2dns4.js",
+        "/_nuxt/Dh_Z0etW.js",
+        "/_nuxt/CzQC9Mcp.js",
+        "/_nuxt/BrtT7gUV.js"
+      ],
+      "images": [
+        "/_nuxt/pro.DZ6561Fe.png",
+        "/_nuxt/wow-icon-2.DHIKvl6a.png"
+      ],
+      "fonts": [],
+      "preloads": [
+        "/_payload.json?9d499980-5b40-43ce-8782-494bf26693c3",
+        "/_nuxt/builds/meta/9d499980-5b40-43ce-8782-494bf26693c3.json"
+      ],
+      "prefetch": [
+        "/_nuxt/Cy0ZDQjD.js",
+        "/_nuxt/D21ffwR-.js",
+        "/_nuxt/pro.DZ6561Fe.png",
+        "/_nuxt/wow-icon-2.DHIKvl6a.png"
+      ],
+      "favicon": [
+        "/favicon.ico?v=3"
+      ],
+      "other_assets": []
+    },
+    {
+      "path": "about/index.html",
+      "css_files": [
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      ],
+      "js_files": [
+        "/_nuxt/BY9hTKhk.js",
+        "/_nuxt/BLs2dns4.js",
+        "/_nuxt/Dh_Z0etW.js",
+        "/_nuxt/CSlp75tG.js",
+        "/_nuxt/BrtT7gUV.js"
+      ],
+      "images": [],
+      "fonts": [],
+      "preloads": [
+        "/about/_payload.json?9d499980-5b40-43ce-8782-494bf26693c3",
+        "/_nuxt/builds/meta/9d499980-5b40-43ce-8782-494bf26693c3.json"
+      ],
+      "prefetch": [
+        "/_nuxt/Cy0ZDQjD.js",
+        "/_nuxt/D21ffwR-.js"
+      ],
+      "favicon": [
+        "/favicon.ico?v=3"
+      ],
+      "other_assets": []
+    },
+    {
+      "path": "blog/index.html",
+      "css_files": [
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css",
+        "/_nuxt/blog.DE62QbD_.css"
+      ],
+      "js_files": [
+        "/_nuxt/BY9hTKhk.js",
+        "/_nuxt/BLs2dns4.js",
+        "/_nuxt/Dh_Z0etW.js",
+        "/_nuxt/Bksiwxdd.js",
+        "/_nuxt/BrtT7gUV.js"
+      ],
+      "images": [
+        "/support-playbooks.png",
+        "/zendesk-slackbot.png",
+        "/customer-success.png",
+        "/markdowner.png",
+        "/pro.png",
+        "/threeo.jpg"
+      ],
+      "fonts": [],
+      "preloads": [
+        "/blog/_payload.json?9d499980-5b40-43ce-8782-494bf26693c3",
+        "/_nuxt/builds/meta/9d499980-5b40-43ce-8782-494bf26693c3.json"
+      ],
+      "prefetch": [
+        "/_nuxt/Cy0ZDQjD.js",
+        "/_nuxt/D21ffwR-.js"
+      ],
+      "favicon": [
+        "/favicon.ico?v=3"
+      ],
+      "other_assets": []
+    },
+    {
+      "path": "projects/index.html",
+      "css_files": [
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      ],
+      "js_files": [
+        "/_nuxt/BY9hTKhk.js",
+        "/_nuxt/BLs2dns4.js",
+        "/_nuxt/Dh_Z0etW.js",
+        "/_nuxt/SvFGMPDl.js",
+        "/_nuxt/BrtT7gUV.js"
+      ],
+      "images": [
+        "/image-customer-support-playbooks.png",
+        "/image-customer-success-playbooks.png",
+        "/image-zendesk-slackbot.png",
+        "/image-github.png"
+      ],
+      "fonts": [],
+      "preloads": [
+        "/projects/_payload.json?9d499980-5b40-43ce-8782-494bf26693c3",
+        "/_nuxt/builds/meta/9d499980-5b40-43ce-8782-494bf26693c3.json"
+      ],
+      "prefetch": [
+        "/_nuxt/Cy0ZDQjD.js",
+        "/_nuxt/D21ffwR-.js"
+      ],
+      "favicon": [
+        "/favicon.ico?v=3"
+      ],
+      "other_assets": []
+    },
+    {
+      "path": "blog/thoughts-on-leadership/index.html",
+      "css_files": [
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css",
+        "/_nuxt/blog.DE62QbD_.css"
+      ],
+      "js_files": [
+        "/_nuxt/BY9hTKhk.js",
+        "/_nuxt/BLs2dns4.js",
+        "/_nuxt/Dh_Z0etW.js",
+        "/_nuxt/Bksiwxdd.js",
+        "/_nuxt/BrtT7gUV.js"
+      ],
+      "images": [
+        "/support-playbooks.png",
+        "/zendesk-slackbot.png",
+        "/customer-success.png",
+        "/markdowner.png",
+        "/pro.png",
+        "/threeo.jpg"
+      ],
+      "fonts": [],
+      "preloads": [
+        "/blog/thoughts-on-leadership/_payload.json?9d499980-5b40-43ce-8782-494bf26693c3",
+        "/_nuxt/builds/meta/9d499980-5b40-43ce-8782-494bf26693c3.json"
+      ],
+      "prefetch": [
+        "/_nuxt/Cy0ZDQjD.js",
+        "/_nuxt/D21ffwR-.js"
+      ],
+      "favicon": [
+        "/favicon.ico?v=3"
+      ],
+      "other_assets": []
+    },
+    {
+      "path": "200.html",
+      "css_files": [],
+      "js_files": [],
+      "images": [],
+      "fonts": [],
+      "preloads": [],
+      "prefetch": [],
+      "favicon": [],
+      "other_assets": []
+    },
+    {
+      "path": "404.html",
+      "css_files": [],
+      "js_files": [],
+      "images": [],
+      "fonts": [],
+      "preloads": [],
+      "prefetch": [],
+      "favicon": [],
+      "other_assets": []
+    },
+    {
+      "path": "thoughts-on-leadership/index.html",
+      "css_files": [],
+      "js_files": [],
+      "images": [],
+      "fonts": [],
+      "preloads": [],
+      "prefetch": [],
+      "favicon": [],
+      "other_assets": []
+    }
+  ],
+  "css_dependencies": {
+    "/_nuxt/blog.DE62QbD_.css": {
+      "imports": [],
+      "url_references": []
+    },
+    "/_nuxt/index.B8OaXHgK.css": {
+      "imports": [],
+      "url_references": [
+        "./wow-icon-2.DHIKvl6a.png"
+      ]
+    },
+    "/assets/css/main.css": {
+      "imports": [
+        "@tailwind base",
+        "@tailwind components", 
+        "@tailwind utilities"
+      ],
+      "url_references": []
+    }
+  },
+  "inline_css_dependencies": {
+    "index.html": {
+      "background_images": [
+        "/_nuxt/wow-icon-2.DHIKvl6a.png"
+      ]
+    }
+  },
+  "asset_summary": {
+    "total_css": 2,
+    "total_external_css": 1,
+    "total_js": 21,
+    "total_images": 19,
+    "total_fonts": 0,
+    "total_preloads": 10,
+    "total_prefetch": 10,
+    "unique_js_files": [
+      "/_nuxt/BY9hTKhk.js",
+      "/_nuxt/BLs2dns4.js",
+      "/_nuxt/Dh_Z0etW.js",
+      "/_nuxt/CzQC9Mcp.js",
+      "/_nuxt/BrtT7gUV.js",
+      "/_nuxt/CSlp75tG.js",
+      "/_nuxt/Bksiwxdd.js",
+      "/_nuxt/SvFGMPDl.js",
+      "/_nuxt/Cy0ZDQjD.js",
+      "/_nuxt/D21ffwR-.js"
+    ],
+    "unique_images": [
+      "/_nuxt/pro.DZ6561Fe.png",
+      "/_nuxt/wow-icon-2.DHIKvl6a.png",
+      "/support-playbooks.png",
+      "/zendesk-slackbot.png",
+      "/customer-success.png",
+      "/markdowner.png",
+      "/pro.png",
+      "/threeo.jpg",
+      "/image-customer-support-playbooks.png",
+      "/image-customer-success-playbooks.png",
+      "/image-zendesk-slackbot.png",
+      "/image-github.png"
+    ],
+    "external_dependencies": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    ]
+  },
+  "nuxt_generated_assets": {
+    "_nuxt_js_files": [
+      "/_nuxt/BY9hTKhk.js",
+      "/_nuxt/BLs2dns4.js", 
+      "/_nuxt/Dh_Z0etW.js",
+      "/_nuxt/CzQC9Mcp.js",
+      "/_nuxt/BrtT7gUV.js",
+      "/_nuxt/CSlp75tG.js",
+      "/_nuxt/Bksiwxdd.js",
+      "/_nuxt/SvFGMPDl.js",
+      "/_nuxt/Cy0ZDQjD.js",
+      "/_nuxt/D21ffwR-.js"
+    ],
+    "_nuxt_css_files": [
+      "/_nuxt/blog.DE62QbD_.css",
+      "/_nuxt/index.B8OaXHgK.css"
+    ],
+    "_nuxt_images": [
+      "/_nuxt/pro.DZ6561Fe.png",
+      "/_nuxt/wow-icon-2.DHIKvl6a.png"
+    ],
+    "payload_files": [
+      "/_payload.json",
+      "/about/_payload.json",
+      "/blog/_payload.json", 
+      "/projects/_payload.json",
+      "/blog/thoughts-on-leadership/_payload.json"
+    ],
+    "build_meta_files": [
+      "/_nuxt/builds/meta/9d499980-5b40-43ce-8782-494bf26693c3.json"
+    ]
+  },
+  "analysis_notes": {
+    "generated_at": "2025-01-15T00:00:00Z",
+    "build_id": "9d499980-5b40-43ce-8782-494bf26693c3",
+    "framework": "Nuxt.js",
+    "css_framework": "Tailwind CSS",
+    "observations": [
+      "All HTML files share common Font Awesome CSS from CDN",
+      "Most JavaScript is Nuxt.js generated bundles in /_nuxt/ directory",
+      "Images are mix of /_nuxt/ generated assets and static images in root",
+      "CSS contains inline Tailwind styles with custom components",
+      "WoW icon image referenced in both CSS url() and inline styles",
+      "No custom fonts detected beyond system fonts",
+      "Nuxt build generates consistent payload and metadata files",
+      "All pages use similar asset structure with page-specific variations"
+    ]
+  }
+}

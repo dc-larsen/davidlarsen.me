@@ -1,0 +1,66 @@
+# GitHub Actions Workflow for Nuxt.js Static Site Deployment to GitHub Pages
+# This workflow replaces the default Jekyll deployment with a custom Nuxt build process
+# 
+# TROUBLESHOOTING NOTES:
+# - If assets return 404 errors, check that this workflow is running successfully
+# - If old assets are served, ensure .nojekyll file exists and has recent timestamp
+# - Asset filenames should match between local .output/public/_nuxt/ and deployed site
+# - Build ID in deployed HTML should match local build (check _payload.json?<build-id>)
+
+name: Deploy Nuxt site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# Required permissions for GitHub Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'  # IMPORTANT: Nuxt 3.18.1+ requires Node.js 20+
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate static site
+        run: npm run generate  # Creates .output/public/ directory with static files
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./.output/public  # Upload the Nuxt-generated static files
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        # This deploys the uploaded artifact to GitHub Pages
+        # The deployment will override any Jekyll-generated content

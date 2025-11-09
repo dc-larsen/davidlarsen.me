@@ -1,0 +1,228 @@
+{
+  "analysis_date": "2025-08-15",
+  "project_type": "Nuxt.js",
+  "source_files": [
+    {
+      "path": "app.vue",
+      "imports": [],
+      "exports": ["default (Vue component)"],
+      "used_by": ["Nuxt framework (entry point)"],
+      "unused_imports": [],
+      "type": "application_entry_point"
+    },
+    {
+      "path": "nuxt.config.ts",
+      "imports": [],
+      "exports": ["default (Nuxt config)"],
+      "used_by": ["Nuxt framework"],
+      "unused_imports": [],
+      "type": "configuration"
+    },
+    {
+      "path": "tailwind.config.ts",
+      "imports": ["Config from 'tailwindcss'"],
+      "exports": ["default (Tailwind config)"],
+      "used_by": ["Tailwind CSS processor"],
+      "unused_imports": [],
+      "type": "configuration"
+    },
+    {
+      "path": "layouts/default.vue",
+      "imports": [],
+      "exports": ["default (Vue component)"],
+      "used_by": ["All pages via NuxtLayout"],
+      "unused_imports": [],
+      "type": "layout"
+    },
+    {
+      "path": "components/NavBar.vue",
+      "imports": [
+        "Disclosure from '@headlessui/vue'",
+        "DisclosureButton from '@headlessui/vue'",
+        "DisclosurePanel from '@headlessui/vue'",
+        "Bars3Icon from '@heroicons/vue/24/outline'",
+        "XMarkIcon from '@heroicons/vue/24/outline'"
+      ],
+      "exports": ["default (Vue component)"],
+      "used_by": ["layouts/default.vue"],
+      "unused_imports": [],
+      "type": "component"
+    },
+    {
+      "path": "components/BlogCard.vue",
+      "imports": [],
+      "exports": ["default (Vue component)"],
+      "used_by": ["pages/blog/index.vue"],
+      "unused_imports": [],
+      "type": "component"
+    },
+    {
+      "path": "components/ProjectCard.vue",
+      "imports": [],
+      "exports": ["default (Vue component)"],
+      "used_by": ["pages/projects.vue"],
+      "unused_imports": [],
+      "type": "component"
+    },
+    {
+      "path": "components/TerminalWindow.vue",
+      "imports": [],
+      "exports": ["default (Vue component)"],
+      "used_by": ["pages/index.vue"],
+      "unused_imports": [],
+      "type": "component"
+    },
+    {
+      "path": "data/blogPosts.js",
+      "imports": [],
+      "exports": ["blogPosts (named export)"],
+      "used_by": ["pages/blog/index.vue"],
+      "unused_imports": [],
+      "type": "data"
+    },
+    {
+      "path": "pages/index.vue",
+      "imports": [],
+      "exports": ["default (Vue component)"],
+      "used_by": ["Nuxt router"],
+      "unused_imports": [],
+      "type": "page"
+    },
+    {
+      "path": "pages/about.vue",
+      "imports": [],
+      "exports": ["default (Vue component)"],
+      "used_by": ["Nuxt router"],
+      "unused_imports": [],
+      "type": "page"
+    },
+    {
+      "path": "pages/projects.vue",
+      "imports": [],
+      "exports": ["default (Vue component)"],
+      "used_by": ["Nuxt router"],
+      "unused_imports": [],
+      "type": "page"
+    },
+    {
+      "path": "pages/blog/index.vue",
+      "imports": ["blogPosts as allBlogPosts from '~/data/blogPosts'"],
+      "exports": ["default (Vue component)"],
+      "used_by": ["Nuxt router"],
+      "unused_imports": [],
+      "type": "page"
+    },
+    {
+      "path": "pages/blog/thoughts-on-leadership.vue",
+      "imports": [],
+      "exports": ["default (Vue component)"],
+      "used_by": ["Nuxt router"],
+      "unused_imports": [],
+      "type": "page"
+    },
+    {
+      "path": "pages/blog/zendesk-slack-cheat-sheet.vue",
+      "imports": [],
+      "exports": ["default (Vue component)"],
+      "used_by": ["Nuxt router"],
+      "unused_imports": [],
+      "type": "page"
+    },
+    {
+      "path": "pages/blog/la-cuchara-baltimore-review.vue",
+      "imports": [],
+      "exports": ["default (Vue component)"],
+      "used_by": ["Nuxt router"],
+      "unused_imports": [],
+      "type": "page"
+    },
+    {
+      "path": "assets/css/main.css",
+      "imports": ["@tailwind base", "@tailwind components", "@tailwind utilities"],
+      "exports": [],
+      "used_by": ["nuxt.config.ts (css array)"],
+      "unused_imports": [],
+      "type": "stylesheet"
+    }
+  ],
+  "external_dependencies": {
+    "production": {
+      "@headlessui/vue": {
+        "version": "^1.7.23",
+        "used_in": ["components/NavBar.vue"],
+        "imports": ["Disclosure", "DisclosureButton", "DisclosurePanel"],
+        "usage": "UI components for mobile navigation menu"
+      },
+      "@heroicons/vue": {
+        "version": "^2.1.5",
+        "used_in": ["components/NavBar.vue"],
+        "imports": ["Bars3Icon", "XMarkIcon"],
+        "usage": "Icons for mobile navigation hamburger menu"
+      }
+    },
+    "development": {
+      "@nuxt/devtools": {
+        "version": "^1.5.2",
+        "usage": "Development tools for Nuxt"
+      },
+      "@nuxtjs/tailwindcss": {
+        "version": "^6.12.1",
+        "usage": "Tailwind CSS integration for Nuxt"
+      },
+      "tailwindcss": {
+        "version": "^3.4.13",
+        "usage": "CSS framework"
+      },
+      "nuxt": {
+        "version": "^3.13.2",
+        "usage": "Core framework"
+      },
+      "typescript": {
+        "version": "^5.6.3",
+        "usage": "TypeScript support"
+      }
+    }
+  },
+  "unused_candidates": [],
+  "potential_optimizations": [
+    {
+      "type": "bundle_analysis",
+      "description": "All external dependencies appear to be actively used",
+      "confidence": "high"
+    },
+    {
+      "type": "component_analysis", 
+      "description": "All components are actively used by pages or layouts",
+      "confidence": "high"
+    },
+    {
+      "type": "import_analysis",
+      "description": "No unused import statements detected in source files",
+      "confidence": "high"
+    }
+  ],
+  "summary": {
+    "total_source_files": 17,
+    "files_with_unused_imports": 0,
+    "potential_dead_code": 0,
+    "external_dependencies_used": 2,
+    "external_dependencies_total": 2,
+    "dependency_efficiency": "100%"
+  },
+  "notes": [
+    "This is a clean, well-organized Nuxt.js project with minimal dependencies",
+    "All components and pages are actively used in the application",
+    "The project uses only essential external dependencies (@headlessui/vue and @heroicons/vue)",
+    "No orphaned modules or unused imports were detected",
+    "Font Awesome classes are used via CDN (loaded in nuxt.config.ts), not as npm dependencies",
+    "The _nuxt/ directory contains generated build artifacts and should not be analyzed for unused source code",
+    "All blog pages are functional - they either display full content or serve as placeholders",
+    "The project structure follows Nuxt.js best practices with clear separation of concerns"
+  ],
+  "recommendations": [
+    "The codebase is already very clean with no unused dependencies",
+    "Consider if @headlessui/vue is necessary for just the mobile menu - could potentially be replaced with custom solution",
+    "Monitor bundle size as the project grows to ensure dependencies remain lean",
+    "Current dependency management is excellent - maintain this clean approach"
+  ]
+}

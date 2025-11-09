@@ -1,0 +1,119 @@
+{
+  "batch": "1 - Duplicate Images Removal",
+  "files_removed": [
+    "image-customer-success-playbooks.png",
+    "image-customer-support-playbooks.png",
+    "image-github.png",
+    "image-zendesk-slackbot.png",
+    "leadership-badge-1200x675-letterbox.png",
+    "sample-slack-post.png",
+    "slackbot.png",
+    "support-playbooks.png",
+    "thoughts-on-leadership.png",
+    "wow-icon-2.png",
+    "zendesk-slackbot.png"
+  ],
+  "verification_timestamp": "2025-08-15T03:33:03.335Z",
+  "visual_comparison": {
+    "total_screenshots": 15,
+    "identical_screenshots": 5,
+    "different_screenshots": 10,
+    "max_pixel_difference": 263
+  },
+  "detailed_comparisons": [
+    {
+      "page": "home",
+      "viewport": "desktop",
+      "status": "different",
+      "pixelDifference": 263
+    },
+    {
+      "page": "home",
+      "viewport": "tablet",
+      "status": "identical",
+      "pixelDifference": 0
+    },
+    {
+      "page": "home",
+      "viewport": "mobile",
+      "status": "identical",
+      "pixelDifference": 0
+    },
+    {
+      "page": "about",
+      "viewport": "desktop",
+      "status": "identical",
+      "pixelDifference": 0
+    },
+    {
+      "page": "about",
+      "viewport": "tablet",
+      "status": "different",
+      "pixelDifference": 86
+    },
+    {
+      "page": "about",
+      "viewport": "mobile",
+      "status": "identical",
+      "pixelDifference": 0
+    },
+    {
+      "page": "blog",
+      "viewport": "desktop",
+      "status": "different",
+      "pixelDifference": 8
+    },
+    {
+      "page": "blog",
+      "viewport": "tablet",
+      "status": "different",
+      "pixelDifference": 10
+    },
+    {
+      "page": "blog",
+      "viewport": "mobile",
+      "status": "different",
+      "pixelDifference": 62
+    },
+    {
+      "page": "projects",
+      "viewport": "desktop",
+      "status": "different",
+      "pixelDifference": 11
+    },
+    {
+      "page": "projects",
+      "viewport": "tablet",
+      "status": "identical",
+      "pixelDifference": 0
+    },
+    {
+      "page": "projects",
+      "viewport": "mobile",
+      "status": "different",
+      "pixelDifference": 82
+    },
+    {
+      "page": "thoughts-on-leadership",
+      "viewport": "desktop",
+      "status": "different",
+      "pixelDifference": 11
+    },
+    {
+      "page": "thoughts-on-leadership",
+      "viewport": "tablet",
+      "status": "different",
+      "pixelDifference": 55
+    },
+    {
+      "page": "thoughts-on-leadership",
+      "viewport": "mobile",
+      "status": "different",
+      "pixelDifference": 101
+    }
+  ],
+  "status": "FAIL",
+  "issues_found": [
+    "10 screenshots show visual differences"
+  ]
+}
