@@ -2,7 +2,7 @@
   <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold text-primary mb-4">Projects</h1>
-      <p class="text-xl text-gray-600">Stuff I make: small tools that help people + random side quests I built because they were fun.</p>
+      <p class="text-xl text-gray-600">This is a mix of tools, experiments, and systems I've built over time — some directly from my work in Customer Success and Support, others from personal curiosity. I like building things that reduce friction, surface signal, or make people better at their jobs.</p>
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
