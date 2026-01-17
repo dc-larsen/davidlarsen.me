@@ -50,7 +50,7 @@
     <!-- Featured Image -->
     <div class="mb-8">
       <img
-        src="/images/ai-customer-success.png"
+        src="/images/ai-customer-success-banner.png"
         alt="How I Use AI to Show Up Better for Customers"
         class="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg"
       />
