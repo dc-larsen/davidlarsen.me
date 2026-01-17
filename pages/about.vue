@@ -2,7 +2,7 @@
   <div class="max-w-3xl mx-auto">
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold text-primary mb-4">About David</h1>
-      <p class="text-xl text-gray-600">Technical Success Manager in Baltimore</p>
+      <p class="text-xl text-gray-600">Customer Success Leader · Technical CS & Systems Builder</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-12 items-start">
@@ -12,11 +12,11 @@
           <h2 class="text-2xl font-semibold text-primary mb-4">Background</h2>
           <div class="prose prose-lg text-gray-700">
             <p>
-              I'm a technical success manager based in Baltimore, MD. I partner with engineering teams at high-growth startups to drive secure adoption, manage high-ARR accounts, and deliver measurable customer outcomes.
+              Customer Success leader with deep technical roots and a track record of building post-sales systems from zero at early-stage SaaS companies.
             </p>
             <br>
             <p>
-              My experience spans secure software supply chain enablement, enterprise account management, technical troubleshooting (APIs, integrations, infrastructure), and guiding customers through complex adoption and retention challenges.
+              I design onboarding, renewal risk, and account operating models; implement CS platforms at scale; and partner with executive leadership to protect and grow revenue. Currently managing a $4.22M ARR enterprise portfolio at Socket while owning CS systems supporting $12M+ ARR.
             </p>
           </div>
         </div>
@@ -53,26 +53,27 @@
         <div>
           <h2 class="text-2xl font-semibold text-primary mb-4">Core Expertise</h2>
           <ul class="space-y-2 text-gray-700">
-            <li>• Enterprise account management & retention</li>
-            <li>• Secure software supply chain enablement</li>
-            <li>• Technical troubleshooting & diagnostics</li>
-            <li>• Driving product adoption & customer outcomes</li>
+            <li>• CS operating models & onboarding design</li>
+            <li>• Renewal risk governance & account strategy</li>
+            <li>• Post-sales org design & executive alignment</li>
+            <li>• Technical execution (APIs, security tooling, production code)</li>
           </ul>
         </div>
 
         <div>
           <h2 class="text-2xl font-semibold text-primary mb-4">Tools & Platforms</h2>
           <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Vitally</span>
             <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Salesforce</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Gainsight</span>
             <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">HubSpot</span>
             <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Gong</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Postman</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">SQL</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Splunk</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Kubernetes</span>
+            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Zendesk</span>
+            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Slack</span>
             <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Jira</span>
             <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Linear</span>
+            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Docker</span>
+            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">GitHub</span>
+            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">SQL</span>
           </div>
         </div>
 
@@ -81,23 +82,23 @@
           <ul class="space-y-2 text-gray-700">
             <li class="flex items-center">
               <span class="mr-2">💼</span>
-              Enterprise account management & retention
+              CS platform implementation & data migration
             </li>
             <li class="flex items-center">
               <span class="mr-2">🔐</span>
-              Secure software supply chain enablement
+              Renewal risk governance & executive visibility
             </li>
             <li class="flex items-center">
               <span class="mr-2">🛠️</span>
-              APIs, integrations & infrastructure troubleshooting
+              Internal tooling & workflow automation
             </li>
             <li class="flex items-center">
               <span class="mr-2">📊</span>
-              Driving adoption & measurable customer outcomes
+              Enterprise portfolio management ($4M+ ARR)
             </li>
             <li class="flex items-center">
               <span class="mr-2">🤝</span>
-              Executive alignment & stakeholder management
+              Post-sales org design & change management
             </li>
           </ul>
         </div>
@@ -120,14 +121,13 @@
           <i class="fab fa-linkedin mr-2"></i>
           Connect on LinkedIn
         </a>
-        <a 
-          href="/docs/Larsen_Resume.pdf" 
-          target="_blank" 
+        <NuxtLink
+          to="/resume"
           class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors duration-200 flex items-center"
         >
-          <i class="far fa-file-pdf mr-2"></i>
+          <i class="far fa-file-alt mr-2"></i>
           View Resume
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </div>
@@ -139,7 +139,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Learn more about David Larsen, a customer support and success leader in Baltimore specializing in team building, technical troubleshooting, and operations systems design.'
+      content: 'Learn more about David Larsen, a Customer Success leader in Baltimore specializing in CS operating models, renewal risk governance, and technical systems building.'
     }
   ]
 })
