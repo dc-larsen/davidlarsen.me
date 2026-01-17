@@ -1,6 +1,19 @@
 // Blog posts data
 export const blogPosts = [
   {
+    id: 5,
+    title: 'How I Use AI to Show Up Better for Customers',
+    slug: 'ai-customer-success',
+    excerpt: 'Customer Success is a thinking role. AI helps with preparation, risk detection, and follow-through, but only when used deliberately. This is about using AI as a force multiplier for judgment.',
+    content: true,
+    image: '/images/ai-customer-success.png',
+    category: 'Customer Success',
+    tags: ['ai', 'customer-success', 'productivity', 'tools', 'preparation', 'risk-management'],
+    date: '2026-01-17',
+    readTime: 8,
+    author: 'David Larsen'
+  },
+  {
     id: 4,
     title: 'The guitar solos that live rent-free in my head',
     slug: 'guitar-solos-rent-free',
