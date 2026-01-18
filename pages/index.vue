@@ -68,7 +68,7 @@
           aria-label="World of Warcraft Character"
           title="WoW Character Profile"
         >
-          <IconsWowIcon :size="28" />
+          <IconsGameControllerIcon :size="28" />
         </a>
       </div>
     </div>
