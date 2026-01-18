@@ -59,13 +59,13 @@
       <p class="text-gray-700 mb-6">
         I'm always interested in discussing support operations, automation tools, and team efficiency projects.
       </p>
-      <a 
-        href="https://github.com/dc-larsen" 
-        target="_blank" 
-        rel="noopener noreferrer" 
+      <a
+        href="https://github.com/dc-larsen"
+        target="_blank"
+        rel="noopener noreferrer"
         class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors duration-200 inline-flex items-center"
       >
-        <i class="fab fa-github mr-2"></i>
+        <IconsGitHubIcon :size="18" class="mr-2" />
         View All Projects on GitHub
       </a>
     </div>

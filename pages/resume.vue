@@ -184,7 +184,7 @@
         target="_blank"
         class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors duration-200 inline-flex items-center"
       >
-        <i class="far fa-file-pdf mr-2"></i>
+        <IconsPdfIcon :size="18" class="mr-2" />
         Download PDF Version
       </a>
     </div>

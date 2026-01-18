@@ -17,22 +17,22 @@
       
       <!-- Action buttons -->
       <div class="flex gap-3">
-        <a 
+        <a
           :href="githubUrl"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex-1 bg-primary text-white text-center py-2 px-4 rounded-md hover:bg-primary/90 transition-colors duration-200 text-sm font-medium"
+          class="flex-1 bg-primary text-white text-center py-2 px-4 rounded-md hover:bg-primary/90 transition-colors duration-200 text-sm font-medium flex items-center justify-center"
         >
-          <i class="fab fa-github mr-2"></i>
+          <IconsGitHubIcon :size="16" class="mr-2" />
           GitHub
         </a>
-        <a 
+        <a
           :href="exploreUrl"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex-1 bg-secondary text-white text-center py-2 px-4 rounded-md hover:bg-secondary/90 transition-colors duration-200 text-sm font-medium"
+          class="flex-1 bg-secondary text-white text-center py-2 px-4 rounded-md hover:bg-secondary/90 transition-colors duration-200 text-sm font-medium flex items-center justify-center"
         >
-          <i class="fas fa-external-link-alt mr-2"></i>
+          <IconsExternalLinkIcon :size="16" class="mr-2" />
           Explore
         </a>
       </div>

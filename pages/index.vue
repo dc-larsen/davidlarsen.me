@@ -20,46 +20,56 @@
 
       <!-- Social Links -->
       <div class="flex justify-center lg:justify-start space-x-4 mb-8">
-        <a 
-          href="https://www.linkedin.com/in/david-larsen-404622143/" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="btn-link fab fa-linkedin fa-2x" 
+        <a
+          href="https://www.linkedin.com/in/david-larsen-404622143/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-link"
           aria-label="LinkedIn Profile"
           title="Connect on LinkedIn"
-        ></a>
-        <a 
-          href="https://github.com/dc-larsen" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="btn-link fab fa-github fa-2x"
+        >
+          <IconsLinkedInIcon :size="28" />
+        </a>
+        <a
+          href="https://github.com/dc-larsen"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-link"
           aria-label="GitHub Profile"
           title="View GitHub Projects"
-        ></a>
-        <a 
-          href="https://www.flickr.com/photos/203372618@N08/" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="btn-link fab fa-flickr fa-2x"
+        >
+          <IconsGitHubIcon :size="28" />
+        </a>
+        <a
+          href="https://www.flickr.com/photos/203372618@N08/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-link"
           aria-label="Flickr Photos"
           title="Photography on Flickr"
-        ></a>
-        <a 
-          href="https://open.spotify.com/user/dc2larsen" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="btn-link fab fa-spotify fa-2x"
+        >
+          <IconsFlickrIcon :size="28" />
+        </a>
+        <a
+          href="https://open.spotify.com/user/dc2larsen"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-link"
           aria-label="Spotify Profile"
           title="Music on Spotify"
-        ></a>
-        <a 
-          href="https://worldofwarcraft.blizzard.com/en-us/character/us/proudmoore/fizzl%C3%AA/" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="btn-link wow-icon fa-2x"
+        >
+          <IconsSpotifyIcon :size="28" />
+        </a>
+        <a
+          href="https://worldofwarcraft.blizzard.com/en-us/character/us/proudmoore/fizzl%C3%AA/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-link"
           aria-label="World of Warcraft Character"
           title="WoW Character Profile"
-        ></a>
+        >
+          <IconsWowIcon :size="28" />
+        </a>
       </div>
     </div>
 
@@ -81,28 +91,6 @@ useHead({
   border-radius: 50%;
   border: #315C2B solid 3px;
   max-width: 175px;
-}
-
-.wow-icon {
-  background-image: url('/images/wow-icon-2.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  width: 1.35em;
-  height: 1.35em;
-  vertical-align: baseline;
-  transform: translateY(-5px) !important;
-  margin-right: 8px;
-}
-
-.wow-icon:hover {
-  background-image: none;
-  background-color: #138A36;
-  -webkit-mask: url('/images/wow-icon-2.png') no-repeat center;
-  mask: url('/images/wow-icon-2.png') no-repeat center;
-  -webkit-mask-size: contain;
-  mask-size: contain;
 }
 
 </style>

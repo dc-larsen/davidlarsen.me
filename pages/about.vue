@@ -112,20 +112,20 @@
         Interested in discussing support operations, team leadership, or technical troubleshooting?
       </p>
       <div class="flex justify-center space-x-4">
-        <a 
-          href="https://www.linkedin.com/in/david-larsen-404622143/" 
-          target="_blank" 
-          rel="noopener noreferrer" 
+        <a
+          href="https://www.linkedin.com/in/david-larsen-404622143/"
+          target="_blank"
+          rel="noopener noreferrer"
           class="bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary/90 transition-colors duration-200 flex items-center"
         >
-          <i class="fab fa-linkedin mr-2"></i>
+          <IconsLinkedInIcon :size="18" class="mr-2" />
           Connect on LinkedIn
         </a>
         <NuxtLink
           to="/resume"
           class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors duration-200 flex items-center"
         >
-          <i class="far fa-file-alt mr-2"></i>
+          <IconsDocumentIcon :size="18" class="mr-2" />
           View Resume
         </NuxtLink>
       </div>

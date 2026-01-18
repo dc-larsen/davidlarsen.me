@@ -25,8 +25,7 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=4' },
         { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico?v=4' },
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon.ico?v=4' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon.ico?v=4' },
-        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css', integrity: 'sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==', crossorigin: 'anonymous' }
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon.ico?v=4' }
       ]
     }
   },
@@ -46,7 +45,7 @@ export default defineNuxtConfig({
       '/**': {
         headers: {
           // Content Security Policy - restricts resource loading for security
-          'Content-Security-Policy': "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data:; font-src 'self' https://cdnjs.cloudflare.com; connect-src 'self'",
+          'Content-Security-Policy': "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'",
           'X-Frame-Options': 'DENY',
           'X-Content-Type-Options': 'nosniff',
           'Referrer-Policy': 'strict-origin-when-cross-origin',
