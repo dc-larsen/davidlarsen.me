@@ -58,7 +58,7 @@
 
     <!-- Content -->
     <div class="prose prose-lg max-w-none mb-12">
-      <p>Customer Success is a thinking role. The hard part isn't sending emails or taking notes—it's understanding messy signals, seeing risk early, and showing up to conversations prepared enough to be useful.</p>
+      <p>Customer Success is a thinking role. The hard part isn't sending emails or taking notes. It's understanding messy signals, seeing risk early, and showing up to conversations prepared enough to be useful.</p>
 
       <p>This isn't a post about automating relationships. I don't believe in that. This is about using AI as a force multiplier for judgment, preparation, and follow-through.</p>
 
@@ -68,7 +68,7 @@
 
       <p>AI is bad at accountability, taste, earning trust, knowing when silence matters, and making the final call.</p>
 
-      <p>So I use AI everywhere I want leverage—and nowhere I need ownership.</p>
+      <p>So I use AI everywhere I want leverage. And nowhere I need ownership.</p>
 
       <p>The mistake I see is people trying to replace the human parts of CS instead of strengthening them.</p>
 
@@ -80,13 +80,13 @@
 
       <p>Before important customer calls, I use AI to synthesize context I already have but don't have time to fully re-load: past notes and transcripts, support history, product usage patterns, open bugs or feature requests, renewal timing and account changes.</p>
 
-      <p>I use different models for different jobs. Some are better at retrieval and assembly. Others are stronger at synthesis or surfacing tensions in the data. The AI assembles context and surfaces questions worth asking—it doesn't replace my judgment about which ones actually matter.</p>
+      <p>I use different models for different jobs. Some are better at retrieval and assembly. Others are stronger at synthesis or surfacing tensions in the data. The AI assembles context and surfaces questions worth asking. It doesn't replace my judgment about which ones actually matter.</p>
 
       <p>The output I want is not a summary. A summary tells me what happened. I care about what changed and what it implies. The result is a structured briefing, not prose: what's different since the last meaningful conversation, where there might be risk I haven't named yet, and what questions are worth asking now.</p>
 
       <p>I've shared a sanitized example of what one of these AI-assisted meeting briefs looks like here: <a href="https://github.com/dc-larsen/customer-success-playbooks" target="_blank" rel="noopener noreferrer">customer-success-playbooks</a>.</p>
 
-      <p>The result: I show up asking better questions sooner. Customers feel like I'm paying attention—because I am.</p>
+      <p>The result: I show up asking better questions sooner. Customers feel like I'm paying attention. Because I am.</p>
 
       <h3>Post-meeting synthesis</h3>
 
@@ -100,13 +100,13 @@
 
       <p>I use AI to help me reason about risk across multiple dimensions at once: engagement drift, product usage that looks "fine" but is shallow, unresolved technical friction, changes in stakeholder behavior, silence where there used to be noise.</p>
 
-      <p>AI doesn't decide if an account is at risk. I do. But it's very good at surfacing weak signals I might rationalize away. This is where intuition becomes a system instead of a gut feeling—and problems get addressed earlier, when they're still fixable.</p>
+      <p>AI doesn't decide if an account is at risk. I do. But it's very good at surfacing weak signals I might rationalize away. This is where intuition becomes a system instead of a gut feeling. And problems get addressed earlier, when they're still fixable.</p>
 
       <h3>Internal leverage</h3>
 
       <p>A lot of Customer Success impact is internal. I use AI to draft clear internal updates, turn messy thinking into structured proposals, sanity-check arguments before I bring them to leadership, and improve bug reports and feature requests so engineering can actually act.</p>
 
-      <p>One underrated move: having one AI critique or validate another's output. I use this for high-stakes or ambiguous work—executive summaries, proposals where the framing matters, anything where I need to catch blind spots. The goal isn't perfection; I stop when the output is clear enough to explain and act on.</p>
+      <p>One underrated move: having one AI critique or validate another's output. I use this for high-stakes or ambiguous work. Executive summaries, proposals where the framing matters, anything where I need to catch blind spots. The goal isn't perfection; I stop when the output is clear enough to explain and act on.</p>
 
       <p>Faster internal decisions mean fewer customer stalls.</p>
 
@@ -114,7 +114,7 @@
 
       <p>When I need something specific and tactical, I don't default to buying software. I've used AI to help me build internal tools that pull data from systems we already use, automate annoying but necessary workflows, and surface information exactly where the team needs it.</p>
 
-      <p>These are small, focused tools built to support real team workflows—not side projects. This avoids months of vendor evals and shelfware. More time solving real problems, less time lost to tooling overhead.</p>
+      <p>These are small, focused tools built to support real team workflows. Not side projects. This avoids months of vendor evals and shelfware. More time solving real problems, less time lost to tooling overhead.</p>
 
       <h2>Where I deliberately do not use AI</h2>
 
@@ -130,7 +130,7 @@
 
       <p>In enterprise CS, how you handle customer data matters. I avoid putting raw customer data into AI tools where possible. I prefer working with abstractions, anonymized summaries, or recreating issues locally when I need to troubleshoot.</p>
 
-      <p>My rule of thumb is simple: if I wouldn't be comfortable explaining this AI use to our security team or to a customer, I don't do it. This isn't about checking compliance boxes—it's about maintaining the trust that makes the work possible in the first place.</p>
+      <p>My rule of thumb is simple: if I wouldn't be comfortable explaining this AI use to our security team or to a customer, I don't do it. This isn't about checking compliance boxes. It's about maintaining the trust that makes the work possible in the first place.</p>
 
       <h2>The trade-offs</h2>
 
