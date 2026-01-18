@@ -60,14 +60,14 @@
         <div class="space-y-4 text-gray-700">
           <p class="flex">
             <span class="mr-3 flex-shrink-0">🧠</span>
-            <span><strong>Thinking about systems</strong> — not just at work, but everywhere. I enjoy breaking down why things work (or don't), whether that's a team process, a product experience, or something entirely unrelated.</span>
+            <span><strong>Thinking about systems,</strong> not just at work, but everywhere. I enjoy breaking down why things work (or don't), whether that's a team process, a product experience, or something entirely unrelated.</span>
           </p>
           <p class="flex">
             <span class="mr-3 flex-shrink-0">🍳</span>
-            <span><strong>Cooking and experimenting in the kitchen.</strong> I like precision when it matters and creativity when it doesn't — which probably explains how I approach work, too.</span>
+            <span><strong>Cooking and experimenting in the kitchen.</strong> I like precision when it matters and creativity when it doesn't, which probably explains how I approach work, too.</span>
           </p>
           <p class="flex">
-            <span class="mr-3 flex-shrink-0">🐕</span>
+            <span class="mr-3 flex-shrink-0">🐶</span>
             <span><strong>Spending time with my dogs and staying active.</strong> Clear thinking comes easier when life isn't all screen time.</span>
           </p>
           <p class="flex">
