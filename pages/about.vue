@@ -8,7 +8,7 @@
     <!-- Main narrative content -->
     <div class="space-y-10">
       <!-- Who I am -->
-      <div class="prose prose-lg text-gray-700 max-w-none">
+      <div class="prose prose-lg text-gray-700 max-w-none space-y-6">
         <p>
           I build Customer Success infrastructure at technical startups. That means designing the systems, processes, and operating models that help post-sales teams protect revenue and drive customer outcomes at scale.
         </p>
