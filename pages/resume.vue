@@ -142,18 +142,33 @@
 
       <div class="space-y-4">
         <div>
-          <h3 class="font-semibold text-gray-900 mb-2">Customer Success</h3>
-          <p class="text-gray-700">CS operating models, onboarding design, renewal risk governance, executive alignment, account strategy, post-sales org design</p>
+          <h3 class="font-semibold text-gray-900 mb-2">Customer success leadership</h3>
+          <p class="text-gray-700">Post-sales org design, onboarding operating models, renewal risk governance, executive QBRs, account segmentation, expansion strategy, churn intervention</p>
         </div>
 
         <div>
-          <h3 class="font-semibold text-gray-900 mb-2">Technical</h3>
-          <p class="text-gray-700">APIs, security tooling, Docker, GitHub, SQL, integrations, production code contributions</p>
+          <h3 class="font-semibold text-gray-900 mb-2">CS systems & operations (admin / builder)</h3>
+          <p class="text-gray-700">CS platform implementation (Vitally, Gainsight), CRM administration (Salesforce, HubSpot), ticketing systems (Zendesk), conversation intelligence (Gong), health score modeling, workflow automation, data migration</p>
         </div>
 
         <div>
-          <h3 class="font-semibold text-gray-900 mb-2">Platforms</h3>
-          <p class="text-gray-700">Salesforce, CRM/CS platforms, ticketing systems, conversation intelligence, project tracking</p>
+          <h3 class="font-semibold text-gray-900 mb-2">Technical depth (developer-adjacent)</h3>
+          <p class="text-gray-700">REST APIs, webhooks, OAuth, SQL, GitHub, Docker, CI/CD pipelines, production code contributions, developer and security tooling</p>
+        </div>
+
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-2">Cross-functional leadership</h3>
+          <p class="text-gray-700">Sales-to-CS handoffs, product feedback loops, support escalation frameworks, executive stakeholder alignment, hiring and interviewing</p>
+        </div>
+
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-2">Collaboration & delivery</h3>
+          <p class="text-gray-700">Slack, Notion, Jira, Linear, async documentation, change management, process rollouts</p>
+        </div>
+
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-2">Signature strengths</h3>
+          <p class="text-gray-700">Building CS infrastructure from zero, translating ambiguity into operating systems, bridging technical and business stakeholders</p>
         </div>
       </div>
     </div>
