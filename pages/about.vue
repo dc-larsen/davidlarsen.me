@@ -57,27 +57,32 @@
       <!-- Outside of work -->
       <div>
         <h2 class="text-2xl font-semibold text-primary mb-4">Outside of Work</h2>
-        <div class="space-y-4 text-gray-700">
+        <p class="text-gray-700 mb-4">When I'm not working, I'm usually:</p>
+        <div class="space-y-3 text-gray-700">
           <p class="flex">
-            <span class="mr-3 flex-shrink-0">🧠</span>
-            <span><strong>Thinking about systems,</strong> not just at work, but everywhere. I enjoy breaking down why things work (or don't), whether that's a team process, a product experience, or something entirely unrelated.</span>
+            <span class="mr-3 flex-shrink-0">🐶</span>
+            <span>Out with my dog Goku, exploring Baltimore and getting outside whenever I can.</span>
+          </p>
+          <p class="flex">
+            <span class="mr-3 flex-shrink-0">☕</span>
+            <span>Hunting for great coffee spots and the best breakfast sandwich in the city.</span>
           </p>
           <p class="flex">
             <span class="mr-3 flex-shrink-0">🍳</span>
-            <span><strong>Cooking and experimenting in the kitchen.</strong> I like precision when it matters and creativity when it doesn't, which probably explains how I approach work, too.</span>
-          </p>
-          <p class="flex">
-            <span class="mr-3 flex-shrink-0">🐶</span>
-            <span><strong>Spending time with my dogs and staying active.</strong> Clear thinking comes easier when life isn't all screen time.</span>
+            <span>Cooking at home and experimenting in the kitchen.</span>
           </p>
           <p class="flex">
             <span class="mr-3 flex-shrink-0">✈️</span>
-            <span><strong>Traveling and exploring new places.</strong> I'm drawn to new environments and perspectives, and I tend to bring that curiosity back into how I build and improve systems.</span>
+            <span>Traveling and exploring new places, especially cities with good food and walkability.</span>
           </p>
-          <p class="text-gray-600 mt-6 pt-4 border-t border-gray-200">
-            At the core, I enjoy building things that are clear, durable, and actually useful: for teams, customers, and the people around them.
+          <p class="flex">
+            <span class="mr-3 flex-shrink-0">🎮</span>
+            <span>Playing World of Warcraft and other games that let me unplug and relax.</span>
           </p>
         </div>
+        <p class="text-gray-600 mt-6 pt-4 border-t border-gray-200">
+          I value time away from screens, good conversations, and building a life that isn't defined entirely by work.
+        </p>
       </div>
     </div>
 
