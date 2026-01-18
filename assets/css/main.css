@@ -64,7 +64,8 @@
   }
 
   .command-input {
-    @apply pt-1 w-4/5 truncate font-mono text-sm border-0 bg-transparent outline-0 text-current;
+    @apply pt-1 w-4/5 truncate font-mono text-sm border-0 bg-transparent outline-none text-current;
+    @apply focus:outline-none focus:ring-0 focus:border-0;
   }
 
   /* Mac window styling */
