@@ -15,7 +15,7 @@
     <!-- Summary -->
     <div class="mb-8">
       <p class="text-gray-700 leading-relaxed">
-        Customer Success leader with deep technical roots and a track record of building post-sales systems from zero at early-stage SaaS companies. Proven at designing onboarding, renewal risk, and account operating models; implementing CS platforms at scale; and partnering with executive leadership to protect and grow revenue. Combines hands-on technical execution (APIs, security tooling, production code) with strategic ownership of CS processes supporting $12M+ ARR.
+        Customer Success leader with deep technical roots and a track record of building post-sales systems from zero at early-stage SaaS companies. Proven at designing onboarding, renewal risk, and account operating models; implementing CS platforms at scale; and partnering with executive leadership to protect and grow revenue. Combines hands-on technical execution (APIs, security tooling, production code) with strategic ownership of CS processes supporting multi-million-dollar ARR.
       </p>
     </div>
 
@@ -33,7 +33,7 @@
         <ul class="space-y-2 text-gray-700">
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Act as a CS systems and process leader at an early-stage B2B SaaS company, designing and operationalizing foundational post-sales workflows while managing a $4.22M ARR enterprise portfolio.</span>
+            <span>Act as a CS systems and process leader at an early-stage B2B SaaS company, designing and operationalizing foundational post-sales workflows while managing a seven-figure ARR enterprise portfolio.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
@@ -41,7 +41,7 @@
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Evaluated, selected, and independently implemented Vitally as the company-wide Customer Success platform, modeling onboarding, renewal risk, and advocacy workflows and migrating historical data from HubSpot; platform now supports $12M+ ARR.</span>
+            <span>Evaluated, selected, and independently implemented Vitally as the company-wide Customer Success platform, modeling onboarding, renewal risk, and advocacy workflows and migrating historical data from HubSpot; platform now supports full company ARR.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
@@ -53,7 +53,7 @@
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Authored and led a data-backed proposal to reorganize ~90% of company ARR into a post-sales pod model, aligning TSMs to top 20 strategic accounts and enabling scaled CSM coverage for commercial customers; approved by Head of Customer Success and Head of Customer Engineering.</span>
+            <span>Authored and led a data-backed proposal to reorganize the majority of company ARR into a post-sales pod model, aligning TSMs to top 20 strategic accounts and enabling scaled CSM coverage for commercial customers; approved by Head of Customer Success and Head of Customer Engineering.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
