@@ -18,14 +18,10 @@ export default defineNuxtConfig({
         { name: 'twitter:site', content: '@davidlarsen' },
       ],
       link: [
-        // Favicon configuration - ensure favicon.ico exists in /public directory
-        // TROUBLESHOOTING: If favicon doesn't appear, increment version number to bust browser cache
-        // The ?v=4 query parameter forces browser cache refresh when favicon changes
-        // Multiple formats provided for maximum browser compatibility
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=4' },
-        { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico?v=4' },
-        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon.ico?v=4' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon.ico?v=4' }
+        // Favicon configuration - SVG preferred for crisp scaling, ICO fallback for older browsers
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg?v=5' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=5' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon.svg?v=5' }
       ]
     }
   },
