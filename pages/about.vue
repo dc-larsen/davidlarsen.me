@@ -75,7 +75,7 @@
             <span><strong>Traveling and exploring new places.</strong> I'm drawn to new environments and perspectives, and I tend to bring that curiosity back into how I build and improve systems.</span>
           </p>
           <p class="text-gray-600 mt-6 pt-4 border-t border-gray-200">
-            At the core, I enjoy building things that are clear, durable, and actually useful — for teams, customers, and the people around them.
+            At the core, I enjoy building things that are clear, durable, and actually useful: for teams, customers, and the people around them.
           </p>
         </div>
       </div>
