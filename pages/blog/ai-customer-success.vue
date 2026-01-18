@@ -93,7 +93,7 @@
 
       <p>The output I want is not a summary. A summary tells me what happened. I care about what changed and what it implies. The result is a structured briefing, not prose: what's different since the last meaningful conversation, where there might be risk I haven't named yet, and what questions are worth asking now.</p>
 
-      <p>I've shared a sanitized example of what one of these AI-assisted meeting briefs looks like here: <a href="https://github.com/dc-larsen/customer-success-playbooks" target="_blank" rel="noopener noreferrer">customer-success-playbooks</a>.</p>
+      <p>I've shared a sanitized example of what one of these AI-assisted meeting briefs looks like here: <a href="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/ai-automation/ai-automation.md" target="_blank" rel="noopener noreferrer">customer-success-playbooks</a>.</p>
 
       <p>The result: I show up asking better questions sooner. Customers feel like I'm paying attention. Because I am.</p>
 
