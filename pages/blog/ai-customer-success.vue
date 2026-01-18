@@ -78,6 +78,15 @@
 
       <h3>Pre-meeting preparation that changes the conversation</h3>
 
+      <div class="my-6">
+        <img
+          src="/images/meeting-prep-example.jpg"
+          alt="Example meeting prep briefing showing account context, alerts, usage metrics, pipeline, Slack sentiment, support tickets, Linear issues, and last meeting notes"
+          class="w-full rounded-lg shadow-lg"
+        />
+        <p class="text-sm text-gray-500 mt-2 text-center italic">Illustrative example with synthetic data</p>
+      </div>
+
       <p>Before important customer calls, I use AI to synthesize context I already have but don't have time to fully re-load: past notes and transcripts, support history, product usage patterns, open bugs or feature requests, renewal timing and account changes.</p>
 
       <p>I use different models for different jobs. Some are better at retrieval and assembly. Others are stronger at synthesis or surfacing tensions in the data. The AI assembles context and surfaces questions worth asking. It doesn't replace my judgment about which ones actually matter.</p>
