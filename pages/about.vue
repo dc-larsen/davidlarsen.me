@@ -44,7 +44,7 @@
       </div>
 
       <!-- How I think -->
-      <div class="prose prose-lg text-gray-700 max-w-none">
+      <div class="prose prose-lg text-gray-700 max-w-none space-y-6">
         <h2 class="text-2xl font-semibold text-primary mb-4">How I Think</h2>
         <p>
           I gravitate toward ambiguity. The projects I find most interesting are the ones where the problem is clear but the path isn't: standing up a new function, designing a process that doesn't exist yet, or making a decision with incomplete information.
