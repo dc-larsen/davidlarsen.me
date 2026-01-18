@@ -19,9 +19,9 @@ export default defineNuxtConfig({
       ],
       link: [
         // Favicon configuration - SVG preferred for crisp scaling, ICO fallback for older browsers
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg?v=5' },
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=5' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon.svg?v=5' }
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg?v=6' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=6' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon.svg?v=6' }
       ]
     }
   },
