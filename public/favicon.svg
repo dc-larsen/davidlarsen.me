@@ -1,3 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <text x="16" y="26" font-size="28" text-anchor="middle">🦀</text>
+  <!-- Maryland red crab -->
+  <ellipse cx="16" cy="18" rx="10" ry="7" fill="#E63946"/>
+  <ellipse cx="16" cy="17" rx="8" ry="5" fill="#DC2626"/>
+  <!-- Eyes -->
+  <circle cx="12" cy="14" r="2" fill="#1a1a1a"/>
+  <circle cx="20" cy="14" r="2" fill="#1a1a1a"/>
+  <circle cx="12.5" cy="13.5" r="0.8" fill="white"/>
+  <circle cx="20.5" cy="13.5" r="0.8" fill="white"/>
+  <!-- Claws -->
+  <ellipse cx="4" cy="12" rx="4" ry="3" fill="#E63946"/>
+  <ellipse cx="28" cy="12" rx="4" ry="3" fill="#E63946"/>
+  <ellipse cx="3" cy="10" rx="2" ry="1.5" fill="#DC2626"/>
+  <ellipse cx="29" cy="10" rx="2" ry="1.5" fill="#DC2626"/>
+  <!-- Legs -->
+  <line x1="8" y1="20" x2="3" y2="26" stroke="#E63946" stroke-width="2" stroke-linecap="round"/>
+  <line x1="10" y1="22" x2="6" y2="28" stroke="#E63946" stroke-width="2" stroke-linecap="round"/>
+  <line x1="24" y1="20" x2="29" y2="26" stroke="#E63946" stroke-width="2" stroke-linecap="round"/>
+  <line x1="22" y1="22" x2="26" y2="28" stroke="#E63946" stroke-width="2" stroke-linecap="round"/>
 </svg>
