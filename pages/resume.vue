@@ -5,7 +5,6 @@
       <h1 class="text-4xl font-bold text-primary mb-2">David Larsen</h1>
       <p class="text-gray-600 mb-4">
         Baltimore, MD ·
-        <a href="mailto:dc2larsen@gmail.com" class="text-secondary hover:underline">dc2larsen@gmail.com</a> ·
         <a href="https://www.linkedin.com/in/david-larsen-404622143/" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">LinkedIn</a> ·
         <a href="https://davidlarsen.me" class="text-secondary hover:underline">davidlarsen.me</a>
       </p>
@@ -41,7 +40,7 @@
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Evaluated, selected, and independently implemented Vitally as the company-wide Customer Success platform, modeling onboarding, renewal risk, and advocacy workflows and migrating historical data from HubSpot; platform now supports full company ARR.</span>
+            <span>Evaluated, selected, and independently implemented a Customer Success platform company-wide, modeling onboarding, renewal risk, and advocacy workflows and migrating historical data from CRM; platform now supports full company ARR.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
@@ -49,7 +48,7 @@
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Surfaced renewal risk on a key enterprise account (BitMEX), contributing to executive escalation and successful retention.</span>
+            <span>Surfaced renewal risk on a six-figure enterprise account, contributing to executive escalation and successful retention.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
@@ -61,7 +60,7 @@
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Built internal productivity tooling integrating Vitally, Slack, and internal data sources to support leadership workflows, including a one-on-one preparation tool used by the Head of CS.</span>
+            <span>Built internal productivity tooling integrating CS platform, team chat, and internal data sources to support leadership workflows, including a one-on-one preparation tool used by the Head of CS.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
@@ -154,16 +153,7 @@
 
         <div>
           <h3 class="font-semibold text-gray-900 mb-2">Platforms</h3>
-          <div class="flex flex-wrap gap-2 mt-2">
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Vitally</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Salesforce</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">HubSpot</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Gong</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Zendesk</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Slack</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Jira</span>
-            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Linear</span>
-          </div>
+          <p class="text-gray-700">Salesforce, CRM/CS platforms, ticketing systems, conversation intelligence, project tracking</p>
         </div>
       </div>
     </div>
@@ -197,7 +187,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Resume of David Larsen - Customer Success Leader and Technical CS & Systems Builder with experience at Socket, Sentry, and Synapse.'
+      content: 'Resume of David Larsen - Customer Success Leader and Technical CS & Systems Builder with experience building post-sales systems at early-stage and growth-stage B2B SaaS companies.'
     }
   ]
 })
