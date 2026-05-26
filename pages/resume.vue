@@ -83,19 +83,23 @@
         <ul class="space-y-2 text-gray-700">
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Directed global support and success operations for enterprise accounts; launched 24/7 on-call processes improving critical response times by ~50%.</span>
+            <span>Built AI-driven knowledge systems and operational workflows that reduced resolution times by ~20% and increased enterprise customer self-service.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Implemented AI-driven knowledge systems and operational workflows, reducing resolution times by ~20% and increasing enterprise customer self-service.</span>
+            <span>Engineered 24/7 on-call processes and tooling for enterprise accounts, improving critical response times by ~50%.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Established incident SLOs and executive-ready RCA summaries, strengthening trust and communication with strategic accounts.</span>
+            <span>Built incident SLO frameworks and executive RCA reporting systems to communicate platform reliability and risk to strategic accounts.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Partnered with Customer Success leadership on renewal health, escalation strategy, and expansion planning across high-ARR customers.</span>
+            <span>Operationalized renewal health, escalation strategy, and expansion planning workflows alongside Customer Success leadership for high-ARR accounts.</span>
+          </li>
+          <li class="flex">
+            <span class="mr-2 text-gray-400">•</span>
+            <span>Designed cross-functional incident response workflows connecting support, engineering, product, and account teams for high-severity customer issues.</span>
           </li>
         </ul>
       </div>
