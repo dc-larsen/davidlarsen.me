@@ -8,7 +8,7 @@
         <a href="https://www.linkedin.com/in/david-larsen-404622143/" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">LinkedIn</a> ·
         <a href="https://davidlarsen.me" class="text-secondary hover:underline">davidlarsen.me</a>
       </p>
-      <p class="text-xl font-semibold text-gray-700">Technical Account Manager · Technical CS & Systems Builder</p>
+      <p class="text-xl font-semibold text-gray-700">Technical Account Manager · Enterprise SaaS · Developer Platforms · Cybersecurity</p>
     </div>
 
     <!-- Summary -->
@@ -25,7 +25,7 @@
       <!-- Socket -->
       <div class="mb-8">
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
-          <h3 class="text-xl font-semibold text-gray-900">Technical Account Manager (CS Systems & Process Leadership)</h3>
+          <h3 class="text-xl font-semibold text-gray-900">Technical Account Manager</h3>
           <span class="text-gray-500 text-sm">Sep 2025 – Present</span>
         </div>
         <p class="text-secondary font-medium mb-3">Socket · Remote</p>

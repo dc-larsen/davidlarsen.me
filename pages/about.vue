@@ -2,7 +2,7 @@
   <div class="max-w-3xl mx-auto">
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold text-primary mb-4">About Me</h1>
-      <p class="text-xl text-gray-600">Technical Account Manager · Systems Builder</p>
+      <p class="text-xl text-gray-600">Technical Account Manager · Developer Platforms · Cybersecurity</p>
     </div>
 
     <!-- Main narrative content -->
