@@ -76,7 +76,7 @@
       <!-- Sentry -->
       <div class="mb-8">
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
-          <h3 class="text-xl font-semibold text-gray-900">Manager, Customer Support & Success Operations</h3>
+          <h3 class="text-xl font-semibold text-gray-900">GTM Engineer</h3>
           <span class="text-gray-500 text-sm">Nov 2023 – Jul 2025</span>
         </div>
         <p class="text-secondary font-medium mb-3">Sentry · Remote</p>
