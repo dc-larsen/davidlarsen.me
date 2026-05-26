@@ -28,7 +28,10 @@
           <h3 class="text-xl font-semibold text-gray-900">Technical Account Manager</h3>
           <span class="text-gray-500 text-sm">Sep 2025 – Present</span>
         </div>
-        <p class="text-secondary font-medium mb-3">Socket · Remote</p>
+        <p class="text-secondary font-medium mb-3">
+          <img src="/images/socket-logo.png" alt="Socket" class="inline-block h-6 w-auto align-middle mr-2 print:hidden" />
+          <span class="hidden print:inline">Socket </span>· Remote
+        </p>
         <ul class="space-y-2 text-gray-700">
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
@@ -79,7 +82,10 @@
           <h3 class="text-xl font-semibold text-gray-900">GTM Engineer</h3>
           <span class="text-gray-500 text-sm">Nov 2023 – Jul 2025</span>
         </div>
-        <p class="text-secondary font-medium mb-3">Sentry · Remote</p>
+        <p class="text-secondary font-medium mb-3">
+          <img src="/images/sentry-logo.png" alt="Sentry" class="inline-block h-6 w-auto align-middle mr-2 print:hidden" />
+          <span class="hidden print:inline">Sentry </span>· Remote
+        </p>
         <ul class="space-y-2 text-gray-700">
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
