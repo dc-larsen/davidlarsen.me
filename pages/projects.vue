@@ -2,14 +2,39 @@
   <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold text-primary mb-4">Projects</h1>
-      <p class="text-xl text-gray-600">Integrations, demos, and tooling I've built around developer security, AI-augmented workflows, and customer adoption. Most started as patterns I built for customers; they're here so engineering teams can adapt them for their own environments.</p>
+      <p class="text-xl text-gray-600">Operational playbooks, internal tooling, customer enablement, and engineering contributions from my work as a Technical Account Manager. Most started as patterns I built for customers or for my own team; they're here so other engineering and post-sales teams can adapt them.</p>
     </div>
 
-    <!-- AI & Developer Tooling -->
+    <!-- TAM Playbooks -->
     <section class="mb-16">
       <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">AI &amp; Developer Tooling</h2>
-        <p class="text-gray-600 mt-1">MCP servers, agent guardrails, and AI development patterns.</p>
+        <h2 class="text-2xl font-bold text-primary">TAM Playbooks</h2>
+        <p class="text-gray-600 mt-1">Operational frameworks for running enterprise post-sales motions at scale.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <ProjectCard
+          title="Enterprise Account Playbooks"
+          image="/images/customer-success.png"
+          :description="`Frameworks for running enterprise post-sales motions: technical onboarding, renewal risk governance, expansion strategy, executive engagement, and churn intervention. Built from running enterprise portfolios at security and developer-platform SaaS companies.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks"
+          explore-url="https://github.com/dc-larsen/customer-success-playbooks"
+        />
+
+        <ProjectCard
+          title="Technical Escalation Playbooks"
+          image="/images/support-playbooks.png"
+          :description="`Playbooks for managing customer escalations across security, engineering, and platform teams: severity classification, intake quality, cross-functional response, customer communication cadence, and root cause delivery for high-stakes incidents.`"
+          github-url="https://github.com/dc-larsen/support-playbooks"
+          explore-url="https://github.com/dc-larsen/support-playbooks"
+        />
+      </div>
+    </section>
+
+    <!-- Tooling & Systems -->
+    <section class="mb-16">
+      <div class="mb-6 pb-2 border-b border-gray-200">
+        <h2 class="text-2xl font-bold text-primary">Tooling &amp; Systems</h2>
+        <p class="text-gray-600 mt-1">Internal automation and AI-augmented workflows.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
@@ -30,36 +55,11 @@
       </div>
     </section>
 
-    <!-- Security & Compliance Tooling -->
+    <!-- Workshops, Labs & Demos -->
     <section class="mb-16">
       <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">Security &amp; Compliance Tooling</h2>
-        <p class="text-gray-600 mt-1">Reachability analysis, scanning, and supply chain integrations.</p>
-      </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <ProjectCard
-          title="Vulnerability Reachability Pipeline"
-          image="/images/socket-logo.png"
-          :description="`End-to-end reachability analysis: manifest upload, scan execution, and VEX/CDX export. Reference implementation for integrating reachability data into vulnerability management, SBOM, and audit workflows.`"
-          github-url="https://github.com/dc-larsen/socket-reachability-poc"
-          explore-url="https://github.com/dc-larsen/socket-reachability-poc"
-        />
-
-        <ProjectCard
-          title="Open-Source Security Scanner"
-          image="/images/socket-logo.png"
-          :description="`Contributed Dockerfile auto-discovery to Socket Basics, an open-source SAST, secrets detection, and container scanner. Reduces configuration friction for engineering teams adopting container scanning in CI/CD pipelines.`"
-          github-url="https://github.com/dc-larsen/socket-basics"
-          explore-url="https://github.com/dc-larsen/socket-basics"
-        />
-      </div>
-    </section>
-
-    <!-- Workshops & Hands-On Labs -->
-    <section class="mb-16">
-      <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">Workshops &amp; Hands-On Labs</h2>
-        <p class="text-gray-600 mt-1">Customer enablement and technical training materials.</p>
+        <h2 class="text-2xl font-bold text-primary">Workshops, Labs &amp; Demos</h2>
+        <p class="text-gray-600 mt-1">Customer enablement and hands-on training materials.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
@@ -76,6 +76,31 @@
           :description="`Hands-on Kubernetes labs for engineers building debugging muscle. Scenarios include CrashLoopBackOff, DNS resolution failures, and service connectivity issues across containers and clusters.`"
           github-url="https://github.com/dc-larsen/k8s-support-lab"
           explore-url="https://github.com/dc-larsen/k8s-support-lab"
+        />
+      </div>
+    </section>
+
+    <!-- Technical Contributions -->
+    <section class="mb-16">
+      <div class="mb-6 pb-2 border-b border-gray-200">
+        <h2 class="text-2xl font-bold text-primary">Technical Contributions</h2>
+        <p class="text-gray-600 mt-1">Production code, reference integrations, and engineering work.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <ProjectCard
+          title="Open-Source Security Scanner"
+          image="/images/socket-logo.png"
+          :description="`Contributed Dockerfile auto-discovery to Socket Basics, an open-source SAST, secrets detection, and container scanner. Reduces configuration friction for engineering teams adopting container scanning in CI/CD pipelines.`"
+          github-url="https://github.com/dc-larsen/socket-basics"
+          explore-url="https://github.com/dc-larsen/socket-basics"
+        />
+
+        <ProjectCard
+          title="Vulnerability Reachability Pipeline"
+          image="/images/socket-logo.png"
+          :description="`End-to-end reachability analysis: manifest upload, scan execution, and VEX/CDX export. Reference implementation for integrating reachability data into vulnerability management, SBOM, and audit workflows.`"
+          github-url="https://github.com/dc-larsen/socket-reachability-poc"
+          explore-url="https://github.com/dc-larsen/socket-reachability-poc"
         />
       </div>
     </section>
@@ -105,7 +130,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Technical projects by David Larsen across AI development tooling, security and compliance integrations, and customer enablement workshops.'
+      content: 'Projects by David Larsen across TAM playbooks, tooling and systems, customer workshops, and technical contributions.'
     }
   ]
 })
