@@ -10,13 +10,19 @@
       <!-- Who I am -->
       <div class="prose prose-lg text-gray-700 max-w-none space-y-6">
         <p>
-          I build Customer Success infrastructure at technical startups. That means designing the systems, processes, and operating models that help post-sales teams protect revenue and drive customer outcomes at scale.
+          I'm a Technical Account Manager at Socket. I own a seven-figure enterprise portfolio, contributed to over $3M in expansion since joining, and delivered 150% NRR in Q4 and 200% in Q1. My team voted me Team Player of the Quarter and Post-Sales Person of the Quarter in back-to-back quarters.
         </p>
         <p>
-          Most of my career has been spent at early-stage and growth-stage B2B SaaS companies, where I've built CS functions from the ground up: selecting and implementing platforms, designing onboarding and renewal workflows, standing up risk governance processes, and partnering with leadership to shape how the company operates after the deal closes.
+          On any given day the work might be debugging a webhook for a security team, walking a CFO through renewal positioning, or shipping a feature into the product when a customer is blocked on a gap.
         </p>
         <p>
-          I'm technical enough to write production code, build internal tools, and debug APIs, but my real focus is on the systems layer: how information flows, how teams coordinate, and how processes scale without breaking.
+          I work to lift the whole team. I rebuilt our quarterly health check process around AI automation and live product data, which the TAM team uses every quarter. I integrated Linear with HubSpot and Slack so customer asks and bugs stop getting lost. I built a feedback loop on top of Granola transcripts that grades my own customer calls each week. I built the 1:1 prep tool the Head of CS uses with his reports. And I authored the proposal that reorganized our customer book into a pod model, approved by the Head of CS and Head of Customer Engineering.
+        </p>
+        <p>
+          When teammates are stuck on a thorny technical issue, I'm usually the second pair of eyes. I mentor across the company in sales engineering, sales, technical support, and account management through 1:1s, knowledge sharing sessions, and talks. And I've sat in 12+ hiring loops for TAMs and a Support Manager role.
+        </p>
+        <p>
+          Before Socket I ran post-sales operations at Sentry and led the support function at Synapse. I scaled teams, built KPI and SLA frameworks, stood up 24/7 enterprise on-call, and partnered with CS leadership on renewal health and escalation strategy. I've sat on both sides of the IC and manager line and know what the work looks like in each seat.
         </p>
       </div>
 
@@ -25,20 +31,20 @@
         <h2 class="text-2xl font-semibold text-primary mb-4">What I Build</h2>
         <div class="grid md:grid-cols-2 gap-6 text-gray-700">
           <div>
-            <h3 class="font-semibold text-gray-900 mb-2">CS Operating Systems</h3>
-            <p class="text-sm">Onboarding models, renewal risk frameworks, health scoring, account segmentation, executive QBR processes</p>
+            <h3 class="font-semibold text-gray-900 mb-2">Customer Outcomes</h3>
+            <p class="text-sm">$3M+ in expansion. 200% NRR. Renewal saves, executive QBRs, technical onboarding, and expansion strategy across a seven-figure enterprise portfolio.</p>
           </div>
           <div>
-            <h3 class="font-semibold text-gray-900 mb-2">Platform Infrastructure</h3>
-            <p class="text-sm">CS platform implementation (Gainsight, Vitally), CRM administration (Salesforce, HubSpot), workflow automation, data migrations</p>
+            <h3 class="font-semibold text-gray-900 mb-2">Technical Depth</h3>
+            <p class="text-sm">Production code contributions to the product. REST APIs, webhooks, OAuth, SQL, Docker, CI/CD.</p>
           </div>
           <div>
-            <h3 class="font-semibold text-gray-900 mb-2">Internal Tooling</h3>
-            <p class="text-sm">Productivity tools, integrations across CS/CRM/ticketing stacks, reporting pipelines, leadership dashboards</p>
+            <h3 class="font-semibold text-gray-900 mb-2">Force Multiplier</h3>
+            <p class="text-sm">AI-powered quarterly health checks used by the TAM team. Linear integrated with HubSpot and Slack. Internal tools built for CS leadership. Mentorship across sales engineering, sales, support, and account management.</p>
           </div>
           <div>
-            <h3 class="font-semibold text-gray-900 mb-2">Org Design & Change</h3>
-            <p class="text-sm">Post-sales team structures, account assignment models, cross-functional handoffs, process rollouts</p>
+            <h3 class="font-semibold text-gray-900 mb-2">Systems Leadership</h3>
+            <p class="text-sm">CS platform implementation (Vitally). Renewal risk governance. 12+ hiring loops.</p>
           </div>
         </div>
       </div>
@@ -47,10 +53,13 @@
       <div class="prose prose-lg text-gray-700 max-w-none space-y-6">
         <h2 class="text-2xl font-semibold text-primary mb-4">How I Think</h2>
         <p>
-          I gravitate toward ambiguity. The projects I find most interesting are the ones where the problem is clear but the path isn't: standing up a new function, designing a process that doesn't exist yet, or making a decision with incomplete information.
+          I gravitate toward ambiguity. The projects I find most interesting are the ones where the problem is clear but the path isn't: standing up a new function, designing a process that doesn't exist yet, or making a call with incomplete information.
         </p>
         <p>
-          I prefer building systems that are simple, legible, and maintainable over clever solutions that only I understand. If I can't explain how something works in a few sentences, it probably needs to be redesigned.
+          I prefer simple over clever. If I can't explain how a system works in a few sentences, it probably needs to be redesigned.
+        </p>
+        <p>
+          I build by default. If a process on my team is broken, I'll usually have a v1 by the end of the week.
         </p>
       </div>
 
@@ -89,7 +98,7 @@
     <!-- Call to action -->
     <div class="text-center mt-12 p-8 bg-gray-50 rounded-lg">
       <p class="text-gray-700 mb-6">
-        If you're building something interesting or want to talk about CS systems, I'd be happy to connect.
+        If you're building something interesting, hiring for a senior TAM or post-sales leadership role, or want to talk about CS systems, I'd be happy to connect.
       </p>
       <div class="flex justify-center space-x-4">
         <a
@@ -119,7 +128,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'David Larsen is a Customer Success leader and systems builder at technical startups, specializing in CS infrastructure, operating models, and platform implementation.'
+      content: 'David Larsen is a Technical Account Manager at Socket with a seven-figure enterprise portfolio. Contributed to $3M+ in expansion, delivered 200% NRR, and builds the tooling and systems his post-sales team runs on.'
     }
   ]
 })
