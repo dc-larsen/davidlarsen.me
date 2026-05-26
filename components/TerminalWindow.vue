@@ -124,7 +124,7 @@ function printAbout() {
 
     Location   =    Baltimore, MD 🦀
 
-    Role       =    Customer Success Leader
+    Role       =    Technical Account Manager
                     Partnering with customers to drive secure adoption and outcomes
                     Enabling engineering teams at high-growth startups to succeed
 

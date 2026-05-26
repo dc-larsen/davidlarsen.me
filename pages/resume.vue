@@ -8,7 +8,7 @@
         <a href="https://www.linkedin.com/in/david-larsen-404622143/" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">LinkedIn</a> ·
         <a href="https://davidlarsen.me" class="text-secondary hover:underline">davidlarsen.me</a>
       </p>
-      <p class="text-xl font-semibold text-gray-700">Customer Success Leader · Technical CS & Systems Builder</p>
+      <p class="text-xl font-semibold text-gray-700">Technical Account Manager · Technical CS & Systems Builder</p>
     </div>
 
     <!-- Summary -->
@@ -25,7 +25,7 @@
       <!-- Socket -->
       <div class="mb-8">
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
-          <h3 class="text-xl font-semibold text-gray-900">Technical Success Manager (CS Systems & Process Leadership)</h3>
+          <h3 class="text-xl font-semibold text-gray-900">Technical Account Manager (CS Systems & Process Leadership)</h3>
           <span class="text-gray-500 text-sm">Sep 2025 – Present</span>
         </div>
         <p class="text-secondary font-medium mb-3">Socket · Remote</p>
@@ -68,7 +68,7 @@
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Participated in hiring and interview loops for Technical Success Managers and a Support Manager role, conducting 12+ interviews.</span>
+            <span>Participated in hiring and interview loops for Technical Account Managers and a Support Manager role, conducting 12+ interviews.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
@@ -202,7 +202,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Resume of David Larsen - Customer Success Leader and Technical CS & Systems Builder with experience building post-sales systems at early-stage and growth-stage B2B SaaS companies.'
+      content: 'Resume of David Larsen - Technical Account Manager and Technical CS & Systems Builder with experience building post-sales systems at early-stage and growth-stage B2B SaaS companies.'
     }
   ]
 })
