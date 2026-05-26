@@ -14,7 +14,7 @@
     <!-- Summary -->
     <div class="mb-8">
       <p class="text-gray-700 leading-relaxed">
-        Customer Success leader with deep technical roots and a track record of building post-sales systems from zero at early-stage SaaS companies. Proven at designing onboarding, renewal risk, and account operating models; implementing CS platforms at scale; and partnering with executive leadership to protect and grow revenue. Combines hands-on technical execution (APIs, security tooling, production code) with strategic ownership of CS processes supporting multi-million-dollar ARR.
+        Technical Account Manager at Socket with a seven-figure enterprise portfolio and over $3M in contributed expansion since joining. Delivered 150% NRR in Q4 and 200% in Q1; team voted Team Player of the Quarter (Q4) and Post-Sales Person of the Quarter (Q1) back-to-back. Combines IC depth in APIs, integrations, and production code with leadership reach across mentoring, hiring, and CS systems design. Prior manager experience running post-sales operations at Sentry and Synapse.
       </p>
     </div>
 
@@ -32,19 +32,11 @@
         <ul class="space-y-2 text-gray-700">
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Act as a CS systems and process leader at an early-stage B2B SaaS company, designing and operationalizing foundational post-sales workflows while managing a seven-figure ARR enterprise portfolio.</span>
+            <span>Own a seven-figure ARR enterprise portfolio at an early-stage B2B SaaS company; delivered 150% NRR in Q4 and 200% in Q1, with $3M+ in contributed expansion since joining.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Rebuilt the end-to-end customer onboarding operating model from scratch, introducing standardized projects and optional customer-facing artifacts to improve consistency, accountability, and time-to-value across all customers.</span>
-          </li>
-          <li class="flex">
-            <span class="mr-2 text-gray-400">•</span>
-            <span>Evaluated, selected, and independently implemented a Customer Success platform company-wide, modeling onboarding, renewal risk, and advocacy workflows and migrating historical data from CRM; platform now supports full company ARR.</span>
-          </li>
-          <li class="flex">
-            <span class="mr-2 text-gray-400">•</span>
-            <span>Designed and operationalized a quarterly renewal risk governance process, replacing ad-hoc risk notes with structured risk fields and narratives, increasing executive visibility and contributing to proactive intervention on high-risk renewals.</span>
+            <span>Recognized as Team Player of the Quarter (Q4) and Post-Sales Person of the Quarter (Q1) by team vote in back-to-back quarters; also won Highest Output and Most Valuable Project at the Q4 Customer Engineering Hackathon.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
@@ -52,19 +44,31 @@
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Built internal productivity tooling integrating CS platform, team chat, and internal data sources to support leadership workflows, including a one-on-one preparation tool used by the Head of CS.</span>
+            <span>Built AI-powered tooling that lifts the whole TAM team: rebuilt the quarterly health check process around live product data and MCP-driven automation, integrated Linear with HubSpot and Slack to centralize customer asks and bug tracking, and built a Granola-based feedback loop that grades my customer calls weekly.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Contributed production code to customer-facing products, including enhancements to Socket Basics enabling automatic discovery of Dockerfiles in GitHub repositories, reducing configuration friction and improving adoption.</span>
+            <span>Evaluated, selected, and independently implemented Vitally as the company-wide CS platform; modeled onboarding, renewal risk, and advocacy workflows; migrated historical data from CRM; platform now supports full company ARR.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Participated in hiring and interview loops for Technical Account Managers and a Support Manager role, conducting 12+ interviews.</span>
+            <span>Designed and operationalized a quarterly renewal risk governance process, replacing ad-hoc notes with structured risk fields and narratives, increasing executive visibility and enabling proactive intervention on high-risk renewals.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Won both Highest Output and Most Valuable Project awards at the Q4 Customer Engineering Hackathon.</span>
+            <span>Rebuilt the end-to-end customer onboarding operating model from scratch, introducing standardized projects and customer-facing artifacts to improve consistency, accountability, and time-to-value.</span>
+          </li>
+          <li class="flex">
+            <span class="mr-2 text-gray-400">•</span>
+            <span>Contributed production code to Socket Basics, including auto-discovery of Dockerfiles in GitHub repositories, reducing configuration friction and improving adoption.</span>
+          </li>
+          <li class="flex">
+            <span class="mr-2 text-gray-400">•</span>
+            <span>Mentored across sales engineering, sales, technical support, and account management through 1:1s, knowledge sharing sessions, and talks.</span>
+          </li>
+          <li class="flex">
+            <span class="mr-2 text-gray-400">•</span>
+            <span>Participated in 12+ hiring interview loops for Technical Account Managers and a Support Manager role.</span>
           </li>
         </ul>
       </div>
@@ -134,23 +138,23 @@
 
       <div class="space-y-4">
         <div>
+          <h3 class="font-semibold text-gray-900 mb-2">Technical depth (developer-adjacent)</h3>
+          <p class="text-gray-700">REST APIs, webhooks, OAuth, SQL, GitHub, Docker, CI/CD pipelines, production code contributions, MCP tools, Claude Code, AI automation, developer and security tooling</p>
+        </div>
+
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-2">CS systems & operations (admin / builder)</h3>
+          <p class="text-gray-700">CS platform implementation (Vitally, Gainsight), CRM administration (Salesforce, HubSpot), ticketing systems (Zendesk), conversation intelligence (Gong), health score modeling, workflow automation, data migration, AI-driven process automation</p>
+        </div>
+
+        <div>
           <h3 class="font-semibold text-gray-900 mb-2">Customer success leadership</h3>
           <p class="text-gray-700">Post-sales org design, onboarding operating models, renewal risk governance, executive QBRs, account segmentation, expansion strategy, churn intervention</p>
         </div>
 
         <div>
-          <h3 class="font-semibold text-gray-900 mb-2">CS systems & operations (admin / builder)</h3>
-          <p class="text-gray-700">CS platform implementation (Vitally, Gainsight), CRM administration (Salesforce, HubSpot), ticketing systems (Zendesk), conversation intelligence (Gong), health score modeling, workflow automation, data migration</p>
-        </div>
-
-        <div>
-          <h3 class="font-semibold text-gray-900 mb-2">Technical depth (developer-adjacent)</h3>
-          <p class="text-gray-700">REST APIs, webhooks, OAuth, SQL, GitHub, Docker, CI/CD pipelines, production code contributions, developer and security tooling</p>
-        </div>
-
-        <div>
           <h3 class="font-semibold text-gray-900 mb-2">Cross-functional leadership</h3>
-          <p class="text-gray-700">Sales-to-CS handoffs, product feedback loops, support escalation frameworks, executive stakeholder alignment, hiring and interviewing</p>
+          <p class="text-gray-700">Sales-to-CS handoffs, product feedback loops, support escalation frameworks, executive stakeholder alignment, hiring and interviewing, mentorship across sales engineering, sales, support, and account management</p>
         </div>
 
         <div>
@@ -160,7 +164,7 @@
 
         <div>
           <h3 class="font-semibold text-gray-900 mb-2">Signature strengths</h3>
-          <p class="text-gray-700">Building CS infrastructure from zero, translating ambiguity into operating systems, bridging technical and business stakeholders</p>
+          <p class="text-gray-700">Strong IC ownership across enterprise accounts, building CS infrastructure from zero, AI-powered team productivity tooling, bridging technical and business stakeholders</p>
         </div>
       </div>
     </div>
@@ -194,7 +198,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Resume of David Larsen - Technical Account Manager and Technical CS & Systems Builder with experience building post-sales systems at early-stage and growth-stage B2B SaaS companies.'
+      content: 'Resume of David Larsen - Technical Account Manager at Socket with a seven-figure enterprise portfolio, $3M+ in contributed expansion, and 200% NRR. Prior manager experience at Sentry and Synapse.'
     }
   ]
 })
