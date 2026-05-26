@@ -117,7 +117,7 @@
           <span class="text-gray-500 text-sm">Jul 2021 – Oct 2023</span>
         </div>
         <p class="text-secondary font-medium mb-3">
-          <img src="/images/synapse-logo.jpg" alt="Synapse" class="inline-block h-6 w-auto align-middle mr-2 print:hidden" />
+          <img src="/images/synapse-logo.png" alt="Synapse" class="inline-block h-6 w-auto align-middle mr-2 print:hidden" />
           <span class="hidden print:inline">Synapse </span>· Remote
         </p>
         <ul class="space-y-2 text-gray-700">
@@ -141,7 +141,7 @@
     <div class="mb-8">
       <h2 class="text-2xl font-bold text-primary mb-6 pb-2 border-b border-gray-200">Earlier Career (2016–2021)</h2>
       <p class="text-gray-700">
-        Senior Technical Support Engineer at <img src="/images/contrast-logo.jpg" alt="Contrast Security" class="inline-block h-5 w-auto align-middle mx-1 print:hidden" /><span class="hidden print:inline">Contrast Security</span> and <img src="/images/tenable-logo.svg" alt="Tenable" class="inline-block h-5 w-auto align-middle mx-1 print:hidden" /><span class="hidden print:inline">Tenable</span>; built deep expertise in enterprise security tooling, customer escalations, and cross-functional troubleshooting. Recognized for customer impact and technical leadership.
+        Senior Technical Support Engineer at <img src="/images/contrast-logo.png" alt="Contrast Security" class="inline-block h-5 w-auto align-middle mx-1 print:hidden" /><span class="hidden print:inline">Contrast Security</span> and <img src="/images/tenable-logo.svg" alt="Tenable" class="inline-block h-5 w-auto align-middle mx-1 print:hidden" /><span class="hidden print:inline">Tenable</span>; built deep expertise in enterprise security tooling, customer escalations, and cross-functional troubleshooting. Recognized for customer impact and technical leadership.
       </p>
     </div>
 
