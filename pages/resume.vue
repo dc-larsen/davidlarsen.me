@@ -117,7 +117,7 @@
           <span class="text-gray-500 text-sm">Jul 2021 – Oct 2023</span>
         </div>
         <p class="text-secondary font-medium mb-3">
-          <img src="/images/synapse-logo.png" alt="Synapse" class="inline-block h-6 w-auto align-middle mr-2 print:hidden" />
+          <img src="/images/synapse-logo.png" alt="Synapse" class="inline-block h-[1.35rem] w-auto align-middle mr-2 print:hidden" />
           <span class="hidden print:inline">Synapse </span>· Remote
         </p>
         <ul class="space-y-2 text-gray-700">
