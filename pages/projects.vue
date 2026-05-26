@@ -23,15 +23,7 @@
         <ProjectCard
           title="AI Coding Guardrails"
           image="/images/socket-logo.png"
-          :description="`Security guardrails for AI-assisted coding. Blocks risky dependencies before agent-driven development introduces them. A pattern for any team adopting Claude Code or similar AI coding tools at scale where supply chain risk matters.`"
-          github-url="https://github.com/dc-larsen/socket-claude-guardrails"
-          explore-url="https://github.com/dc-larsen/socket-claude-guardrails"
-        />
-
-        <ProjectCard
-          title="AI Agent Dependency Hook"
-          image="/images/socket-logo.png"
-          :description="`Pre-install validation hook for AI coding agents. Validates each package through a security policy engine before installation. Reference pattern for teams adopting agent-driven development in regulated or risk-sensitive environments.`"
+          :description="`Security guardrails for AI-assisted coding. A pre-install validation hook intercepts dependency installs from Claude Code (and similar agents) and blocks risky packages before they land in a developer's environment. A reusable pattern for teams adopting agent-driven development in supply-chain-sensitive environments.`"
           github-url="https://github.com/dc-larsen/socket-claude-code-hook"
           explore-url="https://github.com/dc-larsen/socket-claude-code-hook"
         />
