@@ -16,7 +16,7 @@
           On any given day the work might be debugging a webhook for a security team, walking a CFO through renewal positioning, or shipping a feature into the product when a customer is blocked on a gap.
         </p>
         <p>
-          I work to lift the whole team. I rebuilt our quarterly health check process around AI automation and live product data, which the TAM team uses every quarter. I integrated Linear with HubSpot and Slack so customer asks and bugs stop getting lost. I built a feedback loop on top of Granola transcripts that grades my own customer calls each week. I built the 1:1 prep tool the Head of CS uses with his reports. And I authored the proposal that reorganized our customer book into a pod model, approved by the Head of CS and Head of Customer Engineering.
+          I work to lift the whole team. I rebuilt our quarterly health check process around AI automation and live product data, which the TAM team uses every quarter. I integrated Linear with HubSpot and Slack so customer asks and bugs stop getting lost. I built a feedback loop on top of Granola transcripts that grades my own customer calls each week. And I built the 1:1 prep tool the Head of CS uses with his reports.
         </p>
         <p>
           When teammates are stuck on a thorny technical issue, I'm usually the second pair of eyes. I mentor across the company in sales engineering, sales, technical support, and account management through 1:1s, knowledge sharing sessions, and talks. And I've sat in 12+ hiring loops for TAMs and a Support Manager role.

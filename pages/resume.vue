@@ -52,14 +52,6 @@
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Authored and led a data-backed proposal to reorganize the majority of company ARR into a post-sales pod model, aligning TSMs to top 20 strategic accounts and enabling scaled CSM coverage for commercial customers; approved by Head of Customer Success and Head of Customer Engineering.</span>
-          </li>
-          <li class="flex">
-            <span class="mr-2 text-gray-400">•</span>
-            <span>Led rollout and change management for account reassignment, including direct alignment with CSMs and AEs and creation of standardized account transition templates.</span>
-          </li>
-          <li class="flex">
-            <span class="mr-2 text-gray-400">•</span>
             <span>Built internal productivity tooling integrating CS platform, team chat, and internal data sources to support leadership workflows, including a one-on-one preparation tool used by the Head of CS.</span>
           </li>
           <li class="flex">
