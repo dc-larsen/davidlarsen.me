@@ -141,7 +141,7 @@
     <div class="mb-8">
       <h2 class="text-2xl font-bold text-primary mb-6 pb-2 border-b border-gray-200">Earlier Career (2016–2021)</h2>
       <p class="text-gray-700">
-        Senior Technical Support Engineer at Contrast Security and Tenable; built deep expertise in enterprise security tooling, customer escalations, and cross-functional troubleshooting. Recognized for customer impact and technical leadership.
+        Senior Technical Support Engineer at Contrast Security and <img src="/images/tenable-logo.svg" alt="Tenable" class="inline-block h-5 w-auto align-middle mx-1 print:hidden" /><span class="hidden print:inline">Tenable</span>; built deep expertise in enterprise security tooling, customer escalations, and cross-functional troubleshooting. Recognized for customer impact and technical leadership.
       </p>
     </div>
 
