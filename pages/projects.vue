@@ -72,7 +72,7 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
           title="Package Firewall Workshop"
-          image="/images/socket-logo.png"
+          image="/images/socket-fox.png"
           :description="`Workshop materials and Docker-based demo environment for a network-level package firewall. Used to walk customer engineering teams through firewall setup, policy configuration, and CI/CD integration during enterprise rollouts.`"
           github-url="https://github.com/dc-larsen/socket-firewall-workshop"
           explore-url="https://github.com/dc-larsen/socket-firewall-workshop"
