@@ -21,9 +21,9 @@
         />
 
         <ProjectCard
-          title="Technical Escalation Playbooks"
+          title="Technical Escalation &amp; Triage Playbooks"
           image="/images/support-playbooks.png"
-          :description="`Playbooks for managing customer escalations across security, engineering, and platform teams: severity classification, intake quality, cross-functional response, customer communication cadence, and root cause delivery for high-stakes incidents.`"
+          :description="`Frameworks for cross-functional triage between Support and Engineering, ticket priority alignment (Zendesk to JIRA), structured customer signal alerting, and severity classification. Built for B2B SaaS environments where Support, Success, and Engineering need shared language on escalation.`"
           github-url="https://github.com/dc-larsen/support-playbooks"
           explore-url="https://github.com/dc-larsen/support-playbooks"
         />
@@ -51,6 +51,14 @@
           :description="`Security guardrails for AI-assisted coding. A pre-install validation hook intercepts dependency installs from Claude Code (and similar agents) and blocks risky packages before they land in a developer's environment. A reusable pattern for teams adopting agent-driven development in supply-chain-sensitive environments.`"
           github-url="https://github.com/dc-larsen/socket-claude-code-hook"
           explore-url="https://github.com/dc-larsen/socket-claude-code-hook"
+        />
+
+        <ProjectCard
+          title="AI-Augmented Customer Operations"
+          image="/images/support-playbooks.png"
+          :description="`Automation workflows combining Zapier, OpenAI, and Slack to auto-triage Zendesk tickets, classify priority, surface critical customer signals, and manage pending ticket lifecycles. A pattern for customer-facing teams scaling AI into existing operational tooling.`"
+          github-url="https://github.com/dc-larsen/support-playbooks"
+          explore-url="https://github.com/dc-larsen/support-playbooks"
         />
       </div>
     </section>
