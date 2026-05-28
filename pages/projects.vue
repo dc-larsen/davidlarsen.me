@@ -2,7 +2,7 @@
   <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold text-primary mb-4">Projects</h1>
-      <p class="text-xl text-gray-600">Operational playbooks, internal tooling, customer enablement, and engineering contributions from my work as a Technical Account Manager. Most started as patterns I built for customers or for my own team; they're here so other engineering and post-sales teams can adapt them.</p>
+      <p class="text-xl text-gray-600">Operational playbooks, internal tooling, and customer enablement from my work as a Technical Account Manager. Most started as patterns I built for customers or for my own team; they're here so other engineering and post-sales teams can adapt them.</p>
     </div>
 
     <!-- TAM Playbooks -->
@@ -84,31 +84,6 @@
           :description="`Hands-on Kubernetes labs for engineers building debugging muscle. Scenarios include CrashLoopBackOff, DNS resolution failures, and service connectivity issues across containers and clusters.`"
           github-url="https://github.com/dc-larsen/k8s-support-lab"
           explore-url="https://github.com/dc-larsen/k8s-support-lab"
-        />
-      </div>
-    </section>
-
-    <!-- Technical Contributions -->
-    <section class="mb-16">
-      <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">Technical Contributions</h2>
-        <p class="text-gray-600 mt-1">Production code, reference integrations, and engineering work.</p>
-      </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <ProjectCard
-          title="Open-Source Security Scanner"
-          image="/images/socket-logo.png"
-          :description="`Contributed Dockerfile auto-discovery to Socket Basics, an open-source SAST, secrets detection, and container scanner. Reduces configuration friction for engineering teams adopting container scanning in CI/CD pipelines.`"
-          github-url="https://github.com/dc-larsen/socket-basics"
-          explore-url="https://github.com/dc-larsen/socket-basics"
-        />
-
-        <ProjectCard
-          title="Vulnerability Reachability Pipeline"
-          image="/images/socket-logo.png"
-          :description="`End-to-end reachability analysis: manifest upload, scan execution, and VEX/CDX export. Reference implementation for integrating reachability data into vulnerability management, SBOM, and audit workflows.`"
-          github-url="https://github.com/dc-larsen/socket-reachability-poc"
-          explore-url="https://github.com/dc-larsen/socket-reachability-poc"
         />
       </div>
     </section>
