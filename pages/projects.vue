@@ -23,7 +23,7 @@
 
         <ProjectCard
           title="Onboarding Metrics"
-          image="/images/ai-customer-success.png"
+          image="/images/onboarding-metrics.png"
           tag="Metrics"
           link-label="Read playbook"
           :description="`Measure whether onboarding actually worked, across every account. Define a value milestone, track time-to-first-value and completion, watch the leading signals, and fix the step that keeps stalling.`"
@@ -68,7 +68,7 @@
 
         <ProjectCard
           title="Churn Intervention"
-          image="/images/ai-customer-success-banner.png"
+          image="/images/churn-intervention.png"
           tag="Runbook"
           link-label="Read playbook"
           :description="`The save play for at-risk accounts. Diagnose the real reason, confirm with the customer, multi-thread to the economic buyer, re-establish value, and know when to walk.`"
@@ -86,7 +86,7 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
           title="Expansion &amp; Adoption"
-          image="/images/ai-customer-success-banner.png"
+          image="/images/expansion-adoption.png"
           tag="Framework"
           link-label="Read playbook"
           :description="`Spot expansion early and earn it through deeper adoption. Name the expansion type, watch the usage and health signals that predict it, drive adoption tied to a measurable win, and hand the opportunity to sales with data in hand.`"
