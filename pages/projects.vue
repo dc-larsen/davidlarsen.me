@@ -41,7 +41,7 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
           title="Renewal Risk Governance"
-          image="/images/customer-success.png"
+          image="/images/renewal.png"
           tag="Framework"
           link-label="Read playbook"
           :description="`Record renewal risk the same way every time (level, category, narrative, next step), review it on a cadence, and escalate early. A structured system so no renewal is a surprise.`"
@@ -50,7 +50,7 @@
 
         <ProjectCard
           title="Health Scoring"
-          image="/images/ai-customer-success.png"
+          image="/images/health-score.png"
           tag="Framework"
           link-label="Read playbook"
           :description="`Build an early warning system, not just a dashboard. Separate signals, detectors, and decisions, track trajectory over snapshots, and map every pattern to an action.`"
@@ -59,7 +59,7 @@
 
         <ProjectCard
           title="Proactive Alerts"
-          image="/images/image-zendesk-slackbot.png"
+          image="/images/proactive-alerts.png"
           tag="Reference"
           link-label="Read playbook"
           :description="`Eleven CSM alerts that keep a running pulse on your book: usage drops, license thresholds, renewal countdowns, risk-field changes, and call-gap safety nets.`"
@@ -95,7 +95,7 @@
 
         <ProjectCard
           title="Case Studies"
-          image="/images/meeting-prep-example.jpg"
+          image="/images/case-study.png"
           tag="Runbook"
           link-label="Read playbook"
           :description="`Identify, capture, and publish customer wins, with a system that surfaces candidates automatically and tracks them to publication so your best stories actually get told.`"
@@ -131,7 +131,7 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
           title="AI Automation"
-          image="/images/socket-logo.png"
+          image="/images/ai-automation.png"
           tag="Toolkit"
           link-label="Read playbook"
           :description="`Use Claude Code and n8n to automate CS work: meeting prep, customer comms, and data lookups, with a skills library for HubSpot, Zendesk, Vitally, Slack, and n8n.`"
