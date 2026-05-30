@@ -2,8 +2,8 @@
   <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
     <!-- Project Image -->
     <div class="h-48 bg-gray-100 flex items-center justify-center overflow-hidden">
-      <img 
-        :src="image" 
+      <img
+        :src="image"
         :alt="title"
         class="max-w-full max-h-full object-contain"
         loading="lazy"
@@ -12,12 +12,17 @@
 
     <!-- Project Content -->
     <div class="p-6">
+      <span
+        v-if="tag"
+        class="inline-block text-xs font-semibold uppercase tracking-wide text-secondary bg-secondary/10 px-2.5 py-1 rounded mb-3"
+      >{{ tag }}</span>
       <h3 class="text-xl font-semibold text-primary mb-3">{{ title }}</h3>
       <p class="text-gray-600 text-sm leading-relaxed mb-6">{{ description }}</p>
-      
+
       <!-- Action buttons -->
-      <div class="flex gap-3">
+      <div v-if="githubUrl || exploreUrl" class="flex gap-3">
         <a
+          v-if="githubUrl"
           :href="githubUrl"
           target="_blank"
           rel="noopener noreferrer"
@@ -27,6 +32,7 @@
           GitHub
         </a>
         <a
+          v-if="exploreUrl"
           :href="exploreUrl"
           target="_blank"
           rel="noopener noreferrer"
@@ -45,8 +51,9 @@ interface Props {
   title: string
   image: string
   description: string
-  githubUrl: string
-  exploreUrl: string
+  tag?: string
+  githubUrl?: string
+  exploreUrl?: string
 }
 
 defineProps<Props>()

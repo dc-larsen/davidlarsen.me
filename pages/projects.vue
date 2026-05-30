@@ -2,88 +2,116 @@
   <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold text-primary mb-4">Projects</h1>
-      <p class="text-xl text-gray-600">Operational playbooks, internal tooling, and customer enablement from my work as a Technical Account Manager. Most started as patterns I built for customers or for my own team; they're here so other engineering and post-sales teams can adapt them.</p>
+      <p class="text-xl text-gray-600">Tooling, systems, and frameworks I've built as a Technical Account Manager. Most started as a fix for my own portfolio or team and became the standard the wider post-sales org runs on.</p>
     </div>
 
-    <!-- TAM Playbooks -->
+    <!-- AI-Augmented Workflows -->
     <section class="mb-16">
       <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">TAM Playbooks</h2>
-        <p class="text-gray-600 mt-1">Operational frameworks for running enterprise post-sales motions at scale.</p>
+        <h2 class="text-2xl font-bold text-primary">AI-Augmented Workflows</h2>
+        <p class="text-gray-600 mt-1">AI and automation the team runs on, not just me.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
-          title="Enterprise Account Playbooks"
-          image="/images/customer-success.png"
-          :description="`Frameworks for running enterprise post-sales motions: technical onboarding, renewal risk governance, expansion strategy, executive engagement, and churn intervention. Built from running enterprise portfolios at security and developer-platform SaaS companies.`"
-          github-url="https://github.com/dc-larsen/customer-success-playbooks"
-          explore-url="https://github.com/dc-larsen/customer-success-playbooks"
+          title="Quarterly Health Check Automation"
+          image="/images/ai-customer-success.png"
+          tag="Team-wide"
+          :description="`Rebuilt the TAM team's quarterly health check on live product data and MCP-driven automation. What took a day of manual data pulls now runs from the data itself, and the whole team uses it every quarter.`"
         />
 
-        <ProjectCard
-          title="Technical Escalation &amp; Triage Playbooks"
-          image="/images/support-playbooks.png"
-          :description="`Frameworks for cross-functional triage between Support and Engineering, ticket priority alignment (Zendesk to JIRA), structured customer signal alerting, and severity classification. Built for B2B SaaS environments where Support, Success, and Engineering need shared language on escalation.`"
-          github-url="https://github.com/dc-larsen/support-playbooks"
-          explore-url="https://github.com/dc-larsen/support-playbooks"
-        />
-      </div>
-    </section>
-
-    <!-- Tooling & Systems -->
-    <section class="mb-16">
-      <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">Tooling &amp; Systems</h2>
-        <p class="text-gray-600 mt-1">Internal automation and AI-augmented workflows.</p>
-      </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
           title="Documentation MCP Server"
           image="/images/socket-logo.png"
-          :description="`MCP server pattern for exposing a developer platform's documentation to Claude Desktop and other AI development tools. Built for Socket.dev; a reusable pattern for any SaaS product that wants its knowledge base queryable from AI agents.`"
+          tag="Reusable pattern"
+          :description="`An MCP server that makes a developer platform's docs queryable from Claude and other AI agents. Built for Socket; a pattern any SaaS can reuse to put its knowledge base inside AI tools.`"
           github-url="https://github.com/dc-larsen/mcp-socket-docs"
-          explore-url="https://github.com/dc-larsen/mcp-socket-docs"
         />
 
         <ProjectCard
           title="AI Coding Guardrails"
-          image="/images/socket-logo.png"
-          :description="`Security guardrails for AI-assisted coding. A pre-install validation hook intercepts dependency installs from Claude Code (and similar agents) and blocks risky packages before they land in a developer's environment. A reusable pattern for teams adopting agent-driven development in supply-chain-sensitive environments.`"
+          image="/images/socket.png"
+          tag="Reusable pattern"
+          :description="`A pre-install hook that intercepts dependency installs from AI agents like Claude Code and blocks risky packages before they reach a developer's machine. A guardrail for teams adopting agent-driven development in supply-chain-sensitive code.`"
           github-url="https://github.com/dc-larsen/socket-claude-code-hook"
-          explore-url="https://github.com/dc-larsen/socket-claude-code-hook"
         />
 
         <ProjectCard
-          title="AI-Augmented Customer Operations"
-          image="/images/support-playbooks.png"
-          :description="`Automation workflows combining Zapier, OpenAI, and Slack to auto-triage Zendesk tickets, classify priority, surface critical customer signals, and manage pending ticket lifecycles. A pattern for customer-facing teams scaling AI into existing operational tooling.`"
-          github-url="https://github.com/dc-larsen/support-playbooks"
-          explore-url="https://github.com/dc-larsen/support-playbooks"
+          title="Customer Signal Triage"
+          image="/images/image-zendesk-slackbot.png"
+          tag="Team tool"
+          :description="`Automated triage that classifies ticket priority, surfaces urgent customer signals, and routes them to Slack. Built to scale a support queue without adding headcount.`"
+          github-url="https://github.com/dc-larsen/zendesk-slackbot"
         />
       </div>
     </section>
 
-    <!-- Workshops, Labs & Demos -->
+    <!-- CS Systems & Operations -->
     <section class="mb-16">
       <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">Workshops, Labs &amp; Demos</h2>
-        <p class="text-gray-600 mt-1">Customer enablement and hands-on training materials.</p>
+        <h2 class="text-2xl font-bold text-primary">CS Systems &amp; Operations</h2>
+        <p class="text-gray-600 mt-1">Company-wide systems and processes I designed and own.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
+          title="CS Platform Implementation"
+          image="/images/customer-success.png"
+          tag="Company-wide"
+          :description="`Evaluated, selected, and implemented Vitally as the company-wide CS platform. Modeled onboarding, renewal-risk, and advocacy workflows, migrated historical CRM data, and brought full company ARR onto one system.`"
+        />
+
+        <ProjectCard
+          title="Renewal Risk Governance"
+          image="/images/leadership-badge-1200x675-letterbox.png"
+          tag="Exec visibility"
+          :description="`Designed a quarterly renewal-risk process that replaced scattered notes with structured risk fields and written narratives. Leadership can now see which renewals are at risk early enough to act.`"
+        />
+
+        <ProjectCard
+          title="Onboarding Operating Model"
+          image="/images/meeting-prep-example.jpg"
+          tag="Rebuilt from zero"
+          :description="`Rebuilt enterprise onboarding from scratch with standardized projects and customer-facing artifacts. Gave every new account a consistent path to value and a clear owner at each step.`"
+        />
+      </div>
+    </section>
+
+    <!-- Playbooks & Enablement -->
+    <section class="mb-16">
+      <div class="mb-6 pb-2 border-b border-gray-200">
+        <h2 class="text-2xl font-bold text-primary">Playbooks &amp; Enablement</h2>
+        <p class="text-gray-600 mt-1">Frameworks others follow and hands-on customer training.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <ProjectCard
+          title="Enterprise Account Playbooks"
+          image="/images/image-customer-success-playbooks.png"
+          tag="Framework"
+          :description="`Frameworks for running enterprise post-sales: technical onboarding, renewal-risk governance, expansion, executive engagement, and churn intervention. Drawn from running seven-figure portfolios at security and developer-platform companies.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks"
+        />
+
+        <ProjectCard
+          title="Escalation &amp; Triage Playbooks"
+          image="/images/image-customer-support-playbooks.png"
+          tag="Framework"
+          :description="`Cross-functional triage between Support and Engineering: priority alignment from Zendesk to Jira, severity classification, and structured customer-signal alerting. Shared language for teams that need Support, Success, and Engineering to agree on what's urgent.`"
+          github-url="https://github.com/dc-larsen/support-playbooks"
+        />
+
+        <ProjectCard
           title="Package Firewall Workshop"
           image="/images/socket-fox.png"
-          :description="`Workshop materials and Docker-based demo environment for a network-level package firewall. Used to walk customer engineering teams through firewall setup, policy configuration, and CI/CD integration during enterprise rollouts.`"
+          tag="Customer-facing"
+          :description="`A workshop and Docker demo for walking customer engineering teams through package-firewall setup, policy configuration, and CI/CD integration during enterprise rollouts.`"
           github-url="https://github.com/dc-larsen/socket-firewall-workshop"
-          explore-url="https://github.com/dc-larsen/socket-firewall-workshop"
         />
 
         <ProjectCard
           title="Kubernetes Troubleshooting Lab"
           image="/images/kb8-support-lab.png"
-          :description="`Hands-on Kubernetes labs for engineers building debugging muscle. Scenarios include CrashLoopBackOff, DNS resolution failures, and service connectivity issues across containers and clusters.`"
+          tag="Enablement"
+          :description="`Hands-on Kubernetes labs for engineers building debugging instincts: CrashLoopBackOff, DNS resolution failures, and cross-service connectivity. Used for onboarding and team enablement.`"
           github-url="https://github.com/dc-larsen/k8s-support-lab"
-          explore-url="https://github.com/dc-larsen/k8s-support-lab"
         />
       </div>
     </section>
@@ -92,7 +120,7 @@
     <div class="text-center mt-12 p-8 bg-gray-50 rounded-lg">
       <h2 class="text-2xl font-semibold text-primary mb-4">Want to collaborate?</h2>
       <p class="text-gray-700 mb-6">
-        Working on something interesting in developer security, customer engineering, or AI-augmented workflows? Happy to talk.
+        Building something in developer security, post-sales systems, or AI-augmented customer success? I'm happy to talk.
       </p>
       <a
         href="https://github.com/dc-larsen"
@@ -113,7 +141,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Projects by David Larsen across TAM playbooks, tooling and systems, customer workshops, and technical contributions.'
+      content: 'Projects by David Larsen, a senior Technical Account Manager: AI-augmented team tooling, company-wide CS systems, and the playbooks and enablement his post-sales org runs on.'
     }
   ]
 })
