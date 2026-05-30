@@ -148,15 +148,6 @@
         />
 
         <ProjectCard
-          title="Customer Alerts Tracking"
-          image="/images/image-zendesk-slackbot.png"
-          tag="Automation"
-          link-label="Read playbook"
-          :description="`Turn the alerts playbook into a system that watches your book and pings you with context, so you stop pulling reports by hand.`"
-          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/customer-alerts-tracking/customer-alerts-tracking.md"
-        />
-
-        <ProjectCard
           title="CLAUDE.md"
           image="/images/customer-success.png"
           tag="Setup"
