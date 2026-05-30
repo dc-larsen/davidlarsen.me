@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
     <!-- Project Image -->
-    <div class="h-48 bg-gray-100 flex items-center justify-center overflow-hidden">
+    <div class="h-48 bg-white flex items-center justify-center overflow-hidden">
       <img
         :src="image"
         :alt="title"
