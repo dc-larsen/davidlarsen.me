@@ -130,17 +130,8 @@
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
-          title="AI Automation"
-          image="/images/ai-automation.png"
-          tag="Start here"
-          link-label="Read playbook"
-          :description="`The overview: how I use Claude Code and n8n across CS work (meeting prep, comms, data pulls), plus a skills library for HubSpot, Zendesk, Vitally, Slack, and n8n. The playbooks below go deeper.`"
-          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/ai-automation/ai-automation.md"
-        />
-
-        <ProjectCard
           title="Claude Code Skills"
-          image="/images/ai-customer-success.png"
+          image="/images/ai-automation.png"
           tag="Toolkit"
           link-label="Read playbook"
           :description="`Package the CS work you repeat into reusable skills the assistant runs your way. What a skill is, which tasks to encode, and how to build focused, composable ones.`"
