@@ -20,6 +20,15 @@
           :description="`Get the relationship right from day one. Research before the first call, lead with their problem over your product, capture why they bought, build a mutual success plan, and define a hard finish line.`"
           github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/onboarding/onboarding.md"
         />
+
+        <ProjectCard
+          title="Onboarding Metrics"
+          image="/images/ai-customer-success.png"
+          tag="Metrics"
+          link-label="Read playbook"
+          :description="`Measure whether onboarding actually worked, across every account. Define a value milestone, track time-to-first-value and completion, watch the leading signals, and fix the step that keeps stalling.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/onboarding-metrics/onboarding-metrics.md"
+        />
       </div>
     </section>
 
@@ -76,6 +85,15 @@
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
+          title="Expansion &amp; Adoption"
+          image="/images/ai-customer-success-banner.png"
+          tag="Framework"
+          link-label="Read playbook"
+          :description="`Spot expansion early and earn it through deeper adoption. Name the expansion type, watch the usage and health signals that predict it, drive adoption tied to a measurable win, and hand the opportunity to sales with data in hand.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/expansion-adoption/expansion-adoption.md"
+        />
+
+        <ProjectCard
           title="Case Studies"
           image="/images/meeting-prep-example.jpg"
           tag="Runbook"
@@ -86,19 +104,19 @@
       </div>
     </section>
 
-    <!-- Escalations & Cross-Functional -->
+    <!-- Support Playbooks -->
     <section class="mb-16">
       <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">Escalations &amp; Cross-Functional</h2>
-        <p class="text-gray-600 mt-1">Get Support, Success, and Engineering speaking the same language.</p>
+        <h2 class="text-2xl font-bold text-primary">Support Playbooks</h2>
+        <p class="text-gray-600 mt-1">Running a support function: triage, priority, alerts, and people management.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
-          title="Escalation &amp; Triage Playbooks"
+          title="Support Triage &amp; Operations"
           image="/images/image-customer-support-playbooks.png"
-          tag="Framework"
-          link-label="Read playbooks"
-          :description="`Cross-functional triage between Support and Engineering: priority alignment from Zendesk to Jira, severity classification, and structured customer-signal alerting.`"
+          tag="Collection"
+          link-label="Browse playbooks"
+          :description="`A collection from running support teams: support triage, ticket priority, automated triage, support alerts, pending-ticket workflow, and people management.`"
           github-url="https://github.com/dc-larsen/support-playbooks"
         />
       </div>
