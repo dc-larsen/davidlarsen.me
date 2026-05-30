@@ -1,103 +1,141 @@
 <template>
   <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
-      <h1 class="text-4xl font-bold text-primary mb-4">Projects</h1>
-      <p class="text-xl text-gray-600">Tooling, systems, and frameworks I've built as a Technical Account Manager. Most started as a fix for my own portfolio or team and became the standard the wider post-sales org runs on.</p>
+      <h1 class="text-4xl font-bold text-primary mb-4">TAM Playbooks</h1>
+      <p class="text-xl text-gray-600">Open playbooks for enterprise Technical Account Managers. Built from running seven-figure portfolios at security and developer-platform companies, and written so another TAM can run them, not just read about them. Take what's useful.</p>
     </div>
 
-    <!-- AI-Augmented Workflows -->
+    <!-- Onboarding & Time-to-Value -->
     <section class="mb-16">
       <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">AI-Augmented Workflows</h2>
-        <p class="text-gray-600 mt-1">AI and automation the team runs on, not just me.</p>
+        <h2 class="text-2xl font-bold text-primary">Onboarding &amp; Time-to-Value</h2>
+        <p class="text-gray-600 mt-1">Start the relationship right and define when onboarding ends.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
-          title="Quarterly Health Check Automation"
-          image="/images/ai-customer-success.png"
-          tag="Team-wide"
-          :description="`Rebuilt the TAM team's quarterly health check on live product data and MCP-driven automation. What took a day of manual data pulls now runs from the data itself, and the whole team uses it every quarter.`"
-        />
-
-        <ProjectCard
-          title="AI Coding Guardrails"
-          image="/images/socket.png"
-          tag="Reusable pattern"
-          :description="`A pre-install hook that intercepts dependency installs from AI agents like Claude Code and blocks risky packages before they reach a developer's machine. A guardrail for teams adopting agent-driven development in supply-chain-sensitive code.`"
-          github-url="https://github.com/dc-larsen/socket-claude-code-hook"
+          title="Customer Onboarding"
+          image="/images/image-customer-success-playbooks.png"
+          tag="Runbook"
+          link-label="Read playbook"
+          :description="`Get the relationship right from day one. Research before the first call, lead with their problem over your product, capture why they bought, build a mutual success plan, and define a hard finish line.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/onboarding/onboarding.md"
         />
       </div>
     </section>
 
-    <!-- CS Systems & Operations -->
+    <!-- Renewals & Risk -->
     <section class="mb-16">
       <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">CS Systems &amp; Operations</h2>
-        <p class="text-gray-600 mt-1">Company-wide systems and processes I designed and own.</p>
+        <h2 class="text-2xl font-bold text-primary">Renewals &amp; Risk</h2>
+        <p class="text-gray-600 mt-1">See risk early, forecast honestly, and run the save play.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <ProjectCard
-          title="CS Platform Implementation"
-          image="/images/customer-success.png"
-          tag="Company-wide"
-          :description="`Evaluated, selected, and implemented Vitally as the company-wide CS platform. Modeled onboarding, renewal-risk, and advocacy workflows, migrated historical CRM data, and brought full company ARR onto one system.`"
-        />
-
         <ProjectCard
           title="Renewal Risk Governance"
-          image="/images/leadership-badge-1200x675-letterbox.png"
-          tag="Exec visibility"
-          :description="`Designed a quarterly renewal-risk process that replaced scattered notes with structured risk fields and written narratives. Leadership can now see which renewals are at risk early enough to act.`"
+          image="/images/customer-success.png"
+          tag="Framework"
+          link-label="Read playbook"
+          :description="`Record renewal risk the same way every time (level, category, narrative, next step), review it on a cadence, and escalate early. A structured system so no renewal is a surprise.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/renewal-risk-governance/renewal-risk-governance.md"
         />
 
         <ProjectCard
-          title="Onboarding Operating Model"
-          image="/images/meeting-prep-example.jpg"
-          tag="Rebuilt from zero"
-          :description="`Rebuilt enterprise onboarding from scratch with standardized projects and customer-facing artifacts. Gave every new account a consistent path to value and a clear owner at each step.`"
+          title="Health Scoring"
+          image="/images/ai-customer-success.png"
+          tag="Framework"
+          link-label="Read playbook"
+          :description="`Build an early warning system, not just a dashboard. Separate signals, detectors, and decisions, track trajectory over snapshots, and map every pattern to an action.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/health-scoring/health-scoring.md"
+        />
+
+        <ProjectCard
+          title="Proactive Alerts"
+          image="/images/image-zendesk-slackbot.png"
+          tag="Reference"
+          link-label="Read playbook"
+          :description="`Eleven CSM alerts that keep a running pulse on your book: usage drops, license thresholds, renewal countdowns, risk-field changes, and call-gap safety nets.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/alerts/alerts.md"
+        />
+
+        <ProjectCard
+          title="Churn Intervention"
+          image="/images/ai-customer-success-banner.png"
+          tag="Runbook"
+          link-label="Read playbook"
+          :description="`The save play for at-risk accounts. Diagnose the real reason, confirm with the customer, multi-thread to the economic buyer, re-establish value, and know when to walk.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/churn-intervention/churn-intervention.md"
         />
       </div>
     </section>
 
-    <!-- Playbooks -->
+    <!-- Expansion & Value -->
     <section class="mb-16">
       <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">Playbooks</h2>
-        <p class="text-gray-600 mt-1">Frameworks others follow.</p>
+        <h2 class="text-2xl font-bold text-primary">Expansion &amp; Value</h2>
+        <p class="text-gray-600 mt-1">Turn proven value into expansion and stories.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
-          title="Enterprise Account Playbooks"
-          image="/images/image-customer-success-playbooks.png"
-          tag="Framework"
-          :description="`Frameworks for running enterprise post-sales: technical onboarding, renewal-risk governance, expansion, executive engagement, and churn intervention. Drawn from running seven-figure portfolios at security and developer-platform companies.`"
-          github-url="https://github.com/dc-larsen/customer-success-playbooks"
+          title="Case Studies"
+          image="/images/meeting-prep-example.jpg"
+          tag="Runbook"
+          link-label="Read playbook"
+          :description="`Identify, capture, and publish customer wins, with a system that surfaces candidates automatically and tracks them to publication so your best stories actually get told.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/case-study/case-study.md"
         />
+      </div>
+    </section>
 
+    <!-- Escalations & Cross-Functional -->
+    <section class="mb-16">
+      <div class="mb-6 pb-2 border-b border-gray-200">
+        <h2 class="text-2xl font-bold text-primary">Escalations &amp; Cross-Functional</h2>
+        <p class="text-gray-600 mt-1">Get Support, Success, and Engineering speaking the same language.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
           title="Escalation &amp; Triage Playbooks"
           image="/images/image-customer-support-playbooks.png"
           tag="Framework"
-          :description="`Cross-functional triage between Support and Engineering: priority alignment from Zendesk to Jira, severity classification, and structured customer-signal alerting. Shared language for teams that need Support, Success, and Engineering to agree on what's urgent.`"
+          link-label="Read playbooks"
+          :description="`Cross-functional triage between Support and Engineering: priority alignment from Zendesk to Jira, severity classification, and structured customer-signal alerting.`"
           github-url="https://github.com/dc-larsen/support-playbooks"
+        />
+      </div>
+    </section>
+
+    <!-- Automation & Tooling -->
+    <section class="mb-16">
+      <div class="mb-6 pb-2 border-b border-gray-200">
+        <h2 class="text-2xl font-bold text-primary">Automation &amp; Tooling</h2>
+        <p class="text-gray-600 mt-1">Scale yourself with Claude Code and n8n. Adapt these for your team.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <ProjectCard
+          title="AI Automation"
+          image="/images/socket-logo.png"
+          tag="Toolkit"
+          link-label="Read playbook"
+          :description="`Use Claude Code and n8n to automate CS work: meeting prep, customer comms, and data lookups, with a skills library for HubSpot, Zendesk, Vitally, Slack, and n8n.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/ai-automation/ai-automation.md"
         />
       </div>
     </section>
 
     <!-- Call to action -->
     <div class="text-center mt-12 p-8 bg-gray-50 rounded-lg">
-      <h2 class="text-2xl font-semibold text-primary mb-4">Want to collaborate?</h2>
+      <h2 class="text-2xl font-semibold text-primary mb-4">These are living playbooks</h2>
       <p class="text-gray-700 mb-6">
-        Building something in developer security, post-sales systems, or AI-augmented customer success? I'm happy to talk.
+        Take them and adapt them. If you run one better, or want one that isn't here yet, I'd like to hear it.
       </p>
       <a
-        href="https://github.com/dc-larsen"
+        href="https://github.com/dc-larsen/customer-success-playbooks"
         target="_blank"
         rel="noopener noreferrer"
         class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors duration-200 inline-flex items-center"
       >
         <IconsGitHubIcon :size="18" class="mr-2" />
-        View all projects on GitHub
+        Browse all playbooks on GitHub
       </a>
     </div>
   </div>
@@ -105,11 +143,11 @@
 
 <script setup>
 useHead({
-  title: 'Projects',
+  title: 'TAM Playbooks',
   meta: [
     {
       name: 'description',
-      content: 'Projects by David Larsen, a senior Technical Account Manager: AI-augmented team tooling, company-wide CS systems, and the playbooks his post-sales org runs on.'
+      content: 'Open playbooks for enterprise Technical Account Managers by David Larsen: onboarding, renewals and risk, expansion and value, escalations, and AI automation. Take what is useful.'
     }
   ]
 })

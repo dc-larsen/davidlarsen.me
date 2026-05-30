@@ -29,7 +29,7 @@
           class="flex-1 bg-primary text-white text-center py-2 px-4 rounded-md hover:bg-primary/90 transition-colors duration-200 text-sm font-medium flex items-center justify-center"
         >
           <IconsGitHubIcon :size="16" class="mr-2" />
-          GitHub
+          {{ linkLabel || 'GitHub' }}
         </a>
         <a
           v-if="exploreUrl"
@@ -52,6 +52,7 @@ interface Props {
   image: string
   description: string
   tag?: string
+  linkLabel?: string
   githubUrl?: string
   exploreUrl?: string
 }
