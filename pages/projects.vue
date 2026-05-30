@@ -132,10 +132,55 @@
         <ProjectCard
           title="AI Automation"
           image="/images/ai-automation.png"
+          tag="Start here"
+          link-label="Read playbook"
+          :description="`The overview: how I use Claude Code and n8n across CS work (meeting prep, comms, data pulls), plus a skills library for HubSpot, Zendesk, Vitally, Slack, and n8n. The playbooks below go deeper.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/ai-automation/ai-automation.md"
+        />
+
+        <ProjectCard
+          title="Claude Code Skills"
+          image="/images/ai-customer-success.png"
           tag="Toolkit"
           link-label="Read playbook"
-          :description="`Use Claude Code and n8n to automate CS work: meeting prep, customer comms, and data lookups, with a skills library for HubSpot, Zendesk, Vitally, Slack, and n8n.`"
-          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/ai-automation/ai-automation.md"
+          :description="`Package the CS work you repeat into reusable skills the assistant runs your way. What a skill is, which tasks to encode, and how to build focused, composable ones.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/claude-code-skills/claude-code-skills.md"
+        />
+
+        <ProjectCard
+          title="Call Review Automation"
+          image="/images/meeting-prep-example.jpg"
+          tag="Automation"
+          link-label="Read playbook"
+          :description="`Grade your own customer calls from transcripts against a rubric, every week. Capture the transcript, score the beats that predict a good call, and fix one beat at a time.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/call-review-automation/call-review-automation.md"
+        />
+
+        <ProjectCard
+          title="Customer Alerts Tracking"
+          image="/images/image-zendesk-slackbot.png"
+          tag="Automation"
+          link-label="Read playbook"
+          :description="`Turn the alerts playbook into a system that watches your book and pings you with context, so you stop pulling reports by hand.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/customer-alerts-tracking/customer-alerts-tracking.md"
+        />
+
+        <ProjectCard
+          title="CLAUDE.md"
+          image="/images/customer-success.png"
+          tag="Setup"
+          link-label="Read playbook"
+          :description="`Teach your AI assistant how you work once: your role, tools, style, and systems in a file it reads every session. Keep it tight, and layer global with per-project.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/claude-md/claude-md.md"
+        />
+
+        <ProjectCard
+          title="AI Second Brain"
+          image="/images/ai-customer-success-banner.png"
+          tag="System"
+          link-label="Read playbook"
+          :description="`A markdown knowledge base your assistant reads and grows with you: sources, concept pages, and an index that compound so you stop looking things up twice.`"
+          github-url="https://github.com/dc-larsen/customer-success-playbooks/blob/main/playbooks/ai-second-brain/ai-second-brain.md"
         />
       </div>
     </section>
