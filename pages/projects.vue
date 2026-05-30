@@ -20,27 +20,11 @@
         />
 
         <ProjectCard
-          title="Documentation MCP Server"
-          image="/images/socket-logo.png"
-          tag="Reusable pattern"
-          :description="`An MCP server that makes a developer platform's docs queryable from Claude and other AI agents. Built for Socket; a pattern any SaaS can reuse to put its knowledge base inside AI tools.`"
-          github-url="https://github.com/dc-larsen/mcp-socket-docs"
-        />
-
-        <ProjectCard
           title="AI Coding Guardrails"
           image="/images/socket.png"
           tag="Reusable pattern"
           :description="`A pre-install hook that intercepts dependency installs from AI agents like Claude Code and blocks risky packages before they reach a developer's machine. A guardrail for teams adopting agent-driven development in supply-chain-sensitive code.`"
           github-url="https://github.com/dc-larsen/socket-claude-code-hook"
-        />
-
-        <ProjectCard
-          title="Customer Signal Triage"
-          image="/images/image-zendesk-slackbot.png"
-          tag="Team tool"
-          :description="`Automated triage that classifies ticket priority, surfaces urgent customer signals, and routes them to Slack. Built to scale a support queue without adding headcount.`"
-          github-url="https://github.com/dc-larsen/zendesk-slackbot"
         />
       </div>
     </section>
@@ -75,11 +59,11 @@
       </div>
     </section>
 
-    <!-- Playbooks & Enablement -->
+    <!-- Playbooks -->
     <section class="mb-16">
       <div class="mb-6 pb-2 border-b border-gray-200">
-        <h2 class="text-2xl font-bold text-primary">Playbooks &amp; Enablement</h2>
-        <p class="text-gray-600 mt-1">Frameworks others follow and hands-on customer training.</p>
+        <h2 class="text-2xl font-bold text-primary">Playbooks</h2>
+        <p class="text-gray-600 mt-1">Frameworks others follow.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
@@ -96,22 +80,6 @@
           tag="Framework"
           :description="`Cross-functional triage between Support and Engineering: priority alignment from Zendesk to Jira, severity classification, and structured customer-signal alerting. Shared language for teams that need Support, Success, and Engineering to agree on what's urgent.`"
           github-url="https://github.com/dc-larsen/support-playbooks"
-        />
-
-        <ProjectCard
-          title="Package Firewall Workshop"
-          image="/images/socket-fox.png"
-          tag="Customer-facing"
-          :description="`A workshop and Docker demo for walking customer engineering teams through package-firewall setup, policy configuration, and CI/CD integration during enterprise rollouts.`"
-          github-url="https://github.com/dc-larsen/socket-firewall-workshop"
-        />
-
-        <ProjectCard
-          title="Kubernetes Troubleshooting Lab"
-          image="/images/kb8-support-lab.png"
-          tag="Enablement"
-          :description="`Hands-on Kubernetes labs for engineers building debugging instincts: CrashLoopBackOff, DNS resolution failures, and cross-service connectivity. Used for onboarding and team enablement.`"
-          github-url="https://github.com/dc-larsen/k8s-support-lab"
         />
       </div>
     </section>
@@ -141,7 +109,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Projects by David Larsen, a senior Technical Account Manager: AI-augmented team tooling, company-wide CS systems, and the playbooks and enablement his post-sales org runs on.'
+      content: 'Projects by David Larsen, a senior Technical Account Manager: AI-augmented team tooling, company-wide CS systems, and the playbooks his post-sales org runs on.'
     }
   ]
 })
