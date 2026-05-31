@@ -140,7 +140,7 @@
 
         <ProjectCard
           title="Call Review Automation"
-          image="/images/meeting-prep-example.jpg"
+          image="/images/call-review-automation.png"
           tag="Automation"
           link-label="Read playbook"
           :description="`Grade your own customer calls from transcripts against a rubric, every week. Capture the transcript, score the beats that predict a good call, and fix one beat at a time.`"
@@ -149,7 +149,7 @@
 
         <ProjectCard
           title="CLAUDE.md"
-          image="/images/customer-success.png"
+          image="/images/claude-md.png"
           tag="Setup"
           link-label="Read playbook"
           :description="`Teach your AI assistant how you work once: your role, tools, style, and systems in a file it reads every session. Keep it tight, and layer global with per-project.`"
@@ -158,7 +158,7 @@
 
         <ProjectCard
           title="AI Second Brain"
-          image="/images/ai-customer-success-banner.png"
+          image="/images/ai-second-brain.png"
           tag="System"
           link-label="Read playbook"
           :description="`A markdown knowledge base your assistant reads and grows with you: sources, concept pages, and an index that compound so you stop looking things up twice.`"
