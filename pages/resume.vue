@@ -8,13 +8,13 @@
         <a href="https://www.linkedin.com/in/david-larsen-404622143/" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">LinkedIn</a> ·
         <a href="https://davidlarsen.me" class="text-secondary hover:underline">davidlarsen.me</a>
       </p>
-      <p class="text-xl font-semibold text-gray-700">Technical Account Manager · Enterprise SaaS · Developer Platforms · Cybersecurity</p>
+      <p class="text-xl font-semibold text-gray-700">Enterprise Technical Account Manager · Enterprise SaaS · Developer Platforms · Cybersecurity</p>
     </div>
 
     <!-- Summary -->
     <div class="mb-8">
       <p class="text-gray-700 leading-relaxed">
-        Technical Account Manager at Socket owning a ~$10.5M ARR book of 45 accounts and $3.3M in expansion ARR on my accounts since joining in September 2025. Voted TAM of the Quarter three quarters in a row and Team Player of the Quarter twice. Combines IC depth in APIs, integrations, and production code with leadership across mentoring, hiring, and CS systems design.
+        Enterprise Technical Account Manager at Socket owning a ~$10.5M ARR book of 45 accounts and $3.3M in expansion ARR on my accounts since joining in September 2025. Voted TAM of the Quarter three quarters in a row and Team Player of the Quarter twice. Combines IC depth in APIs, integrations, and production code with leadership across mentoring, hiring, and CS systems design.
       </p>
     </div>
 
@@ -25,7 +25,7 @@
       <!-- Socket -->
       <div class="mb-8">
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
-          <h3 class="text-xl font-semibold text-gray-900">Technical Account Manager</h3>
+          <h3 class="text-xl font-semibold text-gray-900">Enterprise Technical Account Manager</h3>
           <span class="text-gray-500 text-sm">Sep 2025 – Present</span>
         </div>
         <p class="text-secondary font-medium mb-3">
@@ -231,7 +231,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Resume of David Larsen, Technical Account Manager at Socket, owning a ~$10.5M ARR book of 45 accounts. TAM of the Quarter three quarters in a row.'
+      content: 'Resume of David Larsen, Enterprise Technical Account Manager at Socket, owning a ~$10.5M ARR book of 45 accounts. TAM of the Quarter three quarters in a row.'
     }
   ]
 })
