@@ -14,7 +14,7 @@
     <!-- Summary -->
     <div class="mb-8">
       <p class="text-gray-700 leading-relaxed">
-        Technical Account Manager at Socket with a seven-figure enterprise portfolio and over $3M in contributed expansion since joining. Delivered 150% NRR in Q4 and 200% in Q1; team voted Team Player of the Quarter (Q4) and Post-Sales Person of the Quarter (Q1) back-to-back. Combines IC depth in APIs, integrations, and production code with leadership reach across mentoring, hiring, and CS systems design. Prior manager experience running post-sales operations at Sentry and Synapse.
+        Technical Account Manager at Socket owning a ~$10.5M ARR book of 45 accounts and $3.3M in expansion ARR on my accounts since joining in September 2025. Voted TAM of the Quarter three quarters in a row and Team Player of the Quarter twice. Combines IC depth in APIs, integrations, and production code with leadership across mentoring, hiring, and CS systems design.
       </p>
     </div>
 
@@ -35,11 +35,19 @@
         <ul class="space-y-2 text-gray-700">
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Own a seven-figure ARR enterprise portfolio at an early-stage B2B SaaS company; delivered 150% NRR in Q4 and 200% in Q1, with $3M+ in contributed expansion since joining.</span>
+            <span>Own a ~$10.5M ARR book of 45 accounts, four of them over $1M, including three deals over $900K.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Recognized as Team Player of the Quarter (Q4) and Post-Sales Person of the Quarter (Q1) by team vote in back-to-back quarters; also won Highest Output and Most Valuable Project at the Q4 Customer Engineering Hackathon.</span>
+            <span>Contributed $3.3M in expansion ARR (renewal uplifts, upsells, true-ups, and cross-sells) on my accounts since September 2025, including a high-six-figure upsell that carried the team past its quarterly NRR goal in the first month.</span>
+          </li>
+          <li class="flex">
+            <span class="mr-2 text-gray-400">•</span>
+            <span>Post-sales team NRR of 293%, 200%+, and 1,100%+ in three straight quarters (Nov 2025–Jul 2026), clearing the top-end NRR goal every quarter since I joined.</span>
+          </li>
+          <li class="flex">
+            <span class="mr-2 text-gray-400">•</span>
+            <span>Peer-voted TAM of the Quarter three quarters in a row and Team Player of the Quarter twice. Won Highest Output and Most Valuable Project at the Q4 Customer Engineering Hackathon.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
@@ -67,11 +75,23 @@
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
+            <span>Partnered with Sales Engineering on enterprise firewall evaluations that produced two technical wins, one closed at high-six-figure ARR with a Fortune 500 manufacturer. Built proxy-chaining test rigs, triaged POC telemetry, and wrote technical RFP answers.</span>
+          </li>
+          <li class="flex">
+            <span class="mr-2 text-gray-400">•</span>
+            <span>Built an exposure sweep that checks every enterprise customer's scans and firewall traffic for a compromised package version and lists the affected accounts. Used it to run customer outreach during 2026 supply-chain attacks.</span>
+          </li>
+          <li class="flex">
+            <span class="mr-2 text-gray-400">•</span>
+            <span>Built the post-sales NRR tracker in HubSpot (per-deal NRR impact fields and quarterly views), validated against Finance's model, so the team tracks quarterly NRR live.</span>
+          </li>
+          <li class="flex">
+            <span class="mr-2 text-gray-400">•</span>
             <span>Mentored across sales engineering, sales, technical support, and account management through 1:1s, knowledge sharing sessions, and talks.</span>
           </li>
           <li class="flex">
             <span class="mr-2 text-gray-400">•</span>
-            <span>Participated in 12+ hiring interview loops for Technical Account Managers and a Support Manager role.</span>
+            <span>Interviewed 20+ candidates for TAM, Customer Success Manager, and Technical Support Manager roles.</span>
           </li>
         </ul>
       </div>
@@ -211,7 +231,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Resume of David Larsen - Technical Account Manager at Socket with a seven-figure enterprise portfolio, $3M+ in contributed expansion, and 200% NRR. Prior manager experience at Sentry and Synapse.'
+      content: 'Resume of David Larsen, Technical Account Manager at Socket, owning a ~$10.5M ARR book of 45 accounts. TAM of the Quarter three quarters in a row.'
     }
   ]
 })
