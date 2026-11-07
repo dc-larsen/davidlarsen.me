@@ -104,7 +104,6 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
   { name: 'Blog', href: '/blog' },
-  { name: 'Playbooks', href: '/projects' },
   { name: 'Resume', href: '/resume' },
 ]
 

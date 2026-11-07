@@ -34,10 +34,12 @@ export default defineNuxtConfig({
     // Prerendering settings - generates static HTML files for deployment
     prerender: {
       crawlLinks: true, // Automatically discovers and prerenders linked pages
-      routes: [] // No explicit routes needed, crawler will find them
+      routes: ['/projects']
     },
     // Security headers applied to all routes
     routeRules: {
+      '/projects': { redirect: { to: '/', statusCode: 302 } },
+      '/projects/**': { redirect: { to: '/', statusCode: 302 } },
       '/**': {
         headers: {
           // Content Security Policy - restricts resource loading for security

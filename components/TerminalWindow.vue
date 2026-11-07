@@ -43,8 +43,7 @@ const Command = {
   Clear: 'clear',
   History: 'history',
   About: 'whoami',
-  Resume: 'skills',
-  Projects: 'projects'
+  Resume: 'skills'
 }
 
 onMounted(() => {
@@ -93,9 +92,6 @@ async function handleCommand() {
     case Command.Resume:
       output.value = printSkills()
       break
-    case Command.Projects:
-      await navigateTo('/projects')
-      break
     default:
       output.value = `Command: '${cmd}' not found`
       break
@@ -107,8 +103,7 @@ function printHelp() {
     ${Command.Clear}    - clears output window
     ${Command.History}  - list previous commands entered by user
     ${Command.About}   - about the user
-    ${Command.Resume}   - prints resume content of the user
-    ${Command.Projects} - navigate to personal projects`
+    ${Command.Resume}   - prints resume content of the user`
 }
 
 function printHistory() {
