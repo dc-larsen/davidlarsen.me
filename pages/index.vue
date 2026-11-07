@@ -6,7 +6,7 @@
         <img 
           class="pro-pic mx-auto lg:mx-0 mb-6" 
           alt="David Larsen" 
-          src="/images/pro.png?v=2"
+          src="/images/pro.png?v=3"
           width="175"
           height="175"
         >
