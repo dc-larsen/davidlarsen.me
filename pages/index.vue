@@ -5,8 +5,8 @@
       <div class="mb-8">
         <img 
           class="pro-pic mx-auto lg:mx-0 mb-6" 
-          alt="David Larsen - Customer Support Leader" 
-          src="/images/pro.png"
+          alt="David Larsen" 
+          src="/images/pro.png?v=2"
           width="175"
           height="175"
         >
