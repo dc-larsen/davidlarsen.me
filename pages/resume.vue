@@ -214,7 +214,7 @@
     <!-- Download link -->
     <div class="text-center mt-12 p-6 bg-gray-50 rounded-lg print:hidden">
       <a
-        href="/docs/Larsen_Resume.pdf"
+        href="/docs/Larsen_Resume.pdf?v=2"
         target="_blank"
         class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors duration-200 inline-flex items-center"
       >
