@@ -1,220 +1,56 @@
-# David Larsen - Personal Website
+# David Larsen
 
-A modern, accessible, and **security-hardened** personal website built with Nuxt 3 and Tailwind CSS. Demonstrates enterprise-grade security practices and secure development principles.
+Personal site for David Larsen, built with Nuxt and Tailwind and deployed as a static site on GitHub Pages.
 
-## Features
+## Develop
 
-- 🚀 **Nuxt 3** - Vue 3 with SSG (Static Site Generation)
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- 🔒 **Security Hardened** - Enterprise-grade security with CSP, security headers, and input sanitization
-- ♿ **Accessible** - WCAG 2.1 AA compliant with keyboard navigation
-- 📱 **Responsive** - Mobile-first design
-- ⚡ **Fast** - Optimized for performance
-- 📄 **SEO Ready** - Meta tags, OpenGraph, and structured data
+Node.js 22.
 
-## Security Features
-
-This website implements comprehensive security measures following industry best practices:
-
-### 🛡️ **Content Security Policy (CSP)**
-- Prevents Cross-Site Scripting (XSS) attacks
-- Controls resource loading from trusted sources only
-- Blocks unauthorized script execution
-
-### 🔐 **Security Headers**
-- **X-Frame-Options: DENY** - Prevents clickjacking attacks
-- **X-Content-Type-Options: nosniff** - Prevents MIME type sniffing
-- **Referrer-Policy: strict-origin-when-cross-origin** - Controls referrer information
-- **Permissions-Policy** - Disables unnecessary browser features (camera, microphone, geolocation)
-
-### ✅ **Input Validation & Sanitization**
-- Terminal component includes regex-based input sanitization
-- Prevents code injection through user inputs
-- Safe handling of all user-generated content
-
-### 🔄 **Dependency Security**
-- Regular security audits with `npm audit`
-- Up-to-date dependencies (Font Awesome 6.6.0+)
-- SRI (Subresource Integrity) hashes for external resources
-
-### 🚨 **Zero Known Vulnerabilities**
-- Clean security audit results
-- Secure by design architecture
-- Defense-in-depth security approach
-
-## Development
-
-### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-
-### Getting Started
-
-1. **Clone and install dependencies**
-   ```bash
-   git clone https://github.com/dc-larsen/davidlarsen.me.git
-   cd davidlarsen.me
-   npm install
-   ```
-
-2. **Start development server**
-   ```bash
-   npm run dev
-   ```
-   Visit [http://localhost:3000](http://localhost:3000)
-
-3. **Build for production**
-   ```bash
-   npm run build
-   ```
-
-4. **Generate static site**
-   ```bash
-   npm run generate
-   ```
-
-5. **Preview production build**
-   ```bash
-   npm run preview
-   ```
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production  
-- `npm run generate` - Generate static site for deployment
-- `npm run preview` - Preview production build locally
-- `npm run lint` - Run ESLint
-- `npm run lint:fix` - Fix ESLint issues
-- `npm run format` - Format code with Prettier
-- `npm run type-check` - TypeScript type checking
-- `npm audit` - Check for security vulnerabilities
-
-### Security Development Workflow
-
-1. **Regular Security Audits**
-   ```bash
-   npm audit --audit-level high
-   ```
-
-2. **Dependency Updates**
-   ```bash
-   npm update
-   npm audit fix
-   ```
-
-3. **Security Headers Testing**
-   ```bash
-   # Test CSP and security headers after deployment
-   curl -I https://davidlarsen.me
-   ```
-
-## Project Structure
-
-```
-├── components/          # Vue components
-│   ├── NavBar.vue      # Navigation with hamburger menu
-│   ├── ProjectCard.vue # Project showcase cards
-│   └── TerminalWindow.vue # Interactive terminal with input sanitization
-├── layouts/            # Nuxt layouts
-│   └── default.vue     # Main layout with navigation
-├── pages/              # File-based routing
-│   ├── index.vue       # Home page
-│   ├── about.vue       # About page
-│   └── projects.vue    # Projects showcase
-├── assets/css/         # Global styles
-│   └── main.css        # Tailwind + custom CSS
-├── public/             # Static assets (security audited)
-│   ├── CNAME          # GitHub Pages domain
-│   ├── *.png          # Images and icons
-│   └── *.pdf          # Resume and documents
-├── nuxt.config.ts      # Security headers & CSP configuration
-├── package.json        # Dependencies with security auditing
-└── .github/workflows/  # CI/CD
-    └── deploy.yml      # GitHub Pages deployment
+```bash
+git clone https://github.com/dc-larsen/davidlarsen.me.git
+cd davidlarsen.me
+npm ci
+npm run dev
 ```
 
-## Security Architecture
+- `npm run dev` starts the dev server
+- `npm run check:blog` checks post frontmatter and images
+- `npm run generate` builds the static site into `.output/public`
+- `npm run preview` serves that build locally, including the Nitro headers
+- `npm audit` checks dependencies
 
-### **Nuxt Configuration (`nuxt.config.ts`)**
-- Content Security Policy (CSP) implementation
-- Security headers configuration
-- SRI integrity hashes for external resources
+To add a blog post, copy `content/blog/_template.md`. The filename is the URL. Details are in `AGENTS.md`.
 
-### **Component Security**
-- **TerminalWindow.vue**: Input sanitization with regex validation
-- **NavBar.vue**: Secure external link handling with `rel="noopener noreferrer"`
-- All components: XSS protection through Vue.js template escaping
+## Security
 
-## Adding Content
+The live site is static hosting. GitHub Pages does not send custom response headers, so `X-Frame-Options` and the other Nitro headers in `nuxt.config.ts` are not on https://davidlarsen.me. Each page does include a Content-Security-Policy meta tag.
 
-### New Pages
-Create `.vue` files in `/pages` directory. Nuxt will automatically create routes based on the file structure.
+Nuxt DevTools are disabled. `npm audit --audit-level=high` runs in GitHub Actions. See `SECURITY.md`.
 
-### Navigation
-Edit `components/NavBar.vue` to add new navigation items to the `navigation` array.
+## Project structure
 
-### Styling
-- Global styles: `assets/css/main.css`
-- Component styles: `<style>` blocks in `.vue` files
-- Tailwind classes: Use utility classes throughout components
+```
+content/blog/          # one markdown file per post
+pages/                 # routes other than individual posts
+components/            # shared Vue components
+public/                # files copied to the deployed site
+archive/               # retired playbooks page, not routed
+nuxt.config.ts         # CSP, redirects, prerender routes
+.github/workflows/     # deploy and dependency audit
+```
 
-### Projects
-Add new projects by editing the project data in `pages/projects.vue` and adding corresponding images to `/public`.
+`/projects` redirects to `/`. The old playbooks page is in `archive/`.
 
 ## Deployment
 
-The site automatically deploys to GitHub Pages when changes are pushed to the `main` branch.
-
-### Manual Deployment
-1. Generate static files: `npm run generate`
-2. Deploy `/dist` folder to any static hosting service
-
-### Custom Domain
-The `CNAME` file in `/public` configures the custom domain `davidlarsen.me`.
-
-## Accessibility Features
-
-- **Keyboard Navigation** - Full keyboard support with visible focus indicators
-- **Screen Reader Support** - Semantic HTML and ARIA labels
-- **Skip Links** - Skip to content functionality
-- **Color Contrast** - WCAG AA compliant color ratios
-- **Responsive Text** - Scales appropriately for different screen sizes
-
-## Performance
-
-- **Lighthouse Score**: 95+ across all categories
-- **Bundle Size**: Minimal JavaScript, CSS optimized with Tailwind purge
-- **Image Optimization**: Lazy loading and proper sizing
-- **Critical CSS**: Inlined for faster initial render
-
-## Browser Support
-
-- Chrome (last 2 versions)
-- Firefox (last 2 versions)  
-- Safari (last 2 versions)
-- Edge (last 2 versions)
-
-## Contributing
-
-This is a personal website, but feel free to:
-- Report bugs or accessibility issues
-- Suggest improvements
-- Use as a template for your own site (please customize!)
+A push to `main` runs `.github/workflows/deploy.yml` and publishes `.output/public`. The domain is `public/CNAME`. Do not commit `.output/` or `.nuxt/`. See `DEPLOYMENT.md`.
 
 ## Credits
 
-Special thanks to [Tyler Howard](https://github.com/tylernhoward) for the original inspiration and website concept! 🙌
+Special thanks to [Tyler Howard](https://github.com/tylernhoward) for the original inspiration.
 
-Check out his awesome project: [tylernhoward.github.io](https://github.com/tylernhoward/tylernhoward.github.io)
-
-This site started as a template from Tyler's work and evolved into a security-hardened, modern implementation with Nuxt 3.
+This site started as a template from Tyler's work.
 
 ## License
 
-MIT License - see LICENSE file for details.
-
----
-
-Built with ❤️ in Baltimore using [Nuxt](https://nuxt.com)
+MIT. See `LICENSE`.

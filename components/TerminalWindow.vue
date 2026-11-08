@@ -54,10 +54,12 @@ onMounted(() => {
   }
 })
 
+// The command box is a toy, not a shell. Output is text interpolation, never v-html.
+// The regex rejects anything outside the allowlist before the switch runs.
+// A new command needs a Command entry, a switch case, and a line in printHelp().
 async function handleCommand() {
   const cmd = command.value.trim().toLowerCase()
-  
-  // Sanitize input - only allow alphanumeric and basic characters
+
   if (!/^[a-zA-Z0-9\s\-_]*$/.test(cmd)) {
     output.value = 'Invalid command format'
     command.value = ''

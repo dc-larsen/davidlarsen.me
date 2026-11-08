@@ -1,0 +1,33 @@
+# Fails the workflow when npm reports a high or critical advisory.
+# GitHub vulnerability alerts are off on this repo, and pull requests are off,
+# so Dependabot cannot open fix PRs. This workflow is the check that still runs.
+
+name: Dependency audit
+
+on:
+  push:
+  schedule:
+    - cron: '17 12 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Audit
+        run: npm audit --audit-level=high

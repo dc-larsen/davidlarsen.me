@@ -122,6 +122,92 @@
     @apply w-25 text-black pt-5 text-center;
   }
 
+  /*
+    Article body for content/blog/*.md.
+    These rules have to be global. The HTML is injected with v-html, so a
+    scoped style on the page would not match it.
+  */
+  .prose {
+    @apply text-gray-700 leading-relaxed;
+  }
+
+  .prose h1 {
+    @apply text-3xl font-bold text-primary mt-8 mb-4;
+  }
+
+  .prose h2 {
+    @apply text-2xl font-semibold text-primary mt-8 mb-4;
+  }
+
+  .prose h3 {
+    @apply text-xl font-medium text-primary mt-6 mb-3;
+  }
+
+  .prose h4 {
+    @apply text-lg font-medium text-primary mt-4 mb-2;
+  }
+
+  .prose p {
+    @apply mb-6;
+  }
+
+  .prose .lede {
+    @apply text-xl text-gray-600 italic mb-6;
+  }
+
+  .prose .caption {
+    @apply text-sm text-gray-500 mt-2 text-center italic;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-secondary pl-6 my-6 italic text-gray-600;
+  }
+
+  .prose ul {
+    @apply mb-6 list-disc pl-6;
+  }
+
+  .prose ol {
+    @apply mb-6 list-decimal pl-6;
+  }
+
+  .prose li {
+    @apply mb-2;
+  }
+
+  .prose a {
+    @apply text-secondary hover:text-primary underline transition-colors duration-200;
+  }
+
+  .prose hr {
+    @apply my-8 border-gray-300;
+  }
+
+  .prose table {
+    @apply w-full border-collapse border border-gray-300 my-6;
+  }
+
+  .prose th,
+  .prose td {
+    @apply border border-gray-300 px-4 py-2 text-left align-top;
+  }
+
+  .prose th {
+    @apply bg-gray-100 font-medium;
+  }
+
+  .prose code {
+    @apply bg-gray-100 px-2 py-1 rounded text-sm;
+  }
+
+  .prose pre {
+    @apply bg-gray-900 text-white p-4 rounded-lg overflow-x-auto my-6;
+  }
+
+  .prose img {
+    @apply my-6 max-w-full h-auto;
+  }
+
   /* Responsive adjustments */
   @media only screen and (max-width: 700px) {
     .desktop-only {

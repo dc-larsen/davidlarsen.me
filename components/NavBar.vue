@@ -1,5 +1,6 @@
 <template>
-  <Disclosure v-slot="{ open }" as="nav" class="bg-background/95 backdrop-blur-sm border-b border-gray-200" role="navigation" aria-label="Main navigation">
+  <!-- :key remounts the menu closed after a client-side navigation. Headless UI keeps `open` internally, so a watch cannot close it. -->
+  <Disclosure :key="route.path" v-slot="{ open }" as="nav" class="bg-background/95 backdrop-blur-sm border-b border-gray-200" role="navigation" aria-label="Main navigation">
     <div class="mx-auto max-w-4xl px-6">
       <div class="flex h-16 items-center justify-between">
         <!-- Site title/logo -->
@@ -59,7 +60,6 @@
     <DisclosurePanel
       id="mobile-menu"
       class="md:hidden border-t border-gray-200 bg-background/95 backdrop-blur-sm"
-      @keydown.esc="closeMobileMenu"
     >
       <div class="space-y-1 px-6 pb-3 pt-2">
         <template v-for="item in navigation" :key="item.name">
@@ -70,7 +70,6 @@
               class="block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200"
               target="_blank"
               rel="noopener noreferrer"
-              @click="closeMobileMenu"
             >
               {{ item.name }}
             </a>
@@ -85,7 +84,6 @@
               :to="item.href"
               class="block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary focus-visible transition-colors duration-200"
               :aria-current="$route.path === item.href ? 'page' : undefined"
-              @click="closeMobileMenu"
             >
               {{ item.name }}
             </NuxtLink>
@@ -100,6 +98,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
+// Live navigation. Add a page here only after the route exists under pages/.
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
@@ -108,14 +107,4 @@ const navigation = [
 ]
 
 const route = useRoute()
-
-// Close mobile menu when route changes
-watch(() => route.path, () => {
-  closeMobileMenu()
-})
-
-function closeMobileMenu() {
-  // This function will be called by the disclosure component automatically
-  // when clicking outside or pressing escape
-}
 </script>

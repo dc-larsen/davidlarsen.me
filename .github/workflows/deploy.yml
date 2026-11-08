@@ -1,11 +1,8 @@
-# GitHub Actions Workflow for Nuxt.js Static Site Deployment to GitHub Pages
-# This workflow replaces the default Jekyll deployment with a custom Nuxt build process
-# 
-# TROUBLESHOOTING NOTES:
-# - If assets return 404 errors, check that this workflow is running successfully
-# - If old assets are served, ensure .nojekyll file exists and has recent timestamp
-# - Asset filenames should match between local .output/public/_nuxt/ and deployed site
-# - Build ID in deployed HTML should match local build (check _payload.json?<build-id>)
+# Builds the static site and deploys .output/public to GitHub Pages.
+# The site has no server. Nitro headers in nuxt.config.ts are baked into
+# preview only. The browser-enforced CSP is the meta tag from that same file.
+#
+# Actions are pinned to commit SHAs. The tag name is the comment.
 
 name: Deploy Nuxt site to GitHub Pages
 
@@ -15,14 +12,13 @@ on:
       - main
   workflow_dispatch:
 
-# Required permissions for GitHub Pages deployment
 permissions:
   contents: read
   pages: write
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -30,27 +26,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: '22'  # IMPORTANT: Nuxt 3.18.1+ requires Node.js 20+
-          cache: 'npm'
+          node-version: '22'
+          cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Check blog posts
+        run: npm run check:blog
 
       - name: Generate static site
-        run: npm run generate  # Creates .output/public/ directory with static files
+        run: npm run generate
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@1f0c5cde4bc74cd7e1254d0cb4de8d49e9068c7d # v4
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
-          path: ./.output/public  # Upload the Nuxt-generated static files
+          path: ./.output/public
 
   deploy:
     environment:
@@ -61,6 +60,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
-        # This deploys the uploaded artifact to GitHub Pages
-        # The deployment will override any Jekyll-generated content
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
