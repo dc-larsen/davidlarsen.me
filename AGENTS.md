@@ -25,6 +25,7 @@ Listing, search, and the article layout read these files through `utils/blog.js`
 - `archive/` the retired playbooks page. It is not a route. Its images are in `archive/images/` and are not deployed. To put that page back, move it to `pages/` and move those images to `public/images/`.
 - `/projects` redirects to `/` via `nuxt.config.ts`. Generate emits a tiny HTML refresh because GitHub Pages does not run Nitro. Do not recreate `pages/projects.vue`.
 - Tailwind plugins live in `nuxt.config.ts` under `postcss.plugins`. The build does not read `postcss.config.cjs`.
+- `package.json` `overrides` pin `glob`, `minimatch`, and `deepmerge`. Nitro still asks for the vulnerable releases. `deepmerge` 4.1.2 is the last release outside CVE-2026-93753. Leave the overrides in place. `npm audit fix --force` downgrades Nuxt and brings back high-severity issues.
 
 ## Do not
 
