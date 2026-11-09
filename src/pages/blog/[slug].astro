@@ -1,0 +1,69 @@
+---
+import Base from '../../layouts/Base.astro'
+import { render } from 'astro:content'
+import { formatDate, getPosts, postSlug, readingMinutes } from '../../lib/posts'
+
+export async function getStaticPaths() {
+  const posts = await getPosts()
+  return posts.map(post => ({
+    params: { slug: postSlug(post) },
+    props: { post },
+  }))
+}
+
+const { post } = Astro.props
+const { Content } = await render(post)
+const slug = postSlug(post)
+const minutes = readingMinutes(post.body ?? '', post.data.readTime)
+const hero = post.data.banner || post.data.image
+const site = Astro.site ?? new URL('https://davidlarsen.me')
+const canonical = new URL(`/blog/${slug}`, site).href
+const shareOnX = `https://twitter.com/intent/tweet?text=${encodeURIComponent(post.data.title)}&url=${encodeURIComponent(canonical)}`
+const shareOnLinkedIn = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonical)}`
+---
+
+<Base title={post.data.title} description={post.data.excerpt} image={hero} ogType="article">
+  <article class="mx-auto max-w-4xl">
+    <div class="mb-8">
+      <a href="/blog" class="mb-6 inline-flex items-center font-medium text-secondary transition-colors hover:text-primary">
+        <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+        Back to Blog
+      </a>
+      <div class="mb-4">
+        <span class="rounded-full bg-secondary px-3 py-1 text-sm font-medium text-white">{post.data.category}</span>
+      </div>
+      <h1 class="mb-6 text-4xl font-bold text-primary md:text-5xl">{post.data.title}</h1>
+      <div class="mb-6 flex flex-wrap items-center text-sm text-gray-600">
+        <span class="mr-4">by {post.data.author}</span>
+        <span class="mr-4">•</span>
+        <time datetime={post.data.date} class="mr-4">{formatDate(post.data.date)}</time>
+        <span class="mr-4">•</span>
+        <span>{minutes} min read</span>
+      </div>
+      {
+        post.data.tags.length > 0 && (
+          <div class="mb-8 flex flex-wrap gap-2">
+            {post.data.tags.map(tag => (
+              <span class="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">#{tag}</span>
+            ))}
+          </div>
+        )
+      }
+    </div>
+    <img src={hero} alt={post.data.title} class="mb-8 h-64 w-full rounded-lg object-cover shadow-lg md:h-96" />
+    <div class="prose mb-12 max-w-none">
+      <Content />
+    </div>
+    <div class="border-t border-gray-200 pt-8">
+      <div class="flex flex-col items-center justify-between gap-4 sm:flex-row">
+        <a href="/blog" class="font-medium text-secondary transition-colors hover:text-primary">← Back to All Posts</a>
+        <div class="flex gap-4 text-sm">
+          <a href={shareOnX} target="_blank" rel="noopener noreferrer" class="text-secondary transition-colors hover:text-primary">Share on X</a>
+          <a href={shareOnLinkedIn} target="_blank" rel="noopener noreferrer" class="text-secondary transition-colors hover:text-primary">Share on LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </article>
+</Base>

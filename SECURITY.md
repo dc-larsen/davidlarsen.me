@@ -1,15 +1,21 @@
 # Security
 
-This is a static site. The deployed pages are HTML, CSS, and JavaScript on GitHub Pages. There is no login, no database, and no server to patch in production.
+This is a static site. The deployed pages are HTML, CSS, and JavaScript on Vercel. There is no login, no database, and no server to patch in production.
 
 ## What is enforced on davidlarsen.me
 
-GitHub Pages does not apply custom response headers. A Content-Security-Policy meta tag is rendered into each page from `nuxt.config.ts`. It allows this origin, plus the inline script and style Nuxt needs to hydrate.
+Vercel sends the headers in `vercel.json` on every response:
 
-`X-Frame-Options` and `frame-ancestors` need a real response header. A meta tag cannot set them. Clickjacking protection is not available while the site stays on GitHub Pages.
+- Content-Security-Policy, including `frame-ancestors 'none'`
+- `X-Frame-Options: DENY`
+- `X-Content-Type-Options: nosniff`
+- `Referrer-Policy: strict-origin-when-cross-origin`
+- `Permissions-Policy` with camera, microphone, and geolocation disabled
 
-## What runs in development and CI
+Scripts are files from this origin. Styles allow `'unsafe-inline'` because Astro's font loader writes a style block. `script-src` does not.
 
-`nuxt dev` is local only. Nuxt DevTools are disabled. Dependencies are locked and `npm audit --audit-level=high` runs in GitHub Actions.
+## What runs in development
+
+`astro dev` is local only. Dependencies are locked. Run `npm audit` before a dependency change.
 
 Report a vulnerability by emailing the address on the GitHub profile for dc-larsen. Please do not open a public issue with exploit detail.

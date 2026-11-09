@@ -1,13 +1,13 @@
 # David Larsen
 
-Personal site for David Larsen, built with Nuxt and Tailwind and deployed as a static site on GitHub Pages.
+Personal site for David Larsen, built with Astro and Tailwind and deployed as a static site on Vercel from an Origin repository.
 
 ## Develop
 
 Node.js 22.
 
 ```bash
-git clone https://github.com/dc-larsen/davidlarsen.me.git
+git clone https://origin.cursor.com/<namespace>/davidlarsen.me.git
 cd davidlarsen.me
 npm ci
 npm run dev
@@ -15,35 +15,32 @@ npm run dev
 
 - `npm run dev` starts the dev server
 - `npm run check:blog` checks post frontmatter and images
-- `npm run generate` builds the static site into `.output/public`
-- `npm run preview` serves that build locally, including the Nitro headers
-- `npm audit` checks dependencies
+- `npm run build` writes the static site to `dist/`
+- `npm run preview` serves that build locally
 
-To add a blog post, copy `content/blog/_template.md`. The filename is the URL. Details are in `AGENTS.md`.
+To add a blog post, copy `src/content/blog/_template.md`. The filename is the URL. Details are in `AGENTS.md`.
 
 ## Security
 
-The live site is static hosting. GitHub Pages does not send custom response headers, so `X-Frame-Options` and the other Nitro headers in `nuxt.config.ts` are not on https://davidlarsen.me. Each page does include a Content-Security-Policy meta tag.
-
-Nuxt DevTools are disabled. `npm audit --audit-level=high` runs in GitHub Actions. See `SECURITY.md`.
+The live site is static hosting on Vercel. `vercel.json` sends Content-Security-Policy, `X-Frame-Options`, and the other response headers. See `SECURITY.md`.
 
 ## Project structure
 
 ```
-content/blog/          # one markdown file per post
-pages/                 # routes other than individual posts
-components/            # shared Vue components
+src/content/blog/      # one markdown file per post
+src/pages/             # routes other than individual posts
+src/components/        # shared Astro components
 public/                # files copied to the deployed site
 archive/               # retired playbooks page, not routed
-nuxt.config.ts         # CSP, redirects, prerender routes
-.github/workflows/     # deploy and dependency audit
+astro.config.mjs       # site URL, fonts, markdown, /projects redirect
+vercel.json            # response headers and the /projects redirect
 ```
 
 `/projects` redirects to `/`. The old playbooks page is in `archive/`.
 
 ## Deployment
 
-A push to `main` runs `.github/workflows/deploy.yml` and publishes `.output/public`. The domain is `public/CNAME`. Do not commit `.output/` or `.nuxt/`. See `DEPLOYMENT.md`.
+Vercel builds this Origin repository. A push to the production branch deploys production. Other branches and pull requests get preview URLs. The domain is `davidlarsen.me`. Do not commit `dist/` or `.astro/`. See `DEPLOYMENT.md`.
 
 ## Credits
 

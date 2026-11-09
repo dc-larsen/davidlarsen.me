@@ -1,0 +1,64 @@
+---
+import { formatDate, postSlug, readingMinutes, type Post } from '../lib/posts'
+
+interface Props {
+  post: Post
+}
+
+const { post } = Astro.props
+const slug = postSlug(post)
+const minutes = readingMinutes(post.body ?? '', post.data.readTime)
+const search = [post.data.title, post.data.excerpt, ...(post.data.tags ?? [])].join(' ').toLowerCase()
+---
+
+<article
+  class="group overflow-hidden rounded-lg bg-white shadow-lg transition-shadow duration-300 hover:shadow-xl"
+  data-post
+  data-category={post.data.category}
+  data-search={search}
+>
+  <div class="relative h-48 overflow-hidden sm:h-64">
+    <a href={`/blog/${slug}`} class="block h-full">
+      <img
+        src={post.data.image}
+        alt={post.data.title}
+        loading="lazy"
+        class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+      />
+    </a>
+    <div class="absolute top-4 left-4">
+      <span class="rounded-full bg-secondary px-3 py-1 text-sm font-medium text-white">{post.data.category}</span>
+    </div>
+  </div>
+  <div class="p-6">
+    <div class="mb-3 flex items-center text-sm text-gray-500">
+      <time datetime={post.data.date}>{formatDate(post.data.date)}</time>
+      <span class="mx-2">•</span>
+      <span>{minutes} min read</span>
+    </div>
+    <a href={`/blog/${slug}`} class="block">
+      <h3 class="mb-3 line-clamp-2 text-xl font-bold text-primary transition-colors hover:text-secondary">
+        {post.data.title}
+      </h3>
+    </a>
+    <p class="mb-4 line-clamp-3 text-gray-600">{post.data.excerpt}</p>
+    {
+      post.data.tags.length > 0 && (
+        <div class="mb-4 flex flex-wrap gap-2">
+          {post.data.tags.map(tag => (
+            <span class="rounded bg-gray-100 px-2 py-1 text-xs font-medium text-gray-700">#{tag}</span>
+          ))}
+        </div>
+      )
+    }
+    <div class="flex items-center justify-between">
+      <a href={`/blog/${slug}`} class="inline-flex items-center font-medium text-secondary transition-colors hover:text-primary">
+        Read More
+        <svg class="ml-2 h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </a>
+      <div class="text-sm text-gray-500">by {post.data.author}</div>
+    </div>
+  </div>
+</article>

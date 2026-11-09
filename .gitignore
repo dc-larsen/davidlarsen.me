@@ -10,11 +10,9 @@ Thumbs.db
 # Dependencies
 node_modules
 
-# Nuxt build artifacts
-.nuxt
-.output
+# Astro build artifacts
+.astro
 dist
-_nuxt
 
 # Build cache and logs
 .cache

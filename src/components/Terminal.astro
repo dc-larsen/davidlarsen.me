@@ -1,0 +1,25 @@
+<div class="mac-window hidden h-[32rem] w-full lg:block">
+  <div class="mac-window-bar">
+    <div class="mac-circle"></div>
+    <div class="relative -top-5 z-10 flex items-center justify-center">
+      <span class="text-xs font-medium text-gray-600">[david~]$</span>
+    </div>
+  </div>
+  <div class="terminal">
+    <div class="terminal-content">
+      <div id="terminal-output" class="mb-2 whitespace-pre-wrap"></div>
+      <div class="flex items-center">
+        <span class="text-muted">[david~]$&nbsp;</span>
+        <input
+          id="terminal-input"
+          class="command-input flex-1"
+          autocomplete="off"
+          spellcheck="false"
+          aria-label="Terminal command"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<script is:inline src="/scripts/terminal.js"></script>

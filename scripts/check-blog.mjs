@@ -1,29 +1,29 @@
 import { readdirSync, readFileSync, existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { parseFrontmatter } from '../utils/frontmatter.js'
+import { parseFrontmatter } from './frontmatter.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
-const blogDir = join(root, 'content/blog')
+const blogDir = join(root, 'src/content/blog')
 const errors = []
 
 const files = readdirSync(blogDir).filter(name => name.endsWith('.md') && !name.startsWith('_'))
 
 if (files.length === 0) {
-  errors.push('content/blog has no posts')
+  errors.push('src/content/blog has no posts')
 }
 
 for (const name of files) {
   const slug = name.replace(/\.md$/, '')
-  const label = `content/blog/${name}`
+  const label = `src/content/blog/${name}`
 
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) {
     errors.push(`${label}: filename must be a lowercase kebab-case slug`)
   }
 
-  const page = join(root, 'pages/blog', `${slug}.vue`)
+  const page = join(root, 'src/pages/blog', `${slug}.astro`)
   if (existsSync(page)) {
-    errors.push(`${label}: delete pages/blog/${slug}.vue. The markdown file is the post.`)
+    errors.push(`${label}: delete src/pages/blog/${slug}.astro. The markdown file is the post.`)
   }
 
   const { data, body } = parseFrontmatter(readFileSync(join(blogDir, name), 'utf8'))

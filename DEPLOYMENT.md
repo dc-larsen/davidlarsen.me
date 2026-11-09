@@ -1,16 +1,25 @@
 # Deployment
 
-Pushes to `main` run `.github/workflows/deploy.yml`. The workflow installs from the lockfile, checks the blog posts, runs `npm run generate`, and deploys `.output/public` to GitHub Pages.
+Origin is the source of truth. Vercel is connected to that Origin repository and builds the static Astro site on every push.
 
-The custom domain is `public/CNAME` (`davidlarsen.me`). `public/.nojekyll` keeps GitHub from running Jekyll on the generated files.
+- A push or merge to the production branch (`main`) deploys production and updates `davidlarsen.me`.
+- Any other branch, and each pull request, gets a preview deployment. Vercel reports the preview URL on the Origin pull request.
+- The build command is `npm run build`. The output directory is `dist/`. Vercel detects Astro, so no adapter is required.
 
-Do not commit `.output/` or `.nuxt/`. Those directories are generated and gitignored.
+`vercel.json` sends the security headers and redirects `/projects` to `/`.
+
+Do not commit `dist/` or `.astro/`. Those directories are generated and gitignored.
+
+## Domain
+
+`davidlarsen.me` is a Vercel project domain. DNS for the apex and `www` points at Vercel. GitHub Pages is not the host.
 
 ## Check a deploy
 
+Open the Vercel project for this repository and confirm the latest production deployment is Ready. Then:
+
 ```bash
-gh run list --workflow="Deploy Nuxt site to GitHub Pages" --limit 5
 curl -I https://davidlarsen.me
 ```
 
-A broken asset path usually means the workflow failed, not that a generated file needs to be committed.
+The response should include `x-frame-options: DENY`. A broken asset path usually means the Vercel build failed, not that a generated file needs to be committed.

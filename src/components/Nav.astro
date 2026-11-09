@@ -1,0 +1,60 @@
+---
+const path = Astro.url.pathname.replace(/\/$/, '') || '/'
+const items = [
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Blog', href: '/blog' },
+  { name: 'Resume', href: '/resume' },
+]
+
+function isCurrent(href: string) {
+  return path === href
+}
+---
+
+<nav class="border-b border-gray-200 bg-background/95 backdrop-blur-sm" aria-label="Main navigation">
+  <div class="mx-auto flex h-16 max-w-4xl items-center justify-between px-6">
+    <a href="/" class="text-xl font-semibold text-primary transition-colors hover:text-secondary">David Larsen</a>
+
+    <div class="hidden items-baseline space-x-8 md:flex">
+      {
+        items.map(item => (
+          <a
+            href={item.href}
+            class="px-1 text-sm font-medium text-primary transition-colors hover:text-secondary"
+            aria-current={isCurrent(item.href) ? 'page' : undefined}
+          >
+            {item.name}
+          </a>
+        ))
+      }
+    </div>
+
+    <details class="nav-toggle relative md:hidden">
+      <summary
+        class="inline-flex cursor-pointer items-center justify-center rounded-md p-2 text-primary hover:bg-gray-100 hover:text-secondary"
+        aria-label="Toggle navigation menu"
+      >
+        <svg class="icon-open h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+        <svg class="icon-close h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </summary>
+      <div class="absolute right-0 z-50 mt-2 w-56 rounded-lg border border-gray-200 bg-background p-2 shadow-lg">
+        {
+          items.map(item => (
+            <a
+              href={item.href}
+              class="block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-gray-100 hover:text-secondary"
+              aria-current={isCurrent(item.href) ? 'page' : undefined}
+            >
+              {item.name}
+            </a>
+          ))
+        }
+      </div>
+    </details>
+  </div>
+</nav>
